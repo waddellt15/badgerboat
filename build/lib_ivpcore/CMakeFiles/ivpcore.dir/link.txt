@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/badgerboat/moos/moos-ivp/lib/libivpcore.a  CMakeFiles/ivpcore.dir/BoxSet.cpp.o CMakeFiles/ivpcore.dir/IvPBox.cpp.o CMakeFiles/ivpcore.dir/IvPDomain.cpp.o CMakeFiles/ivpcore.dir/IvPFunction.cpp.o CMakeFiles/ivpcore.dir/IvPGrid.cpp.o CMakeFiles/ivpcore.dir/PDMap.cpp.o
+/usr/bin/ranlib /home/badgerboat/moos/moos-ivp/lib/libivpcore.a

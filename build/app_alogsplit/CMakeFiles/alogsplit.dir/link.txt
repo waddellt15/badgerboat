@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -pedantic -fPIC -g -Os -std=c++11  -rdynamic CMakeFiles/alogsplit.dir/main.cpp.o  -o /home/badgerboat/moos/moos-ivp/bin/alogsplit /home/badgerboat/moos/moos-ivp/lib/libmbutil.a /home/badgerboat/moos/moos-ivp/lib/liblogutils.a -lm 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -pedantic -fPIC -Os -O3 -DNDEBUG  -rdynamic CMakeFiles/MOOSDB.dir/MOOSDBMain.cpp.o  -o /home/badgerboat/moos/moos-ivp/bin/MOOSDB ../../lib/libMOOS.a -pthread -lm 

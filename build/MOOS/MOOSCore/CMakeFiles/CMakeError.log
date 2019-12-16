@@ -1,0 +1,40 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/badgerboat/moos/moos-ivp/build/MOOS/MOOSCore/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6d178/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6d178.dir/build.make CMakeFiles/cmTC_6d178.dir/build
+make[1]: Entering directory '/home/badgerboat/moos/moos-ivp/build/MOOS/MOOSCore/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d178.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -pedantic -fPIC -Os -Wextra  -fPIE   -o CMakeFiles/cmTC_6d178.dir/CheckSymbolExists.c.o   -c /home/badgerboat/moos/moos-ivp/build/MOOS/MOOSCore/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/badgerboat/moos/moos-ivp/build/MOOS/MOOSCore/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/badgerboat/moos/moos-ivp/build/MOOS/MOOSCore/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   return ((int*)(&pthread_create))[argc];
+           ^
+Linking C executable cmTC_6d178
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d178.dir/link.txt --verbose=1
+/usr/bin/cc -Wall -Wextra -Wno-unused-parameter -pedantic -fPIC -Os -Wextra     -rdynamic CMakeFiles/cmTC_6d178.dir/CheckSymbolExists.c.o  -o cmTC_6d178 
+CMakeFiles/cmTC_6d178.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text.startup+0x0): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text.startup+0x4): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_6d178.dir/build.make:97: recipe for target 'cmTC_6d178' failed
+make[1]: *** [cmTC_6d178] Error 1
+make[1]: Leaving directory '/home/badgerboat/moos/moos-ivp/build/MOOS/MOOSCore/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6d178/fast' failed
+make: *** [cmTC_6d178/fast] Error 2
+
+File /home/badgerboat/moos/moos-ivp/build/MOOS/MOOSCore/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -pedantic -fPIC -Os -O3 -DNDEBUG  -rdynamic CMakeFiles/capture_test.dir/CaptureTest.cpp.o  -o /home/badgerboat/moos/moos-ivp/bin/tests/capture_test ../../../lib/libMOOS.a -pthread -lm 

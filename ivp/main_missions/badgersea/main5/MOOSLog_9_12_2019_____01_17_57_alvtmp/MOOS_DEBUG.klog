@@ -1,0 +1,19 @@
+0.912           MOOS_DEBUG           pMarinePID      ** NEW CONTROLLER GAINS ARE ** 
+0.912           MOOS_DEBUG           pMarinePID      YAW_PID_KP             = 1.200 
+0.912           MOOS_DEBUG           pMarinePID      YAW_PID_KD             = 0.000 
+0.912           MOOS_DEBUG           pMarinePID      YAW_PID_KI             = 0.300 
+0.912           MOOS_DEBUG           pMarinePID      YAW_PID_INTEGRAL_LIMIT = 0.070 
+0.912           MOOS_DEBUG           pMarinePID      MAXRUDDER              = 100.000 
+0.914           MOOS_DEBUG           pMarinePID      SPEED_PID_KP           = 1.000 
+0.914           MOOS_DEBUG           pMarinePID      SPEED_PID_KD           = 0.000 
+0.914           MOOS_DEBUG           pMarinePID      SPEED_PID_KI           = 0.000 
+0.914           MOOS_DEBUG           pMarinePID      SPEED_PID_INTEGRAL_LIMIT = 0.070 
+0.915           MOOS_DEBUG           pMarinePID      MAXTHRUST              = 100.000 
+0.915           MOOS_DEBUG           pMarinePID      pMarinePID Control Is Off 
+0.966           MOOS_DEBUG           pMarinePID      pMarinePID Control Is Off 
+1.069           MOOS_DEBUG           pHelmIvP        pHelmIvP AllStop: ManualOverride 
+1.069           MOOS_DEBUG           pHelmIvP        pHelmIvP AllStop: ManualOverride 
+1.069           MOOS_DEBUG           pHelmIvP        pHelmIvP AllStop: ManualOverride 
+1.069           MOOS_DEBUG           pHelmIvP        pHelmIvP AllStop: ManualOverride 
+11.047          MOOS_DEBUG           pMarinePID      pMarinePID Control Is Off 
+159.690         MOOS_DEBUG           pMarinePID      pMarinePID Control Is Off 

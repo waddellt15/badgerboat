@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -pedantic -fPIC -Os -O3 -DNDEBUG  -rdynamic CMakeFiles/async_test.dir/DBAsyncTest.cpp.o  -o /home/badgerboat/moos/moos-ivp/bin/tests/async_test ../../../lib/libMOOS.a -pthread -lm 

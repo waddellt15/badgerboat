@@ -1,0 +1,5 @@
+/usr/local/bin/pMOOSBridge
+/usr/local/bin/pAntler
+/usr/local/bin/pLogger
+/usr/local/bin/pScheduler
+/usr/local/bin/pShare

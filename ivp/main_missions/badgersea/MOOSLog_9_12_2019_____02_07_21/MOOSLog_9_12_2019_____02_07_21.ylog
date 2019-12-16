@@ -1,0 +1,72 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LOG FILE:       ./MOOSLog_9_12_2019_____02_07_21/MOOSLog_9_12_2019_____02_07_21.ylog
+%% FILE OPENED ON  Wed Dec 31 18:00:00 1969
+%% LOGSTART               1575878841.17
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+0.8565841  MOOS_DEBUG           pMarinePID           ** NEW CONTROLLER GAINS ARE ** 
+0.8566141  MOOS_DEBUG           pMarinePID           YAW_PID_KP             = 1.200 
+0.8566251  MOOS_DEBUG           pMarinePID           YAW_PID_KD             = 0.000 
+0.8566351  MOOS_DEBUG           pMarinePID           YAW_PID_KI             = 0.300 
+0.856653   MOOS_DEBUG           pMarinePID           YAW_PID_INTEGRAL_LIMIT = 0.070 
+0.856673   MOOS_DEBUG           pMarinePID           MAXRUDDER              = 100.000 
+0.8585241  MOOS_DEBUG           pMarinePID           SPEED_PID_KP           = 1.000 
+0.858546   MOOS_DEBUG           pMarinePID           SPEED_PID_KD           = 0.000 
+0.8585551  MOOS_DEBUG           pMarinePID           SPEED_PID_KI           = 0.000 
+0.858566   MOOS_DEBUG           pMarinePID           SPEED_PID_INTEGRAL_LIMIT = 0.070 
+0.858577   MOOS_DEBUG           pMarinePID           MAXTHRUST              = 100.000 
+0.8590932  MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+0.909328   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1.060569   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: ManualOverride 
+1.060569   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: ManualOverride 
+1.060569   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: ManualOverride 
+1.060569   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: ManualOverride 
+1.060569   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: ManualOverride 
+10.70021   MOOS_DEBUG           pMarinePID           pMarinePID Control Is On 
+10.70046   MOOS_DEBUG           pMarinePID           Paused Due To Tardy HELM Input: THRUST=0 
+10.83399   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: clear 
+10.83399   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: clear 
+10.83399   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: clear 
+58.56761   MOOS_DEBUG           pMarinePID           pMarinePID Control Is On 
+73.88552   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+73.95491   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: ManualOverride 
+79.35624   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+85.28586   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+89.40083   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+99.5917    MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+118.1155   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+128.5045   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+138.5466   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+200.8568   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+205.574    MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+210.844    MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+216.367    MOOS_DEBUG           pMarinePID           pMarinePID Control Is On 
+216.3671   MOOS_DEBUG           pMarinePID           Paused Due To Tardy HELM Input: THRUST=0 
+216.5181   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: clear 
+788.9147   MOOS_DEBUG           pMarinePID           Paused Due To Tardy HELM Input: THRUST=0 
+1004.492   MOOS_DEBUG           pMarinePID           Paused Due To Tardy NAV Input: THRUST=0 
+1193.218   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1193.338   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: ManualOverride 
+1237.856   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1262.72    MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1275.896   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1279.269   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1298.5     MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1311.858   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1313.113   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1391.001   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1391.001   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1391.001   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1391.001   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1391.001   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1391.001   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1405.117   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1428.677   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1614.318   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1614.318   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1614.318   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1614.97    MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1617.941   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1636.059   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1636.059   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1669.141   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1726.129   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 

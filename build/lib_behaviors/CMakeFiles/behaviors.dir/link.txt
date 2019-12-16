@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/badgerboat/moos/moos-ivp/lib/libbehaviors.a  CMakeFiles/behaviors.dir/IvPBehavior.cpp.o CMakeFiles/behaviors.dir/IvPContactBehavior.cpp.o CMakeFiles/behaviors.dir/LifeEventHistory.cpp.o
+/usr/bin/ranlib /home/badgerboat/moos/moos-ivp/lib/libbehaviors.a

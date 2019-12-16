@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/badgerboat/moos/moos-ivp/lib/libucommand.a  CMakeFiles/ucommand.dir/CommandFolio.cpp.o CMakeFiles/ucommand.dir/CommandItem.cpp.o CMakeFiles/ucommand.dir/CommandSummary.cpp.o CMakeFiles/ucommand.dir/UCMD_GUI.cpp.o
+/usr/bin/ranlib /home/badgerboat/moos/moos-ivp/lib/libucommand.a

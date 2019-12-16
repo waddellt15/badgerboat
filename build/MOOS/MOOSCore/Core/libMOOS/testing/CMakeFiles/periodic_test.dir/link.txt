@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -pedantic -fPIC -Os -O3 -DNDEBUG  -rdynamic CMakeFiles/periodic_test.dir/PeriodicEventTest.cpp.o  -o /home/badgerboat/moos/moos-ivp/bin/tests/lib/periodic_test ../../../lib/libMOOS.a -pthread -lm 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/badgerboat/moos/moos-ivp/lib/libzaicview.a  CMakeFiles/zaicview.dir/ZAIC_Model.cpp.o CMakeFiles/zaicview.dir/ZAIC_Viewer.cpp.o CMakeFiles/zaicview.dir/ZAIC_GUI.cpp.o
+/usr/bin/ranlib /home/badgerboat/moos/moos-ivp/lib/libzaicview.a

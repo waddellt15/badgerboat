@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/badgerboat/moos/moos-ivp/lib/libufld_hazards.a  CMakeFiles/ufld_hazards.dir/XYFormatUtilsHazard.cpp.o CMakeFiles/ufld_hazards.dir/XYFormatUtilsHazardSet.cpp.o CMakeFiles/ufld_hazards.dir/XYHazard.cpp.o CMakeFiles/ufld_hazards.dir/XYHazardSet.cpp.o CMakeFiles/ufld_hazards.dir/XYHazardRepEval.cpp.o CMakeFiles/ufld_hazards.dir/ClassifyQueue.cpp.o CMakeFiles/ufld_hazards.dir/ClassifyEntry.cpp.o
+/usr/bin/ranlib /home/badgerboat/moos/moos-ivp/lib/libufld_hazards.a

@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -pedantic -fPIC -Os -O3 -DNDEBUG  -rdynamic CMakeFiles/queue_test.dir/QueueTest.cpp.o  -o /home/badgerboat/moos/moos-ivp/bin/tests/lib/queue_test ../../../lib/libMOOS.a -pthread -lm 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/badgerboat/moos/moos-ivp/lib/libipfview.a  CMakeFiles/ipfview.dir/Common_IPFViewer.cpp.o CMakeFiles/ipfview.dir/Common_IPF_GUI.cpp.o CMakeFiles/ipfview.dir/Quad3D.cpp.o CMakeFiles/ipfview.dir/QuadSet.cpp.o CMakeFiles/ipfview.dir/QuadSet1D.cpp.o CMakeFiles/ipfview.dir/IPFViewUtils.cpp.o CMakeFiles/ipfview.dir/IPF_Entry.cpp.o CMakeFiles/ipfview.dir/IPF_Bundle.cpp.o CMakeFiles/ipfview.dir/IPF_Utils.cpp.o CMakeFiles/ipfview.dir/IPF_BundleSeries.cpp.o
+/usr/bin/ranlib /home/badgerboat/moos/moos-ivp/lib/libipfview.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/badgerboat/moos/moos-ivp/lib/libufield.a  CMakeFiles/ufield.dir/HostRecord.cpp.o CMakeFiles/ufield.dir/HostRecordUtils.cpp.o CMakeFiles/ufield.dir/NodeMessage.cpp.o CMakeFiles/ufield.dir/NodeMessageUtils.cpp.o CMakeFiles/ufield.dir/UFieldUtils.cpp.o
+/usr/bin/ranlib /home/badgerboat/moos/moos-ivp/lib/libufield.a

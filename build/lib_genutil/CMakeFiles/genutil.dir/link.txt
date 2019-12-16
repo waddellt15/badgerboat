@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/badgerboat/moos/moos-ivp/lib/libgenutil.a  CMakeFiles/genutil.dir/MOOSAppRunnerThread.cpp.o CMakeFiles/genutil.dir/fileutil.cpp.o CMakeFiles/genutil.dir/stringutil.cpp.o
+/usr/bin/ranlib /home/badgerboat/moos/moos-ivp/lib/libgenutil.a

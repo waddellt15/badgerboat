@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/badgerboat/moos/moos-ivp/lib/libmanifest.a  CMakeFiles/manifest.dir/Manifest.cpp.o CMakeFiles/manifest.dir/ManifestSet.cpp.o CMakeFiles/manifest.dir/Populator_ManifestSet.cpp.o
+/usr/bin/ranlib /home/badgerboat/moos/moos-ivp/lib/libmanifest.a

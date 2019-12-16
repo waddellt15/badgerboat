@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -pedantic -fPIC -Os -O3 -DNDEBUG  -rdynamic CMakeFiles/uPoke.dir/main.cpp.o  -o ../../../bin/uPoke /home/badgerboat/moos/moos-ivp/build/MOOS/MOOSCore/lib/libMOOS.a -pthread -lm 

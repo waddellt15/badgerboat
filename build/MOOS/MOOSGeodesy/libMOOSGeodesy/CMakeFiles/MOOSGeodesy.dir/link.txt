@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -Wall -Wextra -Wno-unused-parameter -pedantic -fPIC -Os  -shared -Wl,-soname,libMOOSGeodesy.so -o ../lib/libMOOSGeodesy.so CMakeFiles/MOOSGeodesy.dir/MOOSGeodesy.cpp.o -lm 

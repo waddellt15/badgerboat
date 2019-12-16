@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/badgerboat/moos/moos-ivp/lib/libencounters.a  CMakeFiles/encounters.dir/CPAEvent.cpp.o
+/usr/bin/ranlib /home/badgerboat/moos/moos-ivp/lib/libencounters.a

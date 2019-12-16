@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/badgerboat/moos/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSMsg.h
+string
+-
+vector
+-
+
+/home/badgerboat/moos/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MessageFunction.h
+vector
+-
+
+/home/badgerboat/moos/moos-ivp/MOOS/MOOSCore/Core/libMOOS/testing/BindingTest.cpp
+MOOS/libMOOS/Comms/MessageFunction.h
+/home/badgerboat/moos/moos-ivp/MOOS/MOOSCore/Core/libMOOS/testing/MOOS/libMOOS/Comms/MessageFunction.h
+MOOS/libMOOS/Comms/MOOSMsg.h
+/home/badgerboat/moos/moos-ivp/MOOS/MOOSCore/Core/libMOOS/testing/MOOS/libMOOS/Comms/MOOSMsg.h
+stdexcept
+-
+iostream
+-
+

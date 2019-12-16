@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/badgerboat/moos/moos-ivp/lib/liblogic.a  CMakeFiles/logic.dir/ConditionalParam.cpp.o CMakeFiles/logic.dir/LogicCondition.cpp.o CMakeFiles/logic.dir/LogicUtils.cpp.o CMakeFiles/logic.dir/LogicBuffer.cpp.o CMakeFiles/logic.dir/ParseNode.cpp.o CMakeFiles/logic.dir/InfoBuffer.cpp.o
+/usr/bin/ranlib /home/badgerboat/moos/moos-ivp/lib/liblogic.a

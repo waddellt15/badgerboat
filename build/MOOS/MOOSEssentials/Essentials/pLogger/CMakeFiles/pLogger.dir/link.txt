@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -pedantic -fPIC -Os -O3 -DNDEBUG  -rdynamic CMakeFiles/pLogger.dir/MOOSLogger.cpp.o CMakeFiles/pLogger.dir/pLoggerMain.cpp.o CMakeFiles/pLogger.dir/Zipper.cpp.o  -o /home/badgerboat/moos/moos-ivp/bin/pLogger /home/badgerboat/moos/moos-ivp/build/MOOS/MOOSCore/lib/libMOOS.a -lz -pthread -lm 

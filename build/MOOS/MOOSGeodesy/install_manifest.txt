@@ -1,0 +1,2 @@
+/usr/local/include/MOOS/libMOOSGeodesy/MOOSGeodesy.h
+/usr/local/lib/libMOOSGeodesy.so

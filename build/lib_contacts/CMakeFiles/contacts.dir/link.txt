@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/badgerboat/moos/moos-ivp/lib/libcontacts.a  CMakeFiles/contacts.dir/NodeRecord.cpp.o CMakeFiles/contacts.dir/NodeRecordUtils.cpp.o
+/usr/bin/ranlib /home/badgerboat/moos/moos-ivp/lib/libcontacts.a

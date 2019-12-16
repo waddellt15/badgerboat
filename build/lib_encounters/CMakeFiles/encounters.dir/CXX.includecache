@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/badgerboat/moos/moos-ivp/ivp/src/lib_encounters/CPAEvent.cpp
+cstdlib
+-
+CPAEvent.h
+/home/badgerboat/moos/moos-ivp/ivp/src/lib_encounters/CPAEvent.h
+MBUtils.h
+/home/badgerboat/moos/moos-ivp/ivp/src/lib_encounters/MBUtils.h
+
+/home/badgerboat/moos/moos-ivp/ivp/src/lib_encounters/CPAEvent.h
+string
+-
+
+/home/badgerboat/moos/moos-ivp/ivp/src/lib_mbutil/MBUtils.h
+vector
+-
+string
+-
+set
+-
+time.h
+-
+

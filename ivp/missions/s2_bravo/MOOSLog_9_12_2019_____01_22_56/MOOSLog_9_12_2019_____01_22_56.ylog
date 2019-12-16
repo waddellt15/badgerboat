@@ -1,0 +1,8 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LOG FILE:       ./MOOSLog_9_12_2019_____01_22_56/MOOSLog_9_12_2019_____01_22_56.ylog
+%% FILE OPENED ON  Wed Dec 31 18:00:00 1969
+%% LOGSTART        1575875991.46       
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+184.8246   MOOS_DEBUG           pLogger              Closing : MOOSLog_9_12_2019_____01_19_52 
+184.8318   MOOS_DEBUG           pLogger              Now Logging to : MOOSLog_9_12_2019_____01_22_56 
+240.5036   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 

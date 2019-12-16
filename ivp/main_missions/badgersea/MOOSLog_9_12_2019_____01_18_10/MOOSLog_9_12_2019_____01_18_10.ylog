@@ -1,0 +1,29 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LOG FILE:       ./MOOSLog_9_12_2019_____01_18_10/MOOSLog_9_12_2019_____01_18_10.ylog
+%% FILE OPENED ON  Wed Dec 31 18:00:00 1969
+%% LOGSTART               1575875889.82
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+0.863642   MOOS_DEBUG           pMarinePID           ** NEW CONTROLLER GAINS ARE ** 
+0.863831   MOOS_DEBUG           pMarinePID           YAW_PID_KP             = 1.200 
+0.863975   MOOS_DEBUG           pMarinePID           YAW_PID_KD             = 0.000 
+0.8641372  MOOS_DEBUG           pMarinePID           YAW_PID_KI             = 0.300 
+0.864269   MOOS_DEBUG           pMarinePID           YAW_PID_INTEGRAL_LIMIT = 0.070 
+0.864414   MOOS_DEBUG           pMarinePID           MAXRUDDER              = 100.000 
+0.866308   MOOS_DEBUG           pMarinePID           SPEED_PID_KP           = 1.000 
+0.8663301  MOOS_DEBUG           pMarinePID           SPEED_PID_KD           = 0.000 
+0.8663402  MOOS_DEBUG           pMarinePID           SPEED_PID_KI           = 0.000 
+0.8663511  MOOS_DEBUG           pMarinePID           SPEED_PID_INTEGRAL_LIMIT = 0.070 
+0.8663621  MOOS_DEBUG           pMarinePID           MAXTHRUST              = 100.000 
+1.058695   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: ManualOverride 
+1.058695   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: ManualOverride 
+1.058695   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: ManualOverride 
+1.058695   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: ManualOverride 
+6.487673   MOOS_DEBUG           pMarinePID           pMarinePID Control Is On 
+6.487786   MOOS_DEBUG           pMarinePID           Paused Due To Tardy HELM Input: THRUST=0 
+6.571278   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: clear 
+6.571278   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: clear 
+76.17303   MOOS_DEBUG           pMarinePID           Paused Due To Tardy NAV Input: THRUST=0 
+178.1601   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+178.1946   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: ManualOverride 
+178.1946   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: ManualOverride 
+181.5209   MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 

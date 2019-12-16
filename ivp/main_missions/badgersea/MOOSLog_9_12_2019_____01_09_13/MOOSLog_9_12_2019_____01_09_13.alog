@@ -1,0 +1,894 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LOG FILE:       ./MOOSLog_9_12_2019_____01_09_13/MOOSLog_9_12_2019_____01_09_13.alog
+%% FILE OPENED ON  Wed Dec 31 18:00:00 1969
+%% LOGSTART               1575875352.57
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+0.508           DB_EVENT             MOOSDB_alpha    connected=pHelmIvP 
+0.509           IVPHELM_REGISTER     pHelmIvP        NODE_REPORT_LOCAL 
+0.659           LOGGER_DIRECTORY     pLogger         ./MOOSLog_9_12_2019_____01_09_13 
+0.861           MOOS_DEBUG           pMarinePID      ** NEW CONTROLLER GAINS ARE ** 
+0.862           MOOS_DEBUG           pMarinePID      YAW_PID_KP             = 1.200 
+0.862           MOOS_DEBUG           pMarinePID      YAW_PID_KD             = 0.000 
+0.862           MOOS_DEBUG           pMarinePID      YAW_PID_KI             = 0.300 
+0.862           MOOS_DEBUG           pMarinePID      YAW_PID_INTEGRAL_LIMIT = 0.070 
+0.862           MOOS_DEBUG           pMarinePID      MAXRUDDER              = 50.000 
+0.864           MOOS_DEBUG           pMarinePID      SPEED_PID_KP           = 1.000 
+0.864           MOOS_DEBUG           pMarinePID      SPEED_PID_KD           = 0.000 
+0.865           MOOS_DEBUG           pMarinePID      SPEED_PID_KI           = 0.000 
+0.865           MOOS_DEBUG           pMarinePID      SPEED_PID_INTEGRAL_LIMIT = 0.070 
+0.865           MOOS_DEBUG           pMarinePID      MAXTHRUST              = 50.000 
+0.916           DB_EVENT             MOOSDB_alpha    connected=uProcessWatch 
+1.114           DB_EVENT             MOOSDB_alpha    connected=pNodeReporter 
+1.115           DB_EVENT             MOOSDB_alpha    disconnected=pGPSd 
+1.306           DB_EVENT             MOOSDB_alpha    connected=uMemWatch 
+1.406           DB_EVENT             MOOSDB_alpha    connected=pMarineViewer 
+1.508           DB_EVENT             MOOSDB_alpha    connected=dThrust 
+1.664           DB_TIME              MOOSDB_alpha    1575875354.23785 
+1.664           DB_UPTIME            MOOSDB_alpha    2.06812      
+1.664           DB_CLIENTS           MOOSDB_alpha    dThrust,pMarineViewer,pNodeReporter,uProcessWatch,pHelmIvP,pMarinePID,pLogger,uMemWatch, 
+1.665           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,YAW=1.5707963,TIME=1575875354.24,LENGTH=4 
+1.665           DB_QOS               MOOSDB_alpha    dThrust=0:1.27602:1.27602:0,pHelmIvP=0:0.271082:0.202179:0,pLogger=0:0.242949:0.174046:0,pMarinePID=0:0.215054:0.159979:0,pMarineViewer=0:0.531912:0.531912:0,pNodeReporter=0:0.324011:0.324011:0,uMemWatch=0:0.211:0.211:0,uProcessWatch=0:1.17612:1.17612:0, 
+0.509           IVPHELM_REGISTER     pHelmIvP        NODE_REPORT_LOCAL 
+0.659           LOGGER_DIRECTORY     pLogger         ./MOOSLog_9_12_2019_____01_09_13 
+0.865           MOOS_DEBUG           pMarinePID      MAXTHRUST              = 50.000 
+0.867           DESIRED_RUDDER       pMarinePID      0.00000      
+0.868           DESIRED_THRUST       pMarinePID      0.00000      
+1.058           PHELMIVP_PID         pHelmIvP        11686.00000  
+1.465           PROC_WATCH_TIME_WARP uProcessWatch   1.00000      
+1.466           PROC_WATCH_EVENT     uProcessWatch   Noted to be present: [pGPSd] 
+1.508           DB_EVENT             MOOSDB_alpha    connected=dThrust 
+1.664           PNODEREPORTER_PID    pNodeReporter   11711.00000  
+1.664           DB_TIME              MOOSDB_alpha    1575875354.23785 
+1.664           DB_UPTIME            MOOSDB_alpha    2.06812      
+1.664           DB_CLIENTS           MOOSDB_alpha    dThrust,pMarineViewer,pNodeReporter,uProcessWatch,pHelmIvP,pMarinePID,pLogger,uMemWatch, 
+1.665           NODE_REPORT_LOCAL_FIRST pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,YAW=1.5707963,TIME=1575875354.24,LENGTH=4 
+1.665           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,YAW=1.5707963,TIME=1575875354.24,LENGTH=4 
+1.665           PNODEREPORTER_ITER_LEN pNodeReporter   0.00010      
+1.665           DB_QOS               MOOSDB_alpha    dThrust=0:1.27602:1.27602:0,pHelmIvP=0:0.271082:0.202179:0,pLogger=0:0.242949:0.174046:0,pMarinePID=0:0.215054:0.159979:0,pMarineViewer=0:0.531912:0.531912:0,pNodeReporter=0:0.324011:0.324011:0,uMemWatch=0:0.211:0.211:0,uProcessWatch=0:1.17612:1.17612:0, 
+1.717           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00305      
+1.717           PROC_WATCH_SUMMARY   uProcessWatch   All Present 
+1.717           PROC_WATCH_FULL_SUMMARY uProcessWatch   dThrust(1/0),uMemWatch(1/0),pNodeReporter(1/0),pMarineViewer(1/0),pHelmIvP(1/0),pMarinePID(1/0),pLogger(1/0),pGPSd(1/0) 
+1.717           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00023      
+1.811           PHELMIVP_ITER_GAP    pHelmIvP        1.00148      
+1.811           IVPHELM_CPU          pHelmIvP        0.79973      
+1.811           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+1.811           PHELMIVP_ITER_LEN    pHelmIvP        0.00012      
+1.855           APPCAST              uMemWatch       proc=uMemWatch!@#iter=1!@#node=alpha!@#iter=1!@#messages=Configuration:     !@  Watch Only Apps: pHelmIvP,pMarineViewer!@      Ignore Apps: None!@Absolute Time Gap: 1!@!@App  PID  Memory  Delta!@---  ---  ------  -----!@!@ Last ix: 0!@Last app: !@Last mem: !@Last raw: !@Warp: 1!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+1.916           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=1,YAW=1.5707963,TIME=1575875354.49,LENGTH=4 
+1.916           PNODEREPORTER_ITER_LEN pNodeReporter   0.00022      
+1.922           HELM_MAP_CLEAR       pMarineViewer   0.00000      
+1.923           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=1!@#node=alpha!@#iter=1!@#messages=Tiff File A:      !@Info File A:      !@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 0!@NodeReport Index: 0!@Draw Count:       1!@Draw Count Rate:  662.712!@Curr Time:        0.00!@Time Warp:        0.000!@Stale report thresh: 60!@Stale remove thresh: 180!@Elapsed:          -0.00000!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   0.00!@  zoom :   1.00!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+1.967           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00132      
+1.967           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00010      
+1.968           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=0.1,key=pMarineViewerstartup,thresh=any 
+2.061           PHELMIVP_ITER_GAP    pHelmIvP        1.00098      
+2.061           IVPHELM_CPU          pHelmIvP        0.00000      
+2.061           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+2.061           PHELMIVP_ITER_LEN    pHelmIvP        0.00012      
+2.061           APPCAST              pHelmIvP        proc=pHelmIvP!@#iter=5!@#node=alpha!@#iter=5!@#messages=!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!!                                             !!!@!!  The helm is in the MALCONFIG state due to  !!!@!!  unresolved configuration warnings.         !!!@!!                                             !!!@!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!@#config_warnings=Could not find File: alpha.bhv!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.072           APPCAST              dThrust         proc=dThrust!@#iter=1!@#node=alpha!@#iter=1!@#messages=   Magnetic offset:             0.0!@   Maximum rudder:          +/- 100.0!@   Maximum thrust:          +/- 100.0%!@   Command mode:                !@  STOP                     FULL        L          C          R!@     [|                    ]   0%      [          |          ]   0%!@         DESIRED_THRUST                     DESIRED_RUDDER!@!@!@Status:!@   --- IVPHELM ALLSTOP ENGAGED ---!@   Requested rudder, thrust:    0.0, 0.0!@   Commanded to motors L, R:    0.0, 0.0!@   Requested L, R:              -0.0, -0.0!@   DESIRED_THRUST_L count:      0!@   DESIRED_THRUST_R count:      0!@!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.166           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=2,YAW=1.5707963,TIME=1575875354.74,LENGTH=4 
+2.166           PNODEREPORTER_ITER_LEN pNodeReporter   0.00020      
+2.166           APPCAST              pNodeReporter   proc=pNodeReporter!@#iter=3!@#node=alpha!@#iter=3!@#messages=Paused: false!@Vehicle Configuration:!@----------------------------!@     Vehicle name: alpha!@     Vehicle type: kayak!@   Vehicle length: 4.0!@!@Blackout Configuration:!@----------------------------!@Blackout interval: 0.00!@Blackout variance: 0.00!@!@AltNav Config and Status:!@----------------------------!@   ALT_NAV_PREFIX: GPSD_!@     ALT_NAV_NAME: _GT!@ ALT_NAV_POSTINGS: 0!@!@Node Report Summary:!@----------------------------!@Reports Posted: 3!@ Latest Report: NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,!@                ALLSTOP=n/a,INDEX=2,YAW=1.5707963,!@                TIME=1575875354.74,LENGTH=4!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.217           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00049      
+2.217           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00008      
+2.218           APPCAST              uProcessWatch   proc=uProcessWatch!@#iter=4!@#node=alpha!@#iter=4!@#messages=Summary: All Present!@!@Antler List: dThrust,pGPSd,pHelmIvP,pLogger,pMarinePID,pMarineViewer!@             pNodeReporter,uMemWatch!@!@                                        Current    Max     !@ProcName        Watch Reason   Status   CPU Load   CPU Load!@-------------   ------------   ------   --------   --------!@dThrust         ANT       DB   [7;32mOK[0m       0.80       0.80    !@pGPSd           ANT            [7;32mOK[0m       1.60       1.60    !@pHelmIvP        ANT       DB   [7;32mOK[0m       1.60       1.60    !@pLogger         ANT       DB   [7;32mOK[0m       1.60       1.60    !@pMarinePID      ANT       DB   [7;32mOK[0m       2.40       2.40    !@pMarineViewer   ANT       DB   [7;32mOK[0m       9.59       9.59    !@pNodeReporter   ANT       DB   [7;32mOK[0m       3.20       3.20    !@uMemWatch       ANT       DB   [7;32mOK[0m       0.80       0.80    !@!@#!@#events_total=8!@#events=Noted to be present: [dThrust]!@Noted to be present: [uMemWatch]!@Noted to be present: [pNodeReporter]!@Noted to be present: [pMarineViewer]!@Noted to be present: [pHelmIvP]!@Noted to be present: [pMarinePID]!@Noted to be present: [pLogger]!@Noted to be present: [pGPSd]!@#run_warning_total=0!@# 
+2.295           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alpha,thresh=any 
+2.296           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=1.1,key=pMarineViewernewproc,thresh=any 
+2.302           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alpha,thresh=any 
+2.312           PHELMIVP_ITER_GAP    pHelmIvP        1.00292      
+2.312           IVPHELM_CPU          pHelmIvP        0.00000      
+2.312           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+2.312           PHELMIVP_ITER_LEN    pHelmIvP        0.00012      
+2.356           APPCAST              uMemWatch       proc=uMemWatch!@#iter=3!@#node=alpha!@#iter=3!@#messages=Configuration:     !@  Watch Only Apps: pHelmIvP,pMarineViewer!@      Ignore Apps: None!@Absolute Time Gap: 1!@!@App            PID    Memory  Delta!@-------------  -----  ------  -----!@pHelmIvP       11686  0.000   -    !@pMarineViewer  11700  0.000   -    !@!@ Last ix: 0!@Last app: !@Last mem: !@Last raw: !@Warp: 1!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.417           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=3,YAW=1.5707963,TIME=1575875354.99,LENGTH=4 
+2.417           PNODEREPORTER_ITER_LEN pNodeReporter   0.00019      
+2.424           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=3!@#node=alpha!@#iter=3!@#messages=Tiff File A:      !@Info File A:      !@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 4!@NodeReport Index: 2!@Draw Count:       5!@Draw Count Rate:  10.0502!@Curr Time:        1575875355.00!@Time Warp:        1.000!@Stale report thresh: 60!@Stale remove thresh: 180!@Elapsed:          0.00000!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#!@#events_total=0!@#!@#run_warning_total=5!@#run_warnings=5:Unhandled Mail: NODE_REPORT_LOCAL must have either x,y or lat,lon 
+2.427           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alpha,thresh=any 
+2.468           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00454      
+2.468           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00011      
+2.482           APPCAST              dThrust         proc=dThrust!@#iter=5!@#node=alpha!@#iter=5!@#messages=   Magnetic offset:             0.0!@   Maximum rudder:          +/- 100.0!@   Maximum thrust:          +/- 100.0%!@   Command mode:                !@  STOP                     FULL        L          C          R!@     [|                    ]   0%      [          |          ]   0%!@         DESIRED_THRUST                     DESIRED_RUDDER!@!@!@Status:!@   --- IVPHELM ALLSTOP ENGAGED ---!@   Requested rudder, thrust:    0.0, 0.0!@   Commanded to motors L, R:    0.0, 0.0!@   Requested L, R:              -0.0, -0.0!@   DESIRED_THRUST_L count:      0!@   DESIRED_THRUST_R count:      0!@!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.562           PHELMIVP_ITER_GAP    pHelmIvP        1.00190      
+2.562           IVPHELM_CPU          pHelmIvP        0.79965      
+2.562           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+2.562           PHELMIVP_ITER_LEN    pHelmIvP        0.00032      
+2.562           APPCAST              pHelmIvP        proc=pHelmIvP!@#iter=7!@#node=alpha!@#iter=7!@#messages=!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!!                                             !!!@!!  The helm is in the MALCONFIG state due to  !!!@!!  unresolved configuration warnings.         !!!@!!                                             !!!@!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!@#config_warnings=Could not find File: alpha.bhv!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.667           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=4,YAW=1.5707963,TIME=1575875355.24,LENGTH=4 
+2.667           PNODEREPORTER_ITER_LEN pNodeReporter   0.00036      
+2.667           APPCAST              pNodeReporter   proc=pNodeReporter!@#iter=5!@#node=alpha!@#iter=5!@#messages=Paused: false!@Vehicle Configuration:!@----------------------------!@     Vehicle name: alpha!@     Vehicle type: kayak!@   Vehicle length: 4.0!@!@Blackout Configuration:!@----------------------------!@Blackout interval: 0.00!@Blackout variance: 0.00!@!@AltNav Config and Status:!@----------------------------!@   ALT_NAV_PREFIX: GPSD_!@     ALT_NAV_NAME: _GT!@ ALT_NAV_POSTINGS: 0!@!@Node Report Summary:!@----------------------------!@Reports Posted: 5!@ Latest Report: NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,!@                ALLSTOP=n/a,INDEX=4,YAW=1.5707963,!@                TIME=1575875355.24,LENGTH=4!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.681           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alpha,thresh=any 
+2.719           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00148      
+2.719           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00007      
+2.719           APPCAST              uProcessWatch   proc=uProcessWatch!@#iter=6!@#node=alpha!@#iter=6!@#messages=Summary: All Present!@!@Antler List: dThrust,pGPSd,pHelmIvP,pLogger,pMarinePID,pMarineViewer!@             pNodeReporter,uMemWatch!@!@                                        Current    Max     !@ProcName        Watch Reason   Status   CPU Load   CPU Load!@-------------   ------------   ------   --------   --------!@dThrust         ANT       DB   [7;32mOK[0m       0.80       0.80    !@pGPSd           ANT            [7;32mOK[0m       1.60       1.60    !@pHelmIvP        ANT       DB   [7;32mOK[0m       1.60       1.60    !@pLogger         ANT       DB   [7;32mOK[0m       0.80       1.60    !@pMarinePID      ANT       DB   [7;32mOK[0m       2.40       2.40    !@pMarineViewer   ANT       DB   [7;32mOK[0m       9.59       9.59    !@pNodeReporter   ANT       DB   [7;32mOK[0m       3.20       3.20    !@uMemWatch       ANT       DB   [7;32mOK[0m       0.80       0.80    !@!@#!@#events_total=8!@#events=Noted to be present: [dThrust]!@Noted to be present: [uMemWatch]!@Noted to be present: [pNodeReporter]!@Noted to be present: [pMarineViewer]!@Noted to be present: [pHelmIvP]!@Noted to be present: [pMarinePID]!@Noted to be present: [pLogger]!@Noted to be present: [pGPSd]!@#run_warning_total=0!@# 
+2.812           PHELMIVP_ITER_GAP    pHelmIvP        1.00188      
+2.812           IVPHELM_CPU          pHelmIvP        0.79965      
+2.812           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+2.812           PHELMIVP_ITER_LEN    pHelmIvP        0.00017      
+2.868           APPCAST              uMemWatch       proc=uMemWatch!@#iter=5!@#node=alpha!@#iter=5!@#messages=Configuration:     !@  Watch Only Apps: pHelmIvP,pMarineViewer!@      Ignore Apps: None!@Absolute Time Gap: 1!@!@App            PID    Memory  Delta!@-------------  -----  ------  -----!@pHelmIvP       11686  0.000   -    !@pMarineViewer  11700  0.000   -    !@!@ Last ix: 1!@Last app: pMarineViewer!@Last mem: 0.000!@Last raw: !@Warp: 1!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.883           APPCAST              dThrust         proc=dThrust!@#iter=9!@#node=alpha!@#iter=9!@#messages=   Magnetic offset:             0.0!@   Maximum rudder:          +/- 100.0!@   Maximum thrust:          +/- 100.0%!@   Command mode:                !@  STOP                     FULL        L          C          R!@     [|                    ]   0%      [          |          ]   0%!@         DESIRED_THRUST                     DESIRED_RUDDER!@!@!@Status:!@   --- IVPHELM ALLSTOP ENGAGED ---!@   Requested rudder, thrust:    0.0, 0.0!@   Commanded to motors L, R:    0.0, 0.0!@   Requested L, R:              -0.0, -0.0!@   DESIRED_THRUST_L count:      0!@   DESIRED_THRUST_R count:      0!@!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.918           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=5,YAW=1.5707963,TIME=1575875355.49,LENGTH=4 
+2.918           PNODEREPORTER_ITER_LEN pNodeReporter   0.00020      
+0.509           IVPHELM_REGISTER     pHelmIvP        NODE_REPORT_LOCAL 
+0.659           LOGGER_DIRECTORY     pLogger         ./MOOSLog_9_12_2019_____01_09_13 
+0.865           MOOS_DEBUG           pMarinePID      MAXTHRUST              = 50.000 
+0.867           DESIRED_RUDDER       pMarinePID      0.00000      
+0.868           DESIRED_THRUST       pMarinePID      0.00000      
+1.058           PHELMIVP_PID         pHelmIvP        11686.00000  
+1.465           PROC_WATCH_TIME_WARP uProcessWatch   1.00000      
+1.466           PROC_WATCH_EVENT     uProcessWatch   Noted to be present: [pGPSd] 
+1.508           DB_EVENT             MOOSDB_alpha    connected=dThrust 
+1.664           PNODEREPORTER_PID    pNodeReporter   11711.00000  
+1.664           DB_TIME              MOOSDB_alpha    1575875354.23785 
+1.664           DB_UPTIME            MOOSDB_alpha    2.06812      
+1.664           DB_CLIENTS           MOOSDB_alpha    dThrust,pMarineViewer,pNodeReporter,uProcessWatch,pHelmIvP,pMarinePID,pLogger,uMemWatch, 
+1.665           NODE_REPORT_LOCAL_FIRST pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,YAW=1.5707963,TIME=1575875354.24,LENGTH=4 
+1.665           DB_QOS               MOOSDB_alpha    dThrust=0:1.27602:1.27602:0,pHelmIvP=0:0.271082:0.202179:0,pLogger=0:0.242949:0.174046:0,pMarinePID=0:0.215054:0.159979:0,pMarineViewer=0:0.531912:0.531912:0,pNodeReporter=0:0.324011:0.324011:0,uMemWatch=0:0.211:0.211:0,uProcessWatch=0:1.17612:1.17612:0, 
+1.717           PROC_WATCH_SUMMARY   uProcessWatch   All Present 
+1.717           PROC_WATCH_FULL_SUMMARY uProcessWatch   dThrust(1/0),uMemWatch(1/0),pNodeReporter(1/0),pMarineViewer(1/0),pHelmIvP(1/0),pMarinePID(1/0),pLogger(1/0),pGPSd(1/0) 
+1.920           PMARINEVIEWER_PID    pMarineViewer   11700.00000  
+1.922           HELM_MAP_CLEAR       pMarineViewer   0.00000      
+1.922           PMV_CONNECT          pMarineViewer   0.00000      
+2.812           PHELMIVP_ITER_GAP    pHelmIvP        1.00188      
+2.812           IVPHELM_CPU          pHelmIvP        0.79965      
+2.812           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+2.812           PHELMIVP_ITER_LEN    pHelmIvP        0.00017      
+2.858           UMEMWATCH_ITER_GAP   uMemWatch       1.00285      
+2.868           PMARINEVIEWER_MEM    uMemWatch       0.00000      
+2.868           UMEMWATCH_ITER_LEN   uMemWatch       0.04188      
+2.918           PNODEREPORTER_ITER_GAP pNodeReporter   1.00309      
+2.918           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=5,YAW=1.5707963,TIME=1575875355.49,LENGTH=4 
+2.918           PNODEREPORTER_ITER_LEN pNodeReporter   0.00020      
+2.924           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00080      
+2.924           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00020      
+2.925           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=5,YAW=1.5707963,TIME=1575875355.49,LENGTH=4 
+2.925           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=5!@#node=alpha!@#iter=5!@#messages=Tiff File A:      !@Info File A:      !@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 6!@NodeReport Index: 4!@Draw Count:       9!@Draw Count Rate:  9.0102!@Curr Time:        1575875355.50!@Time Warp:        1.000!@Stale report thresh: 60!@Stale remove thresh: 180!@Elapsed:          0.00010!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#!@#events_total=0!@#!@#run_warning_total=7!@#run_warnings=7:Unhandled Mail: NODE_REPORT_LOCAL must have either x,y or lat,lon 
+2.925           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=5!@#node=alpha!@#iter=5!@#messages=Tiff File A:      !@Info File A:      !@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 6!@NodeReport Index: 4!@Draw Count:       9!@Draw Count Rate:  9.0102!@Curr Time:        1575875355.50!@Time Warp:        1.000!@Stale report thresh: 60!@Stale remove thresh: 180!@Elapsed:          0.00010!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#!@#events_total=0!@#!@#run_warning_total=7!@#run_warnings=7:Unhandled Mail: NODE_REPORT_LOCAL must have either x,y or lat,lon 
+2.928           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alpha,thresh=any 
+2.928           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alpha,thresh=any 
+2.928           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alpha,thresh=any 
+2.961           DTHRUST_ITER_GAP     dThrust         1.00922      
+2.963           dThrust_THRUST_L     dThrust         -0.00000     
+2.964           dThrust_THRUST_R     dThrust         -0.00000     
+2.970           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00302      
+2.970           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00302      
+2.970           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00008      
+2.970           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00008      
+2.977           DTHRUST_ITER_LEN     dThrust         0.15219      
+3.062           DTHRUST_ITER_GAP     dThrust         1.00328      
+3.063           PHELMIVP_ITER_GAP    pHelmIvP        1.00162      
+3.063           IVPHELM_CPU          pHelmIvP        0.00000      
+3.063           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+3.063           PHELMIVP_ITER_LEN    pHelmIvP        0.00006      
+3.063           APPCAST              pHelmIvP        proc=pHelmIvP!@#iter=9!@#node=alpha!@#iter=9!@#messages=!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!!                                             !!!@!!  The helm is in the MALCONFIG state due to  !!!@!!  unresolved configuration warnings.         !!!@!!                                             !!!@!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!@#config_warnings=Could not find File: alpha.bhv!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.064           dThrust_THRUST_L     dThrust         -0.00000     
+3.064           dThrust_THRUST_R     dThrust         -0.00000     
+3.078           DTHRUST_ITER_LEN     dThrust         0.16214      
+3.108           UMEMWATCH_ITER_GAP   uMemWatch       1.00370      
+3.108           UMEMWATCH_ITER_LEN   uMemWatch       0.00008      
+3.162           DTHRUST_ITER_GAP     dThrust         1.00438      
+3.164           dThrust_THRUST_L     dThrust         -0.00000     
+3.164           dThrust_THRUST_R     dThrust         -0.00000     
+3.168           PNODEREPORTER_ITER_GAP pNodeReporter   1.00076      
+3.168           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=6,YAW=1.5707963,TIME=1575875355.74,LENGTH=4 
+3.168           PNODEREPORTER_ITER_LEN pNodeReporter   0.00023      
+3.169           APPCAST              pNodeReporter   proc=pNodeReporter!@#iter=7!@#node=alpha!@#iter=7!@#messages=Paused: false!@Vehicle Configuration:!@----------------------------!@     Vehicle name: alpha!@     Vehicle type: kayak!@   Vehicle length: 4.0!@!@Blackout Configuration:!@----------------------------!@Blackout interval: 0.00!@Blackout variance: 0.00!@!@AltNav Config and Status:!@----------------------------!@   ALT_NAV_PREFIX: GPSD_!@     ALT_NAV_NAME: _GT!@ ALT_NAV_POSTINGS: 0!@!@Node Report Summary:!@----------------------------!@Reports Posted: 7!@ Latest Report: NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,!@                ALLSTOP=n/a,INDEX=6,YAW=1.5707963,!@                TIME=1575875355.74,LENGTH=4!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.175           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00094      
+3.175           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00011      
+3.178           DTHRUST_ITER_LEN     dThrust         0.15654      
+3.182           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=6,YAW=1.5707963,TIME=1575875355.74,LENGTH=4 
+3.185           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alpha,thresh=any 
+3.185           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alpha,thresh=any 
+3.220           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00078      
+3.220           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00010      
+3.220           APPCAST              uProcessWatch   proc=uProcessWatch!@#iter=8!@#node=alpha!@#iter=8!@#messages=Summary: All Present!@!@Antler List: dThrust,pGPSd,pHelmIvP,pLogger,pMarinePID,pMarineViewer!@             pNodeReporter,uMemWatch!@!@                                        Current    Max     !@ProcName        Watch Reason   Status   CPU Load   CPU Load!@-------------   ------------   ------   --------   --------!@dThrust         ANT       DB   [7;32mOK[0m       0.80       0.80    !@pGPSd           ANT            [7;32mOK[0m       1.60       1.60    !@pHelmIvP        ANT       DB   [7;32mOK[0m       0.00       1.60    !@pLogger         ANT       DB   [7;32mOK[0m       0.80       1.60    !@pMarinePID      ANT       DB   [7;32mOK[0m       0.00       2.40    !@pMarineViewer   ANT       DB   [7;32mOK[0m       9.59       9.59    !@pNodeReporter   ANT       DB   [7;32mOK[0m       3.20       3.20    !@uMemWatch       ANT       DB   [7;32mOK[0m       0.80       0.80    !@!@#!@#events_total=8!@#events=Noted to be present: [dThrust]!@Noted to be present: [uMemWatch]!@Noted to be present: [pNodeReporter]!@Noted to be present: [pMarineViewer]!@Noted to be present: [pHelmIvP]!@Noted to be present: [pMarinePID]!@Noted to be present: [pLogger]!@Noted to be present: [pGPSd]!@#run_warning_total=0!@# 
+3.263           DTHRUST_ITER_GAP     dThrust         1.00801      
+3.266           dThrust_THRUST_L     dThrust         -0.00000     
+3.266           dThrust_THRUST_R     dThrust         -0.00000     
+3.279           DTHRUST_ITER_LEN     dThrust         0.15818      
+3.279           APPCAST              dThrust         proc=dThrust!@#iter=13!@#node=alpha!@#iter=13!@#messages=   Magnetic offset:             0.0!@   Maximum rudder:          +/- 100.0!@   Maximum thrust:          +/- 100.0%!@   Command mode:                !@  STOP                     FULL        L          C          R!@     [|                    ]   0%      [          |          ]   0%!@         DESIRED_THRUST                     DESIRED_RUDDER!@!@!@Status:!@   --- IVPHELM ALLSTOP ENGAGED ---!@   Requested rudder, thrust:    0.0, 0.0!@   Commanded to motors L, R:    0.0, 0.0!@   Requested L, R:              -0.0, -0.0!@   DESIRED_THRUST_L count:      0!@   DESIRED_THRUST_R count:      0!@!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.313           PHELMIVP_ITER_GAP    pHelmIvP        1.00181      
+3.313           IVPHELM_CPU          pHelmIvP        0.00000      
+3.313           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+3.313           PHELMIVP_ITER_LEN    pHelmIvP        0.00014      
+3.359           UMEMWATCH_ITER_GAP   uMemWatch       1.00062      
+3.359           UMEMWATCH_ITER_LEN   uMemWatch       0.00008      
+3.359           APPCAST              uMemWatch       proc=uMemWatch!@#iter=7!@#node=alpha!@#iter=7!@#messages=Configuration:     !@  Watch Only Apps: pHelmIvP,pMarineViewer!@      Ignore Apps: None!@Absolute Time Gap: 1!@!@App            PID    Memory  Delta!@-------------  -----  ------  -----!@pHelmIvP       11686  0.000   -    !@pMarineViewer  11700  0.000   -    !@!@ Last ix: 1!@Last app: pMarineViewer!@Last mem: 0.000!@Last raw: !@Warp: 1!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.363           DTHRUST_ITER_GAP     dThrust         1.00351      
+3.366           dThrust_THRUST_L     dThrust         -0.00000     
+3.366           dThrust_THRUST_R     dThrust         -0.00000     
+3.379           DTHRUST_ITER_LEN     dThrust         0.15448      
+3.418           PNODEREPORTER_ITER_GAP pNodeReporter   1.00228      
+3.418           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=7,YAW=1.5707963,TIME=1575875355.99,LENGTH=4 
+3.418           PNODEREPORTER_ITER_LEN pNodeReporter   0.00019      
+3.425           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00076      
+3.425           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00013      
+3.426           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=7!@#node=alpha!@#iter=7!@#messages=Tiff File A:      !@Info File A:      !@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 8!@NodeReport Index: 6!@Draw Count:       23!@Draw Count Rate:  15.3406!@Curr Time:        1575875355.75!@Time Warp:        1.000!@Stale report thresh: 60!@Stale remove thresh: 180!@Elapsed:          0.00000!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#!@#events_total=0!@#!@#run_warning_total=8!@#run_warnings=8:Unhandled Mail: NODE_REPORT_LOCAL must have either x,y or lat,lon 
+3.428           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=7,YAW=1.5707963,TIME=1575875355.99,LENGTH=4 
+3.431           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alpha,thresh=any 
+3.431           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alpha,thresh=any 
+3.464           DTHRUST_ITER_GAP     dThrust         1.00598      
+3.466           dThrust_THRUST_L     dThrust         -0.00000     
+3.466           dThrust_THRUST_R     dThrust         -0.00000     
+3.470           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00296      
+3.470           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00002      
+3.479           DTHRUST_ITER_LEN     dThrust         0.14818      
+3.564           PHELMIVP_ITER_GAP    pHelmIvP        1.00089      
+3.564           IVPHELM_CPU          pHelmIvP        0.00000      
+3.564           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+3.564           PHELMIVP_ITER_LEN    pHelmIvP        0.00012      
+3.564           APPCAST              pHelmIvP        proc=pHelmIvP!@#iter=11!@#node=alpha!@#iter=11!@#messages=!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!!                                             !!!@!!  The helm is in the MALCONFIG state due to  !!!@!!  unresolved configuration warnings.         !!!@!!                                             !!!@!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!@#config_warnings=Could not find File: alpha.bhv!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.565           DTHRUST_ITER_GAP     dThrust         1.00922      
+3.567           dThrust_THRUST_L     dThrust         -0.00000     
+3.567           dThrust_THRUST_R     dThrust         -0.00000     
+3.580           DTHRUST_ITER_LEN     dThrust         0.14745      
+3.609           UMEMWATCH_ITER_GAP   uMemWatch       1.00309      
+3.609           UMEMWATCH_ITER_LEN   uMemWatch       0.00008      
+3.666           DTHRUST_ITER_GAP     dThrust         1.00859      
+3.666           DB_TIME              MOOSDB_alpha    1575875356.23980 
+3.666           DB_UPTIME            MOOSDB_alpha    4.07007      
+3.666           DB_CLIENTS           MOOSDB_alpha    dThrust,pMarineViewer,pNodeReporter,uProcessWatch,pHelmIvP,pMarinePID,pLogger,uMemWatch, 
+3.668           dThrust_THRUST_L     dThrust         -0.00000     
+3.668           dThrust_THRUST_R     dThrust         -0.00000     
+3.668           DB_QOS               MOOSDB_alpha    dThrust=0:1.7271:0.185966:0,pHelmIvP=0:0.309944:0.138998:0,pLogger=0:1.08814:0.174046:0,pMarinePID=0:0.227928:0.159979:0,pMarineViewer=0:0.531912:0.170946:0,pNodeReporter=0:0.324011:0.207186:0,uMemWatch=0:0.234127:0.188112:0,uProcessWatch=0:1.17612:0.13113:0, 
+3.669           PNODEREPORTER_ITER_GAP pNodeReporter   1.00145      
+3.669           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=8,YAW=1.5707963,TIME=1575875356.24,LENGTH=4 
+3.669           PNODEREPORTER_ITER_LEN pNodeReporter   0.00012      
+3.669           APPCAST              pNodeReporter   proc=pNodeReporter!@#iter=9!@#node=alpha!@#iter=9!@#messages=Paused: false!@Vehicle Configuration:!@----------------------------!@     Vehicle name: alpha!@     Vehicle type: kayak!@   Vehicle length: 4.0!@!@Blackout Configuration:!@----------------------------!@Blackout interval: 0.00!@Blackout variance: 0.00!@!@AltNav Config and Status:!@----------------------------!@   ALT_NAV_PREFIX: GPSD_!@     ALT_NAV_NAME: _GT!@ ALT_NAV_POSTINGS: 0!@!@Node Report Summary:!@----------------------------!@Reports Posted: 9!@ Latest Report: NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,!@                ALLSTOP=n/a,INDEX=8,YAW=1.5707963,!@                TIME=1575875356.24,LENGTH=4!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.675           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00226      
+3.675           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00010      
+3.676           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=8,YAW=1.5707963,TIME=1575875356.24,LENGTH=4 
+3.679           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alpha,thresh=any 
+3.679           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alpha,thresh=any 
+3.681           DTHRUST_ITER_LEN     dThrust         0.15759      
+3.682           APPCAST              dThrust         proc=dThrust!@#iter=17!@#node=alpha!@#iter=17!@#messages=   Magnetic offset:             0.0!@   Maximum rudder:          +/- 100.0!@   Maximum thrust:          +/- 100.0%!@   Command mode:                !@  STOP                     FULL        L          C          R!@     [|                    ]   0%      [          |          ]   0%!@         DESIRED_THRUST                     DESIRED_RUDDER!@!@!@Status:!@   --- IVPHELM ALLSTOP ENGAGED ---!@   Requested rudder, thrust:    0.0, 0.0!@   Commanded to motors L, R:    0.0, 0.0!@   Requested L, R:              -0.0, -0.0!@   DESIRED_THRUST_L count:      0!@   DESIRED_THRUST_R count:      0!@!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.721           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00117      
+3.721           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00007      
+3.722           APPCAST              uProcessWatch   proc=uProcessWatch!@#iter=10!@#node=alpha!@#iter=10!@#messages=Summary: All Present!@!@Antler List: dThrust,pGPSd,pHelmIvP,pLogger,pMarinePID,pMarineViewer!@             pNodeReporter,uMemWatch!@!@                                        Current    Max     !@ProcName        Watch Reason   Status   CPU Load   CPU Load!@-------------   ------------   ------   --------   --------!@dThrust         ANT       DB   [7;32mOK[0m       0.80       0.80    !@pGPSd           ANT            [7;32mOK[0m       1.60       1.60    !@pHelmIvP        ANT       DB   [7;32mOK[0m       0.00       1.60    !@pLogger         ANT       DB   [7;32mOK[0m       0.80       1.60    !@pMarinePID      ANT       DB   [7;32mOK[0m       0.00       2.40    !@pMarineViewer   ANT       DB   [7;32mOK[0m       9.59       9.59    !@pNodeReporter   ANT       DB   [7;32mOK[0m       0.00       3.20    !@uMemWatch       ANT       DB   [7;32mOK[0m       0.80       0.80    !@!@#!@#events_total=8!@#events=Noted to be present: [dThrust]!@Noted to be present: [uMemWatch]!@Noted to be present: [pNodeReporter]!@Noted to be present: [pMarineViewer]!@Noted to be present: [pHelmIvP]!@Noted to be present: [pMarinePID]!@Noted to be present: [pLogger]!@Noted to be present: [pGPSd]!@#run_warning_total=0!@# 
+3.766           DTHRUST_ITER_GAP     dThrust         1.00338      
+3.768           dThrust_THRUST_L     dThrust         -0.00000     
+3.768           dThrust_THRUST_R     dThrust         -0.00000     
+3.781           DTHRUST_ITER_LEN     dThrust         0.14680      
+3.814           PHELMIVP_ITER_GAP    pHelmIvP        1.00099      
+3.814           IVPHELM_CPU          pHelmIvP        0.00000      
+3.814           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+3.814           PHELMIVP_ITER_LEN    pHelmIvP        0.00012      
+3.860           UMEMWATCH_ITER_GAP   uMemWatch       1.00108      
+3.864           UMEMWATCH_ITER_LEN   uMemWatch       0.01879      
+3.865           APPCAST              uMemWatch       proc=uMemWatch!@#iter=9!@#node=alpha!@#iter=9!@#messages=Configuration:     !@  Watch Only Apps: pHelmIvP,pMarineViewer!@      Ignore Apps: None!@Absolute Time Gap: 1!@!@App            PID    Memory  Delta!@-------------  -----  ------  -----!@pHelmIvP       11686  0.000   -    !@pMarineViewer  11700  0.000   -    !@!@ Last ix: 0!@Last app: pHelmIvP!@Last mem: 0.000!@Last raw: !@Warp: 1!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.867           DTHRUST_ITER_GAP     dThrust         1.00789      
+3.869           dThrust_THRUST_L     dThrust         -0.00000     
+3.869           dThrust_THRUST_R     dThrust         -0.00000     
+3.882           DTHRUST_ITER_LEN     dThrust         0.14914      
+3.919           PNODEREPORTER_ITER_GAP pNodeReporter   1.00124      
+3.919           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=9,YAW=1.5707963,TIME=1575875356.49,LENGTH=4 
+3.919           PNODEREPORTER_ITER_LEN pNodeReporter   0.00024      
+3.926           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00112      
+3.926           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00004      
+3.927           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=9!@#node=alpha!@#iter=9!@#messages=Tiff File A:      !@Info File A:      !@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 10!@NodeReport Index: 8!@Draw Count:       30!@Draw Count Rate:  14.999!@Curr Time:        1575875356.25!@Time Warp:        1.000!@Stale report thresh: 60!@Stale remove thresh: 180!@Elapsed:          0.00006!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#!@#events_total=0!@#!@#run_warning_total=10!@#run_warnings=10:Unhandled Mail: NODE_REPORT_LOCAL must have either x,y or lat,lon 
+3.928           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=9,YAW=1.5707963,TIME=1575875356.49,LENGTH=4 
+3.931           APPCAST_REQ          pMarineViewer   node=alpha,app=pHelmIvP,duration=3.0,key=pMarineViewer:alphaapp,thresh=any 
+3.931           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alphagen,thresh=run_warning 
+3.931           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alphagen,thresh=run_warning 
+3.968           DTHRUST_ITER_GAP     dThrust         1.01065      
+3.970           dThrust_THRUST_L     dThrust         -0.00000     
+3.970           dThrust_THRUST_R     dThrust         -0.00000     
+3.971           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00065      
+3.971           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00008      
+3.983           DTHRUST_ITER_LEN     dThrust         0.14737      
+0.509           IVPHELM_REGISTER     pHelmIvP        NODE_REPORT_LOCAL 
+0.659           LOGGER_DIRECTORY     pLogger         ./MOOSLog_9_12_2019_____01_09_13 
+0.865           MOOS_DEBUG           pMarinePID      MAXTHRUST              = 50.000 
+0.867           DESIRED_RUDDER       pMarinePID      0.00000      
+0.868           DESIRED_THRUST       pMarinePID      0.00000      
+1.058           PHELMIVP_PID         pHelmIvP        11686.00000  
+1.465           PROC_WATCH_TIME_WARP uProcessWatch   1.00000      
+1.466           PROC_WATCH_EVENT     uProcessWatch   Noted to be present: [pGPSd] 
+1.508           DB_EVENT             MOOSDB_alpha    connected=dThrust 
+1.664           PNODEREPORTER_PID    pNodeReporter   11711.00000  
+1.665           NODE_REPORT_LOCAL_FIRST pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,YAW=1.5707963,TIME=1575875354.24,LENGTH=4 
+1.717           PROC_WATCH_SUMMARY   uProcessWatch   All Present 
+1.717           PROC_WATCH_FULL_SUMMARY uProcessWatch   dThrust(1/0),uMemWatch(1/0),pNodeReporter(1/0),pMarineViewer(1/0),pHelmIvP(1/0),pMarinePID(1/0),pLogger(1/0),pGPSd(1/0) 
+1.920           PMARINEVIEWER_PID    pMarineViewer   11700.00000  
+1.922           HELM_MAP_CLEAR       pMarineViewer   0.00000      
+1.922           PMV_CONNECT          pMarineViewer   0.00000      
+2.868           PMARINEVIEWER_MEM    uMemWatch       0.00000      
+3.666           DB_TIME              MOOSDB_alpha    1575875356.23980 
+3.666           DB_UPTIME            MOOSDB_alpha    4.07007      
+3.666           DB_CLIENTS           MOOSDB_alpha    dThrust,pMarineViewer,pNodeReporter,uProcessWatch,pHelmIvP,pMarinePID,pLogger,uMemWatch, 
+3.668           DB_QOS               MOOSDB_alpha    dThrust=0:1.7271:0.185966:0,pHelmIvP=0:0.309944:0.138998:0,pLogger=0:1.08814:0.174046:0,pMarinePID=0:0.227928:0.159979:0,pMarineViewer=0:0.531912:0.170946:0,pNodeReporter=0:0.324011:0.207186:0,uMemWatch=0:0.234127:0.188112:0,uProcessWatch=0:1.17612:0.13113:0, 
+3.864           PHELMIVP_MEM         uMemWatch       0.00000      
+3.919           PNODEREPORTER_ITER_GAP pNodeReporter   1.00124      
+3.919           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=9,YAW=1.5707963,TIME=1575875356.49,LENGTH=4 
+3.919           PNODEREPORTER_ITER_LEN pNodeReporter   0.00024      
+3.926           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00112      
+3.926           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00004      
+3.928           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=9,YAW=1.5707963,TIME=1575875356.49,LENGTH=4 
+3.931           APPCAST_REQ_ALPHA    pMarineViewer   node=alpha,app=pHelmIvP,duration=3.0,key=pMarineViewer:alphaapp,thresh=any 
+3.931           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alphagen,thresh=run_warning 
+3.931           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alphagen,thresh=run_warning 
+3.971           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00065      
+3.971           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00008      
+4.064           PHELMIVP_ITER_GAP    pHelmIvP        1.00190      
+4.064           PHELMIVP_ITER_GAP    pHelmIvP        1.00190      
+4.064           IVPHELM_CPU          pHelmIvP        0.79961      
+4.064           IVPHELM_CPU          pHelmIvP        0.79961      
+4.064           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+4.064           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+4.064           PHELMIVP_ITER_LEN    pHelmIvP        0.00048      
+4.064           PHELMIVP_ITER_LEN    pHelmIvP        0.00048      
+4.065           APPCAST              pHelmIvP        proc=pHelmIvP!@#iter=13!@#node=alpha!@#iter=13!@#messages=!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!!                                             !!!@!!  The helm is in the MALCONFIG state due to  !!!@!!  unresolved configuration warnings.         !!!@!!                                             !!!@!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!@#config_warnings=Could not find File: alpha.bhv!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.069           DTHRUST_ITER_GAP     dThrust         1.01487      
+4.069           DTHRUST_ITER_GAP     dThrust         1.01487      
+4.073           dThrust_THRUST_L     dThrust         -0.00000     
+4.073           dThrust_THRUST_L     dThrust         -0.00000     
+4.073           dThrust_THRUST_R     dThrust         -0.00000     
+4.073           dThrust_THRUST_R     dThrust         -0.00000     
+4.087           DTHRUST_ITER_LEN     dThrust         0.17501      
+4.087           DTHRUST_ITER_LEN     dThrust         0.17501      
+4.088           APPCAST              dThrust         proc=dThrust!@#iter=21!@#node=alpha!@#iter=21!@#messages=   Magnetic offset:             0.0!@   Maximum rudder:          +/- 100.0!@   Maximum thrust:          +/- 100.0%!@   Command mode:                !@  STOP                     FULL        L          C          R!@     [|                    ]   0%      [          |          ]   0%!@         DESIRED_THRUST                     DESIRED_RUDDER!@!@!@Status:!@   --- IVPHELM ALLSTOP ENGAGED ---!@   Requested rudder, thrust:    0.0, 0.0!@   Commanded to motors L, R:    0.0, 0.0!@   Requested L, R:              -0.0, -0.0!@   DESIRED_THRUST_L count:      0!@   DESIRED_THRUST_R count:      0!@!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.088           APPCAST              dThrust         proc=dThrust!@#iter=21!@#node=alpha!@#iter=21!@#messages=   Magnetic offset:             0.0!@   Maximum rudder:          +/- 100.0!@   Maximum thrust:          +/- 100.0%!@   Command mode:                !@  STOP                     FULL        L          C          R!@     [|                    ]   0%      [          |          ]   0%!@         DESIRED_THRUST                     DESIRED_RUDDER!@!@!@Status:!@   --- IVPHELM ALLSTOP ENGAGED ---!@   Requested rudder, thrust:    0.0, 0.0!@   Commanded to motors L, R:    0.0, 0.0!@   Requested L, R:              -0.0, -0.0!@   DESIRED_THRUST_L count:      0!@   DESIRED_THRUST_R count:      0!@!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.110           UMEMWATCH_ITER_GAP   uMemWatch       1.00097      
+4.110           UMEMWATCH_ITER_GAP   uMemWatch       1.00097      
+4.110           UMEMWATCH_ITER_LEN   uMemWatch       0.00007      
+4.110           UMEMWATCH_ITER_LEN   uMemWatch       0.00007      
+4.169           PNODEREPORTER_ITER_GAP pNodeReporter   1.00079      
+4.169           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=10,YAW=1.5707963,TIME=1575875356.74,LENGTH=4 
+4.169           PNODEREPORTER_ITER_LEN pNodeReporter   0.00021      
+4.169           APPCAST              pNodeReporter   proc=pNodeReporter!@#iter=11!@#node=alpha!@#iter=11!@#messages=Paused: false!@Vehicle Configuration:!@----------------------------!@     Vehicle name: alpha!@     Vehicle type: kayak!@   Vehicle length: 4.0!@!@Blackout Configuration:!@----------------------------!@Blackout interval: 0.00!@Blackout variance: 0.00!@!@AltNav Config and Status:!@----------------------------!@   ALT_NAV_PREFIX: GPSD_!@     ALT_NAV_NAME: _GT!@ ALT_NAV_POSTINGS: 0!@!@Node Report Summary:!@----------------------------!@Reports Posted: 11!@ Latest Report: NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,!@                ALLSTOP=n/a,INDEX=10,YAW=1.5707963,!@                TIME=1575875356.74,LENGTH=4!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.170           DTHRUST_ITER_GAP     dThrust         1.00531      
+4.172           dThrust_THRUST_L     dThrust         -0.00000     
+4.172           dThrust_THRUST_R     dThrust         -0.00000     
+4.177           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00336      
+4.177           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00028      
+4.177           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=10,YAW=1.5707963,TIME=1575875356.74,LENGTH=4 
+4.185           DTHRUST_ITER_LEN     dThrust         0.14820      
+4.221           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00065      
+4.221           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00010      
+4.222           APPCAST              uProcessWatch   proc=uProcessWatch!@#iter=12!@#node=alpha!@#iter=12!@#messages=Summary: All Present!@!@Antler List: dThrust,pGPSd,pHelmIvP,pLogger,pMarinePID,pMarineViewer!@             pNodeReporter,uMemWatch!@!@                                        Current    Max     !@ProcName        Watch Reason   Status   CPU Load   CPU Load!@-------------   ------------   ------   --------   --------!@dThrust         ANT       DB   [7;32mOK[0m       0.80       0.80    !@pGPSd           ANT            [7;32mOK[0m       1.60       1.60    !@pHelmIvP        ANT       DB   [7;32mOK[0m       0.00       1.60    !@pLogger         ANT       DB   [7;32mOK[0m       0.80       1.60    !@pMarinePID      ANT       DB   [7;32mOK[0m       0.00       2.40    !@pMarineViewer   ANT       DB   [7;32mOK[0m       14.40      14.40   !@pNodeReporter   ANT       DB   [7;32mOK[0m       0.00       3.20    !@uMemWatch       ANT       DB   [7;32mOK[0m       0.00       0.80    !@!@#!@#events_total=8!@#events=Noted to be present: [dThrust]!@Noted to be present: [uMemWatch]!@Noted to be present: [pNodeReporter]!@Noted to be present: [pMarineViewer]!@Noted to be present: [pHelmIvP]!@Noted to be present: [pMarinePID]!@Noted to be present: [pLogger]!@Noted to be present: [pGPSd]!@#run_warning_total=0!@# 
+4.272           DTHRUST_ITER_GAP     dThrust         1.02356      
+4.278           dThrust_THRUST_L     dThrust         -0.00000     
+4.283           dThrust_THRUST_R     dThrust         -0.00000     
+4.296           DTHRUST_ITER_LEN     dThrust         0.23485      
+4.315           PHELMIVP_ITER_GAP    pHelmIvP        1.00283      
+4.315           IVPHELM_CPU          pHelmIvP        0.79961      
+4.315           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+4.315           PHELMIVP_ITER_LEN    pHelmIvP        0.00012      
+4.360           UMEMWATCH_ITER_GAP   uMemWatch       1.00080      
+4.360           UMEMWATCH_ITER_LEN   uMemWatch       0.00011      
+4.360           APPCAST              uMemWatch       proc=uMemWatch!@#iter=11!@#node=alpha!@#iter=11!@#messages=Configuration:     !@  Watch Only Apps: pHelmIvP,pMarineViewer!@      Ignore Apps: None!@Absolute Time Gap: 1!@!@App            PID    Memory  Delta!@-------------  -----  ------  -----!@pHelmIvP       11686  0.000   -    !@pMarineViewer  11700  0.000   -    !@!@ Last ix: 0!@Last app: pHelmIvP!@Last mem: 0.000!@Last raw: !@Warp: 1!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.373           DTHRUST_ITER_GAP     dThrust         1.00659      
+4.375           dThrust_THRUST_L     dThrust         -0.00000     
+4.375           dThrust_THRUST_R     dThrust         -0.00000     
+4.388           DTHRUST_ITER_LEN     dThrust         0.14841      
+4.420           PNODEREPORTER_ITER_GAP pNodeReporter   1.00159      
+4.420           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=11,YAW=1.5707963,TIME=1575875356.99,LENGTH=4 
+4.420           PNODEREPORTER_ITER_LEN pNodeReporter   0.00027      
+4.427           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00077      
+4.427           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00008      
+4.427           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=11,YAW=1.5707963,TIME=1575875356.99,LENGTH=4 
+4.427           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=11!@#node=alpha!@#iter=11!@#messages=Tiff File A:      !@Info File A:      !@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 12!@NodeReport Index: 10!@Draw Count:       38!@Draw Count Rate:  15.1929!@Curr Time:        1575875356.75!@Time Warp:        1.000!@Stale report thresh: 60!@Stale remove thresh: 180!@Elapsed:          0.00000!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#!@#events_total=0!@#!@#run_warning_total=13!@#run_warnings=13:Unhandled Mail: NODE_REPORT_LOCAL must have either x,y or lat,lon 
+4.472           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00342      
+4.472           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00010      
+4.474           DTHRUST_ITER_GAP     dThrust         1.00971      
+4.476           dThrust_THRUST_L     dThrust         -0.00000     
+4.476           dThrust_THRUST_R     dThrust         -0.00000     
+4.489           DTHRUST_ITER_LEN     dThrust         0.14854      
+4.489           APPCAST              dThrust         proc=dThrust!@#iter=25!@#node=alpha!@#iter=25!@#messages=   Magnetic offset:             0.0!@   Maximum rudder:          +/- 100.0!@   Maximum thrust:          +/- 100.0%!@   Command mode:                !@  STOP                     FULL        L          C          R!@     [|                    ]   0%      [          |          ]   0%!@         DESIRED_THRUST                     DESIRED_RUDDER!@!@!@Status:!@   --- IVPHELM ALLSTOP ENGAGED ---!@   Requested rudder, thrust:    0.0, 0.0!@   Commanded to motors L, R:    0.0, 0.0!@   Requested L, R:              -0.0, -0.0!@   DESIRED_THRUST_L count:      0!@   DESIRED_THRUST_R count:      0!@!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.566           PHELMIVP_ITER_GAP    pHelmIvP        1.00298      
+4.566           IVPHELM_CPU          pHelmIvP        0.00000      
+4.566           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+4.566           PHELMIVP_ITER_LEN    pHelmIvP        0.00039      
+4.566           APPCAST              pHelmIvP        proc=pHelmIvP!@#iter=15!@#node=alpha!@#iter=15!@#messages=!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!!                                             !!!@!!  The helm is in the MALCONFIG state due to  !!!@!!  unresolved configuration warnings.         !!!@!!                                             !!!@!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!@#config_warnings=Could not find File: alpha.bhv!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.574           DTHRUST_ITER_GAP     dThrust         1.00196      
+4.580           dThrust_THRUST_L     dThrust         -0.00000     
+4.580           dThrust_THRUST_R     dThrust         -0.00000     
+4.594           DTHRUST_ITER_LEN     dThrust         0.19797      
+4.611           UMEMWATCH_ITER_GAP   uMemWatch       1.00229      
+4.611           UMEMWATCH_ITER_LEN   uMemWatch       0.00036      
+4.672           PNODEREPORTER_ITER_GAP pNodeReporter   1.00773      
+4.672           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=12,YAW=1.5707963,TIME=1575875357.25,LENGTH=4 
+4.672           PNODEREPORTER_ITER_LEN pNodeReporter   0.00114      
+4.673           APPCAST              pNodeReporter   proc=pNodeReporter!@#iter=13!@#node=alpha!@#iter=13!@#messages=Paused: false!@Vehicle Configuration:!@----------------------------!@     Vehicle name: alpha!@     Vehicle type: kayak!@   Vehicle length: 4.0!@!@Blackout Configuration:!@----------------------------!@Blackout interval: 0.00!@Blackout variance: 0.00!@!@AltNav Config and Status:!@----------------------------!@   ALT_NAV_PREFIX: GPSD_!@     ALT_NAV_NAME: _GT!@ ALT_NAV_POSTINGS: 0!@!@Node Report Summary:!@----------------------------!@Reports Posted: 13!@ Latest Report: NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,!@                ALLSTOP=n/a,INDEX=12,YAW=1.5707963,!@                TIME=1575875357.25,LENGTH=4!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.675           DTHRUST_ITER_GAP     dThrust         1.01397      
+4.678           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00414      
+4.678           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00038      
+4.680           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=12,YAW=1.5707963,TIME=1575875357.25,LENGTH=4 
+4.682           dThrust_THRUST_L     dThrust         -0.00000     
+4.683           dThrust_THRUST_R     dThrust         -0.00000     
+4.697           DTHRUST_ITER_LEN     dThrust         0.21299      
+4.722           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00102      
+4.722           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00008      
+4.723           APPCAST              uProcessWatch   proc=uProcessWatch!@#iter=14!@#node=alpha!@#iter=14!@#messages=Summary: All Present!@!@Antler List: dThrust,pGPSd,pHelmIvP,pLogger,pMarinePID,pMarineViewer!@             pNodeReporter,uMemWatch!@!@                                        Current    Max     !@ProcName        Watch Reason   Status   CPU Load   CPU Load!@-------------   ------------   ------   --------   --------!@dThrust         ANT       DB   [7;32mOK[0m       0.80       0.80    !@pGPSd           ANT            [7;32mOK[0m       1.60       1.60    !@pHelmIvP        ANT       DB   [7;32mOK[0m       0.00       1.60    !@pLogger         ANT       DB   [7;32mOK[0m       2.40       2.40    !@pMarinePID      ANT       DB   [7;32mOK[0m       0.00       2.40    !@pMarineViewer   ANT       DB   [7;32mOK[0m       14.40      14.40   !@pNodeReporter   ANT       DB   [7;32mOK[0m       0.00       3.20    !@uMemWatch       ANT       DB   [7;32mOK[0m       0.00       0.80    !@!@#!@#events_total=8!@#events=Noted to be present: [dThrust]!@Noted to be present: [uMemWatch]!@Noted to be present: [pNodeReporter]!@Noted to be present: [pMarineViewer]!@Noted to be present: [pHelmIvP]!@Noted to be present: [pMarinePID]!@Noted to be present: [pLogger]!@Noted to be present: [pGPSd]!@#run_warning_total=0!@# 
+4.776           DTHRUST_ITER_GAP     dThrust         1.00420      
+4.781           dThrust_THRUST_L     dThrust         -0.00000     
+4.782           dThrust_THRUST_R     dThrust         -0.00000     
+4.795           DTHRUST_ITER_LEN     dThrust         0.18912      
+4.816           PHELMIVP_ITER_GAP    pHelmIvP        1.00215      
+4.816           IVPHELM_CPU          pHelmIvP        0.00000      
+4.816           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+4.816           PHELMIVP_ITER_LEN    pHelmIvP        0.00028      
+4.861           UMEMWATCH_ITER_GAP   uMemWatch       1.00128      
+4.874           PMARINEVIEWER_MEM    uMemWatch       0.00000      
+4.874           UMEMWATCH_ITER_LEN   uMemWatch       0.05323      
+4.875           APPCAST              uMemWatch       proc=uMemWatch!@#iter=13!@#node=alpha!@#iter=13!@#messages=Configuration:     !@  Watch Only Apps: pHelmIvP,pMarineViewer!@      Ignore Apps: None!@Absolute Time Gap: 1!@!@App            PID    Memory  Delta!@-------------  -----  ------  -----!@pHelmIvP       11686  0.000   -    !@pMarineViewer  11700  0.000   -    !@!@ Last ix: 1!@Last app: pMarineViewer!@Last mem: 0.000!@Last raw: !@Warp: 1!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.877           DTHRUST_ITER_GAP     dThrust         1.01080      
+4.879           dThrust_THRUST_L     dThrust         -0.00000     
+4.879           dThrust_THRUST_R     dThrust         -0.00000     
+4.892           DTHRUST_ITER_LEN     dThrust         0.14739      
+4.896           APPCAST              dThrust         proc=dThrust!@#iter=29!@#node=alpha!@#iter=29!@#messages=   Magnetic offset:             0.0!@   Maximum rudder:          +/- 100.0!@   Maximum thrust:          +/- 100.0%!@   Command mode:                !@  STOP                     FULL        L          C          R!@     [|                    ]   0%      [          |          ]   0%!@         DESIRED_THRUST                     DESIRED_RUDDER!@!@!@Status:!@   --- IVPHELM ALLSTOP ENGAGED ---!@   Requested rudder, thrust:    0.0, 0.0!@   Commanded to motors L, R:    0.0, 0.0!@   Requested L, R:              -0.0, -0.0!@   DESIRED_THRUST_L count:      0!@   DESIRED_THRUST_R count:      0!@!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.922           PNODEREPORTER_ITER_GAP pNodeReporter   1.00049      
+4.922           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=13,YAW=1.5707963,TIME=1575875357.5,LENGTH=4 
+4.922           PNODEREPORTER_ITER_LEN pNodeReporter   0.00033      
+4.928           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00146      
+4.928           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00012      
+4.929           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=13,YAW=1.5707963,TIME=1575875357.5,LENGTH=4 
+4.929           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=13!@#node=alpha!@#iter=13!@#messages=Tiff File A:      !@Info File A:      !@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 14!@NodeReport Index: 12!@Draw Count:       42!@Draw Count Rate:  13.988!@Curr Time:        1575875357.25!@Time Warp:        1.000!@Stale report thresh: 60!@Stale remove thresh: 180!@Elapsed:          0.00026!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#!@#events_total=0!@#!@#run_warning_total=15!@#run_warnings=15:Unhandled Mail: NODE_REPORT_LOCAL must have either x,y or lat,lon 
+4.935           APPCAST_REQ          pMarineViewer   node=alpha,app=pHelmIvP,duration=3.0,key=pMarineViewer:alphaapp,thresh=any 
+4.935           APPCAST_REQ_ALPHA    pMarineViewer   node=alpha,app=pHelmIvP,duration=3.0,key=pMarineViewer:alphaapp,thresh=any 
+4.935           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alphagen,thresh=run_warning 
+4.935           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alphagen,thresh=run_warning 
+4.973           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00304      
+4.973           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00023      
+4.977           DTHRUST_ITER_GAP     dThrust         1.00520      
+4.983           dThrust_THRUST_L     dThrust         -0.00000     
+4.984           dThrust_THRUST_R     dThrust         -0.00000     
+4.999           DTHRUST_ITER_LEN     dThrust         0.21259      
+5.067           PHELMIVP_ITER_GAP    pHelmIvP        1.00204      
+5.067           IVPHELM_CPU          pHelmIvP        0.79957      
+5.067           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+5.067           PHELMIVP_ITER_LEN    pHelmIvP        0.00006      
+5.067           APPCAST              pHelmIvP        proc=pHelmIvP!@#iter=17!@#node=alpha!@#iter=17!@#messages=!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!!                                             !!!@!!  The helm is in the MALCONFIG state due to  !!!@!!  unresolved configuration warnings.         !!!@!!                                             !!!@!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!@#config_warnings=Could not find File: alpha.bhv!@#events_total=0!@#!@#run_warning_total=0!@# 
+5.078           DTHRUST_ITER_GAP     dThrust         1.00468      
+5.080           dThrust_THRUST_L     dThrust         -0.00000     
+5.080           dThrust_THRUST_R     dThrust         -0.00000     
+5.097           DTHRUST_ITER_LEN     dThrust         0.18783      
+5.112           UMEMWATCH_ITER_GAP   uMemWatch       1.00238      
+5.112           UMEMWATCH_ITER_LEN   uMemWatch       0.00018      
+5.172           PNODEREPORTER_ITER_GAP pNodeReporter   1.00111      
+5.172           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=14,YAW=1.5707963,TIME=1575875357.75,LENGTH=4 
+5.172           PNODEREPORTER_ITER_LEN pNodeReporter   0.00020      
+5.172           APPCAST              pNodeReporter   proc=pNodeReporter!@#iter=15!@#node=alpha!@#iter=15!@#messages=Paused: false!@Vehicle Configuration:!@----------------------------!@     Vehicle name: alpha!@     Vehicle type: kayak!@   Vehicle length: 4.0!@!@Blackout Configuration:!@----------------------------!@Blackout interval: 0.00!@Blackout variance: 0.00!@!@AltNav Config and Status:!@----------------------------!@   ALT_NAV_PREFIX: GPSD_!@     ALT_NAV_NAME: _GT!@ ALT_NAV_POSTINGS: 0!@!@Node Report Summary:!@----------------------------!@Reports Posted: 15!@ Latest Report: NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,!@                ALLSTOP=n/a,INDEX=14,YAW=1.5707963,!@                TIME=1575875357.75,LENGTH=4!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+5.179           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00302      
+5.179           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00023      
+5.180           DTHRUST_ITER_GAP     dThrust         1.01642      
+5.180           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=14,YAW=1.5707963,TIME=1575875357.75,LENGTH=4 
+5.186           dThrust_THRUST_L     dThrust         -0.00000     
+5.186           dThrust_THRUST_R     dThrust         -0.00000     
+5.200           DTHRUST_ITER_LEN     dThrust         0.20122      
+5.223           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00125      
+5.223           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00015      
+5.225           APPCAST              uProcessWatch   proc=uProcessWatch!@#iter=16!@#node=alpha!@#iter=16!@#messages=Summary: All Present!@!@Antler List: dThrust,pGPSd,pHelmIvP,pLogger,pMarinePID,pMarineViewer!@             pNodeReporter,uMemWatch!@!@                                        Current    Max     !@ProcName        Watch Reason   Status   CPU Load   CPU Load!@-------------   ------------   ------   --------   --------!@dThrust         ANT       DB   [7;32mOK[0m       0.80       0.80    !@pGPSd           ANT            [7;32mOK[0m       1.60       1.60    !@pHelmIvP        ANT       DB   [7;32mOK[0m       0.80       1.60    !@pLogger         ANT       DB   [7;32mOK[0m       2.40       2.40    !@pMarinePID      ANT       DB   [7;32mOK[0m       0.80       2.40    !@pMarineViewer   ANT       DB   [7;32mOK[0m       14.40      14.40   !@pNodeReporter   ANT       DB   [7;32mOK[0m       0.00       3.20    !@uMemWatch       ANT       DB   [7;32mOK[0m       0.00       0.80    !@!@#!@#events_total=8!@#events=Noted to be present: [dThrust]!@Noted to be present: [uMemWatch]!@Noted to be present: [pNodeReporter]!@Noted to be present: [pMarineViewer]!@Noted to be present: [pHelmIvP]!@Noted to be present: [pMarinePID]!@Noted to be present: [pLogger]!@Noted to be present: [pGPSd]!@#run_warning_total=0!@# 
+5.280           DTHRUST_ITER_GAP     dThrust         1.00487      
+5.287           dThrust_THRUST_L     dThrust         -0.00000     
+5.287           dThrust_THRUST_R     dThrust         -0.00000     
+5.303           DTHRUST_ITER_LEN     dThrust         0.22667      
+5.306           APPCAST              dThrust         proc=dThrust!@#iter=33!@#node=alpha!@#iter=33!@#messages=   Magnetic offset:             0.0!@   Maximum rudder:          +/- 100.0!@   Maximum thrust:          +/- 100.0%!@   Command mode:                !@  STOP                     FULL        L          C          R!@     [|                    ]   0%      [          |          ]   0%!@         DESIRED_THRUST                     DESIRED_RUDDER!@!@!@Status:!@   --- IVPHELM ALLSTOP ENGAGED ---!@   Requested rudder, thrust:    0.0, 0.0!@   Commanded to motors L, R:    0.0, 0.0!@   Requested L, R:              -0.0, -0.0!@   DESIRED_THRUST_L count:      0!@   DESIRED_THRUST_R count:      0!@!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+5.317           PHELMIVP_ITER_GAP    pHelmIvP        1.00106      
+5.317           IVPHELM_CPU          pHelmIvP        0.79957      
+5.317           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+5.317           PHELMIVP_ITER_LEN    pHelmIvP        0.00017      
+5.362           UMEMWATCH_ITER_GAP   uMemWatch       1.00088      
+5.362           UMEMWATCH_ITER_LEN   uMemWatch       0.00050      
+5.363           APPCAST              uMemWatch       proc=uMemWatch!@#iter=15!@#node=alpha!@#iter=15!@#messages=Configuration:     !@  Watch Only Apps: pHelmIvP,pMarineViewer!@      Ignore Apps: None!@Absolute Time Gap: 1!@!@App            PID    Memory  Delta!@-------------  -----  ------  -----!@pHelmIvP       11686  0.000   -    !@pMarineViewer  11700  0.000   -    !@!@ Last ix: 1!@Last app: pMarineViewer!@Last mem: 0.000!@Last raw: !@Warp: 1!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+5.381           DTHRUST_ITER_GAP     dThrust         1.01046      
+5.384           dThrust_THRUST_L     dThrust         -0.00000     
+5.384           dThrust_THRUST_R     dThrust         -0.00000     
+5.399           DTHRUST_ITER_LEN     dThrust         0.17799      
+5.422           PNODEREPORTER_ITER_GAP pNodeReporter   1.00190      
+5.423           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=15,YAW=1.5707963,TIME=1575875358,LENGTH=4 
+5.423           PNODEREPORTER_ITER_LEN pNodeReporter   0.00067      
+5.429           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00118      
+5.429           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00016      
+5.431           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=15,YAW=1.5707963,TIME=1575875358,LENGTH=4 
+5.433           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=15!@#node=alpha!@#iter=15!@#messages=Tiff File A:      !@Info File A:      !@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 16!@NodeReport Index: 14!@Draw Count:       46!@Draw Count Rate:  13.1293!@Curr Time:        1575875357.75!@Time Warp:        1.000!@Stale report thresh: 60!@Stale remove thresh: 180!@Elapsed:          0.00017!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#!@#events_total=0!@#!@#run_warning_total=17!@#run_warnings=17:Unhandled Mail: NODE_REPORT_LOCAL must have either x,y or lat,lon 
+5.474           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00448      
+5.474           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00005      
+5.482           DTHRUST_ITER_GAP     dThrust         1.01048      
+5.484           dThrust_THRUST_L     dThrust         -0.00000     
+5.484           dThrust_THRUST_R     dThrust         -0.00000     
+5.497           DTHRUST_ITER_LEN     dThrust         0.14532      
+5.568           PHELMIVP_ITER_GAP    pHelmIvP        1.00250      
+5.568           IVPHELM_CPU          pHelmIvP        0.00000      
+5.568           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+5.568           PHELMIVP_ITER_LEN    pHelmIvP        0.00032      
+5.568           APPCAST              pHelmIvP        proc=pHelmIvP!@#iter=19!@#node=alpha!@#iter=19!@#messages=!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!!                                             !!!@!!  The helm is in the MALCONFIG state due to  !!!@!!  unresolved configuration warnings.         !!!@!!                                             !!!@!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!@#config_warnings=Could not find File: alpha.bhv!@#events_total=0!@#!@#run_warning_total=0!@# 
+5.583           DTHRUST_ITER_GAP     dThrust         1.00728      
+5.587           dThrust_THRUST_L     dThrust         -0.00000     
+5.587           dThrust_THRUST_R     dThrust         -0.00000     
+5.602           DTHRUST_ITER_LEN     dThrust         0.19065      
+5.612           UMEMWATCH_ITER_GAP   uMemWatch       1.00148      
+5.612           UMEMWATCH_ITER_LEN   uMemWatch       0.00034      
+5.674           PNODEREPORTER_ITER_GAP pNodeReporter   1.00452      
+5.674           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=16,YAW=1.5707963,TIME=1575875358.25,LENGTH=4 
+5.674           PNODEREPORTER_ITER_LEN pNodeReporter   0.00052      
+5.675           APPCAST              pNodeReporter   proc=pNodeReporter!@#iter=17!@#node=alpha!@#iter=17!@#messages=Paused: false!@Vehicle Configuration:!@----------------------------!@     Vehicle name: alpha!@     Vehicle type: kayak!@   Vehicle length: 4.0!@!@Blackout Configuration:!@----------------------------!@Blackout interval: 0.00!@Blackout variance: 0.00!@!@AltNav Config and Status:!@----------------------------!@   ALT_NAV_PREFIX: GPSD_!@     ALT_NAV_NAME: _GT!@ ALT_NAV_POSTINGS: 0!@!@Node Report Summary:!@----------------------------!@Reports Posted: 17!@ Latest Report: NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,!@                ALLSTOP=n/a,INDEX=16,YAW=1.5707963,!@                TIME=1575875358.25,LENGTH=4!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+5.675           DB_TIME              MOOSDB_alpha    1575875358.24876 
+5.675           DB_UPTIME            MOOSDB_alpha    6.07905      
+5.675           DB_CLIENTS           MOOSDB_alpha    dThrust,pMarineViewer,pNodeReporter,uProcessWatch,pHelmIvP,pMarinePID,pLogger,uMemWatch, 
+5.680           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00244      
+5.680           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00042      
+5.684           DTHRUST_ITER_GAP     dThrust         1.00634      
+5.684           DB_QOS               MOOSDB_alpha    dThrust=0.653982:1.7271:0.185966:0.909042,pHelmIvP=0.752926:0.752926:0.138998:0.335026,pLogger=0.124931:1.08814:0.124931:0.367403,pMarinePID=0.144958:0.227928:0.144958:0.186586,pMarineViewer=1.53613:1.53613:0.148058:0.534582,pNodeReporter=0.194073:0.324011:0.194073:0.232649,uMemWatch=0.574827:0.574827:0.187159:0.279045,uProcessWatch=0.733852:1.17612:0.0920296:0.484848, 
+5.688           dThrust_THRUST_L     dThrust         -0.00000     
+5.688           dThrust_THRUST_R     dThrust         -0.00000     
+5.701           DTHRUST_ITER_LEN     dThrust         0.17181      
+5.701           APPCAST              dThrust         proc=dThrust!@#iter=37!@#node=alpha!@#iter=37!@#messages=   Magnetic offset:             0.0!@   Maximum rudder:          +/- 100.0!@   Maximum thrust:          +/- 100.0%!@   Command mode:                !@  STOP                     FULL        L          C          R!@     [|                    ]   0%      [          |          ]   0%!@         DESIRED_THRUST                     DESIRED_RUDDER!@!@!@Status:!@   --- IVPHELM ALLSTOP ENGAGED ---!@   Requested rudder, thrust:    0.0, 0.0!@   Commanded to motors L, R:    0.0, 0.0!@   Requested L, R:              -0.0, -0.0!@   DESIRED_THRUST_L count:      0!@   DESIRED_THRUST_R count:      0!@!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+5.725           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00130      
+5.725           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00008      
+5.725           APPCAST              uProcessWatch   proc=uProcessWatch!@#iter=18!@#node=alpha!@#iter=18!@#messages=Summary: All Present!@!@Antler List: dThrust,pGPSd,pHelmIvP,pLogger,pMarinePID,pMarineViewer!@             pNodeReporter,uMemWatch!@!@                                        Current    Max     !@ProcName        Watch Reason   Status   CPU Load   CPU Load!@-------------   ------------   ------   --------   --------!@dThrust         ANT       DB   [7;32mOK[0m       0.80       0.80    !@pGPSd           ANT            [7;32mOK[0m       1.60       1.60    !@pHelmIvP        ANT       DB   [7;32mOK[0m       0.80       1.60    !@pLogger         ANT       DB   [7;32mOK[0m       2.40       2.40    !@pMarinePID      ANT       DB   [7;32mOK[0m       0.80       2.40    !@pMarineViewer   ANT       DB   [7;32mOK[0m       14.40      14.40   !@pNodeReporter   ANT       DB   [7;32mOK[0m       0.80       3.20    !@uMemWatch       ANT       DB   [7;32mOK[0m       0.00       0.80    !@!@#!@#events_total=8!@#events=Noted to be present: [dThrust]!@Noted to be present: [uMemWatch]!@Noted to be present: [pNodeReporter]!@Noted to be present: [pMarineViewer]!@Noted to be present: [pHelmIvP]!@Noted to be present: [pMarinePID]!@Noted to be present: [pLogger]!@Noted to be present: [pGPSd]!@#run_warning_total=0!@# 
+5.784           DTHRUST_ITER_GAP     dThrust         1.00820      
+5.790           dThrust_THRUST_L     dThrust         -0.00000     
+5.790           dThrust_THRUST_R     dThrust         -0.00000     
+5.804           DTHRUST_ITER_LEN     dThrust         0.19245      
+5.818           PHELMIVP_ITER_GAP    pHelmIvP        1.00165      
+5.818           IVPHELM_CPU          pHelmIvP        0.00000      
+5.818           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+5.818           PHELMIVP_ITER_LEN    pHelmIvP        0.00021      
+5.863           UMEMWATCH_ITER_GAP   uMemWatch       1.00459      
+5.875           PHELMIVP_MEM         uMemWatch       0.00000      
+5.875           UMEMWATCH_ITER_LEN   uMemWatch       0.04864      
+5.876           APPCAST              uMemWatch       proc=uMemWatch!@#iter=17!@#node=alpha!@#iter=17!@#messages=Configuration:     !@  Watch Only Apps: pHelmIvP,pMarineViewer!@      Ignore Apps: None!@Absolute Time Gap: 1!@!@App            PID    Memory  Delta!@-------------  -----  ------  -----!@pHelmIvP       11686  0.000   -    !@pMarineViewer  11700  0.000   -    !@!@ Last ix: 0!@Last app: pHelmIvP!@Last mem: 0.000!@Last raw: !@Warp: 1!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+5.885           DTHRUST_ITER_GAP     dThrust         1.00442      
+5.887           dThrust_THRUST_L     dThrust         -0.00000     
+5.887           dThrust_THRUST_R     dThrust         -0.00000     
+5.900           DTHRUST_ITER_LEN     dThrust         0.14761      
+5.924           PNODEREPORTER_ITER_GAP pNodeReporter   1.00225      
+5.924           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=17,YAW=1.5707963,TIME=1575875358.5,LENGTH=4 
+5.924           PNODEREPORTER_ITER_LEN pNodeReporter   0.00090      
+5.930           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00281      
+5.930           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00010      
+5.932           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=17!@#node=alpha!@#iter=17!@#messages=Tiff File A:      !@Info File A:      !@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 17!@NodeReport Index: 15!@Draw Count:       50!@Draw Count Rate:  12.4846!@Curr Time:        1575875358.25!@Time Warp:        1.000!@Stale report thresh: 60!@Stale remove thresh: 180!@Elapsed:          0.00023!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#!@#events_total=0!@#!@#run_warning_total=17!@#run_warnings=17:Unhandled Mail: NODE_REPORT_LOCAL must have either x,y or lat,lon 
+5.933           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=16,YAW=1.5707963,TIME=1575875358.25,LENGTH=4 
+5.934           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=17,YAW=1.5707963,TIME=1575875358.5,LENGTH=4 
+5.940           APPCAST_REQ          pMarineViewer   node=alpha,app=pHelmIvP,duration=3.0,key=pMarineViewer:alphaapp,thresh=any 
+5.940           APPCAST_REQ_ALPHA    pMarineViewer   node=alpha,app=pHelmIvP,duration=3.0,key=pMarineViewer:alphaapp,thresh=any 
+5.940           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alphagen,thresh=run_warning 
+5.940           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alphagen,thresh=run_warning 
+5.976           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00323      
+5.976           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00008      
+5.986           DTHRUST_ITER_GAP     dThrust         1.00997      
+5.989           dThrust_THRUST_L     dThrust         -0.00000     
+5.989           dThrust_THRUST_R     dThrust         -0.00000     
+6.003           DTHRUST_ITER_LEN     dThrust         0.16941      
+6.068           PHELMIVP_ITER_GAP    pHelmIvP        1.00126      
+6.068           IVPHELM_CPU          pHelmIvP        0.79938      
+6.068           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+6.068           PHELMIVP_ITER_LEN    pHelmIvP        0.00012      
+6.068           APPCAST              pHelmIvP        proc=pHelmIvP!@#iter=21!@#node=alpha!@#iter=21!@#messages=!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!!                                             !!!@!!  The helm is in the MALCONFIG state due to  !!!@!!  unresolved configuration warnings.         !!!@!!                                             !!!@!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!@#config_warnings=Could not find File: alpha.bhv!@#events_total=0!@#!@#run_warning_total=0!@# 
+6.086           DTHRUST_ITER_GAP     dThrust         1.00151      
+6.088           dThrust_THRUST_L     dThrust         -0.00000     
+6.088           dThrust_THRUST_R     dThrust         -0.00000     
+6.101           DTHRUST_ITER_LEN     dThrust         0.14918      
+6.103           APPCAST              dThrust         proc=dThrust!@#iter=41!@#node=alpha!@#iter=41!@#messages=   Magnetic offset:             0.0!@   Maximum rudder:          +/- 100.0!@   Maximum thrust:          +/- 100.0%!@   Command mode:                !@  STOP                     FULL        L          C          R!@     [|                    ]   0%      [          |          ]   0%!@         DESIRED_THRUST                     DESIRED_RUDDER!@!@!@Status:!@   --- IVPHELM ALLSTOP ENGAGED ---!@   Requested rudder, thrust:    0.0, 0.0!@   Commanded to motors L, R:    0.0, 0.0!@   Requested L, R:              -0.0, -0.0!@   DESIRED_THRUST_L count:      0!@   DESIRED_THRUST_R count:      0!@!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+6.113           UMEMWATCH_ITER_GAP   uMemWatch       0.99838      
+6.113           UMEMWATCH_ITER_LEN   uMemWatch       0.00008      
+6.175           PNODEREPORTER_ITER_GAP pNodeReporter   1.00194      
+6.175           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=18,YAW=1.5707963,TIME=1575875358.75,LENGTH=4 
+6.175           PNODEREPORTER_ITER_LEN pNodeReporter   0.00020      
+6.175           APPCAST              pNodeReporter   proc=pNodeReporter!@#iter=19!@#node=alpha!@#iter=19!@#messages=Paused: false!@Vehicle Configuration:!@----------------------------!@     Vehicle name: alpha!@     Vehicle type: kayak!@   Vehicle length: 4.0!@!@Blackout Configuration:!@----------------------------!@Blackout interval: 0.00!@Blackout variance: 0.00!@!@AltNav Config and Status:!@----------------------------!@   ALT_NAV_PREFIX: GPSD_!@     ALT_NAV_NAME: _GT!@ ALT_NAV_POSTINGS: 0!@!@Node Report Summary:!@----------------------------!@Reports Posted: 19!@ Latest Report: NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,!@                ALLSTOP=n/a,INDEX=18,YAW=1.5707963,!@                TIME=1575875358.75,LENGTH=4!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+6.181           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00141      
+6.181           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00008      
+6.182           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=18,YAW=1.5707963,TIME=1575875358.75,LENGTH=4 
+6.187           DTHRUST_ITER_GAP     dThrust         1.00750      
+6.190           dThrust_THRUST_L     dThrust         -0.00000     
+6.190           dThrust_THRUST_R     dThrust         -0.00000     
+6.203           DTHRUST_ITER_LEN     dThrust         0.16010      
+6.226           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00102      
+6.226           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00008      
+6.227           APPCAST              uProcessWatch   proc=uProcessWatch!@#iter=20!@#node=alpha!@#iter=20!@#messages=Summary: All Present!@!@Antler List: dThrust,pGPSd,pHelmIvP,pLogger,pMarinePID,pMarineViewer!@             pNodeReporter,uMemWatch!@!@                                        Current    Max     !@ProcName        Watch Reason   Status   CPU Load   CPU Load!@-------------   ------------   ------   --------   --------!@dThrust         ANT       DB   [7;32mOK[0m       2.40       2.40    !@pGPSd           ANT            [7;32mOK[0m       1.60       1.60    !@pHelmIvP        ANT       DB   [7;32mOK[0m       0.80       1.60    !@pLogger         ANT       DB   [7;32mOK[0m       2.40       2.40    !@pMarinePID      ANT       DB   [7;32mOK[0m       0.80       2.40    !@pMarineViewer   ANT       DB   [7;32mOK[0m       7.20       14.40   !@pNodeReporter   ANT       DB   [7;32mOK[0m       0.80       3.20    !@uMemWatch       ANT       DB   [7;32mOK[0m       0.80       0.80    !@!@#!@#events_total=8!@#events=Noted to be present: [dThrust]!@Noted to be present: [uMemWatch]!@Noted to be present: [pNodeReporter]!@Noted to be present: [pMarineViewer]!@Noted to be present: [pHelmIvP]!@Noted to be present: [pMarinePID]!@Noted to be present: [pLogger]!@Noted to be present: [pGPSd]!@#run_warning_total=0!@# 
+6.287           DTHRUST_ITER_GAP     dThrust         1.00128      
+6.289           dThrust_THRUST_L     dThrust         -0.00000     
+6.289           dThrust_THRUST_R     dThrust         -0.00000     
+6.302           DTHRUST_ITER_LEN     dThrust         0.14876      
+6.319           PHELMIVP_ITER_GAP    pHelmIvP        1.00110      
+6.319           IVPHELM_CPU          pHelmIvP        0.79938      
+6.319           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+6.319           PHELMIVP_ITER_LEN    pHelmIvP        0.00012      
+6.363           UMEMWATCH_ITER_GAP   uMemWatch       1.00065      
+6.363           UMEMWATCH_ITER_LEN   uMemWatch       0.00012      
+6.364           APPCAST              uMemWatch       proc=uMemWatch!@#iter=19!@#node=alpha!@#iter=19!@#messages=Configuration:     !@  Watch Only Apps: pHelmIvP,pMarineViewer!@      Ignore Apps: None!@Absolute Time Gap: 1!@!@App            PID    Memory  Delta!@-------------  -----  ------  -----!@pHelmIvP       11686  0.000   -    !@pMarineViewer  11700  0.000   -    !@!@ Last ix: 0!@Last app: pHelmIvP!@Last mem: 0.000!@Last raw: !@Warp: 1!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+6.388           DTHRUST_ITER_GAP     dThrust         1.01072      
+6.390           dThrust_THRUST_L     dThrust         -0.00000     
+6.390           dThrust_THRUST_R     dThrust         -0.00000     
+6.403           DTHRUST_ITER_LEN     dThrust         0.14813      
+6.425           PNODEREPORTER_ITER_GAP pNodeReporter   1.00280      
+6.425           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=19,YAW=1.5707963,TIME=1575875359,LENGTH=4 
+6.425           PNODEREPORTER_ITER_LEN pNodeReporter   0.00022      
+6.431           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00082      
+6.431           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00011      
+6.432           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=19,YAW=1.5707963,TIME=1575875359,LENGTH=4 
+6.432           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=19!@#node=alpha!@#iter=19!@#messages=Tiff File A:      !@Info File A:      !@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 20!@NodeReport Index: 18!@Draw Count:       54!@Draw Count Rate:  11.9854!@Curr Time:        1575875358.75!@Time Warp:        1.000!@Stale report thresh: 60!@Stale remove thresh: 180!@Elapsed:          0.00006!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#!@#events_total=0!@#!@#run_warning_total=21!@#run_warnings=21:Unhandled Mail: NODE_REPORT_LOCAL must have either x,y or lat,lon 
+6.477           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00407      
+6.477           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00012      
+6.489           DTHRUST_ITER_GAP     dThrust         1.00983      
+6.491           dThrust_THRUST_L     dThrust         -0.00000     
+6.491           dThrust_THRUST_R     dThrust         -0.00000     
+6.505           DTHRUST_ITER_LEN     dThrust         0.15833      
+6.505           APPCAST              dThrust         proc=dThrust!@#iter=45!@#node=alpha!@#iter=45!@#messages=   Magnetic offset:             0.0!@   Maximum rudder:          +/- 100.0!@   Maximum thrust:          +/- 100.0%!@   Command mode:                !@  STOP                     FULL        L          C          R!@     [|                    ]   0%      [          |          ]   0%!@         DESIRED_THRUST                     DESIRED_RUDDER!@!@!@Status:!@   --- IVPHELM ALLSTOP ENGAGED ---!@   Requested rudder, thrust:    0.0, 0.0!@   Commanded to motors L, R:    0.0, 0.0!@   Requested L, R:              -0.0, -0.0!@   DESIRED_THRUST_L count:      0!@   DESIRED_THRUST_R count:      0!@!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+6.569           PHELMIVP_ITER_GAP    pHelmIvP        1.00100      
+6.569           IVPHELM_CPU          pHelmIvP        0.00000      
+6.569           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+6.569           PHELMIVP_ITER_LEN    pHelmIvP        0.00013      
+6.569           APPCAST              pHelmIvP        proc=pHelmIvP!@#iter=23!@#node=alpha!@#iter=23!@#messages=!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!!                                             !!!@!!  The helm is in the MALCONFIG state due to  !!!@!!  unresolved configuration warnings.         !!!@!!                                             !!!@!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!@#config_warnings=Could not find File: alpha.bhv!@#events_total=0!@#!@#run_warning_total=0!@# 
+6.589           DTHRUST_ITER_GAP     dThrust         1.00245      
+6.591           dThrust_THRUST_L     dThrust         -0.00000     
+6.591           dThrust_THRUST_R     dThrust         -0.00000     
+6.604           DTHRUST_ITER_LEN     dThrust         0.14466      
+6.614           UMEMWATCH_ITER_GAP   uMemWatch       1.00257      
+6.614           UMEMWATCH_ITER_LEN   uMemWatch       0.00011      
+6.676           PNODEREPORTER_ITER_GAP pNodeReporter   1.00087      
+6.676           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=20,YAW=1.5707963,TIME=1575875359.25,LENGTH=4 
+6.676           PNODEREPORTER_ITER_LEN pNodeReporter   0.00023      
+6.676           APPCAST              pNodeReporter   proc=pNodeReporter!@#iter=21!@#node=alpha!@#iter=21!@#messages=Paused: false!@Vehicle Configuration:!@----------------------------!@     Vehicle name: alpha!@     Vehicle type: kayak!@   Vehicle length: 4.0!@!@Blackout Configuration:!@----------------------------!@Blackout interval: 0.00!@Blackout variance: 0.00!@!@AltNav Config and Status:!@----------------------------!@   ALT_NAV_PREFIX: GPSD_!@     ALT_NAV_NAME: _GT!@ ALT_NAV_POSTINGS: 0!@!@Node Report Summary:!@----------------------------!@Reports Posted: 21!@ Latest Report: NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,!@                ALLSTOP=n/a,INDEX=20,YAW=1.5707963,!@                TIME=1575875359.25,LENGTH=4!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+6.682           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00374      
+6.682           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00012      
+6.682           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=20,YAW=1.5707963,TIME=1575875359.25,LENGTH=4 
+6.690           DTHRUST_ITER_GAP     dThrust         1.00589      
+6.693           dThrust_THRUST_L     dThrust         -0.00000     
+6.693           dThrust_THRUST_R     dThrust         -0.00000     
+6.706           DTHRUST_ITER_LEN     dThrust         0.15999      
+6.727           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00105      
+6.727           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00008      
+6.790           DTHRUST_ITER_GAP     dThrust         1.00124      
+6.792           dThrust_THRUST_L     dThrust         -0.00000     
+6.792           dThrust_THRUST_R     dThrust         -0.00000     
+6.805           DTHRUST_ITER_LEN     dThrust         0.14843      
+6.819           PHELMIVP_ITER_GAP    pHelmIvP        1.00106      
+6.819           IVPHELM_CPU          pHelmIvP        0.00000      
+6.819           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+6.819           PHELMIVP_ITER_LEN    pHelmIvP        0.00012      
+6.864           UMEMWATCH_ITER_GAP   uMemWatch       1.00066      
+6.868           PMARINEVIEWER_MEM    uMemWatch       0.00000      
+6.868           UMEMWATCH_ITER_LEN   uMemWatch       0.01729      
+6.891           DTHRUST_ITER_GAP     dThrust         1.00994      
+6.893           dThrust_THRUST_L     dThrust         -0.00000     
+6.893           dThrust_THRUST_R     dThrust         -0.00000     
+6.907           DTHRUST_ITER_LEN     dThrust         0.15886      
+6.926           PNODEREPORTER_ITER_GAP pNodeReporter   1.00158      
+6.926           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=21,YAW=1.5707963,TIME=1575875359.5,LENGTH=4 
+6.926           PNODEREPORTER_ITER_LEN pNodeReporter   0.00022      
+6.932           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00085      
+6.932           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00018      
+6.932           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=21,YAW=1.5707963,TIME=1575875359.5,LENGTH=4 
+6.933           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=21!@#node=alpha!@#iter=21!@#messages=Tiff File A:      !@Info File A:      !@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 23!@NodeReport Index: 20!@Draw Count:       58!@Draw Count Rate:  11.5846!@Curr Time:        1575875359.51!@Time Warp:        1.000!@Stale report thresh: 60!@Stale remove thresh: 180!@Elapsed:          0.00007!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#!@#events_total=0!@#!@#run_warning_total=23!@#run_warnings=23:Unhandled Mail: NODE_REPORT_LOCAL must have either x,y or lat,lon 
+6.938           APPCAST_REQ          pMarineViewer   node=alpha,app=pHelmIvP,duration=3.0,key=pMarineViewer:alphaapp,thresh=any 
+6.938           APPCAST_REQ_ALPHA    pMarineViewer   node=alpha,app=pHelmIvP,duration=3.0,key=pMarineViewer:alphaapp,thresh=any 
+6.938           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alphagen,thresh=run_warning 
+6.938           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alphagen,thresh=run_warning 
+6.978           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00414      
+6.978           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00009      
+6.991           DTHRUST_ITER_GAP     dThrust         1.00510      
+6.993           dThrust_THRUST_L     dThrust         -0.00000     
+6.993           dThrust_THRUST_R     dThrust         -0.00000     
+7.007           DTHRUST_ITER_LEN     dThrust         0.15363      
+7.070           PHELMIVP_ITER_GAP    pHelmIvP        1.00146      
+7.070           IVPHELM_CPU          pHelmIvP        0.00000      
+7.070           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+7.070           PHELMIVP_ITER_LEN    pHelmIvP        0.00005      
+7.070           APPCAST              pHelmIvP        proc=pHelmIvP!@#iter=25!@#node=alpha!@#iter=25!@#messages=!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!!                                             !!!@!!  The helm is in the MALCONFIG state due to  !!!@!!  unresolved configuration warnings.         !!!@!!                                             !!!@!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!@#config_warnings=Could not find File: alpha.bhv!@#events_total=0!@#!@#run_warning_total=0!@# 
+7.092           DTHRUST_ITER_GAP     dThrust         1.00563      
+7.094           dThrust_THRUST_L     dThrust         -0.00000     
+7.094           dThrust_THRUST_R     dThrust         -0.00000     
+7.107           DTHRUST_ITER_LEN     dThrust         0.14816      
+7.115           UMEMWATCH_ITER_GAP   uMemWatch       1.00344      
+7.115           UMEMWATCH_ITER_LEN   uMemWatch       0.00020      
+7.176           PNODEREPORTER_ITER_GAP pNodeReporter   1.00166      
+7.177           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=22,YAW=1.5707963,TIME=1575875359.75,LENGTH=4 
+7.177           PNODEREPORTER_ITER_LEN pNodeReporter   0.00150      
+7.183           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00463      
+7.183           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00020      
+7.185           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=22,YAW=1.5707963,TIME=1575875359.75,LENGTH=4 
+7.193           DTHRUST_ITER_GAP     dThrust         1.00949      
+7.196           dThrust_THRUST_L     dThrust         -0.00000     
+7.196           dThrust_THRUST_R     dThrust         -0.00000     
+7.209           DTHRUST_ITER_LEN     dThrust         0.15919      
+7.228           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00074      
+7.228           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00006      
+7.294           DTHRUST_ITER_GAP     dThrust         1.01341      
+7.298           dThrust_THRUST_L     dThrust         -0.00000     
+7.298           dThrust_THRUST_R     dThrust         -0.00000     
+7.313           DTHRUST_ITER_LEN     dThrust         0.18623      
+7.320           PHELMIVP_ITER_GAP    pHelmIvP        1.00146      
+7.320           IVPHELM_CPU          pHelmIvP        0.00000      
+7.320           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+7.320           PHELMIVP_ITER_LEN    pHelmIvP        0.00020      
+7.365           UMEMWATCH_ITER_GAP   uMemWatch       1.00063      
+7.365           UMEMWATCH_ITER_LEN   uMemWatch       0.00012      
+7.394           DTHRUST_ITER_GAP     dThrust         1.00274      
+7.399           dThrust_THRUST_L     dThrust         -0.00000     
+7.399           dThrust_THRUST_R     dThrust         -0.00000     
+7.415           DTHRUST_ITER_LEN     dThrust         0.20466      
+7.427           PNODEREPORTER_ITER_GAP pNodeReporter   1.00186      
+7.427           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=23,YAW=1.5707963,TIME=1575875360,LENGTH=4 
+7.427           PNODEREPORTER_ITER_LEN pNodeReporter   0.00036      
+7.434           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00187      
+7.434           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00035      
+7.435           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=23!@#node=alpha!@#iter=23!@#messages=Tiff File A:      !@Info File A:      !@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 24!@NodeReport Index: 22!@Draw Count:       62!@Draw Count Rate:  11.2558!@Curr Time:        1575875359.76!@Time Warp:        1.000!@Stale report thresh: 60!@Stale remove thresh: 180!@Elapsed:          0.00011!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#!@#events_total=0!@#!@#run_warning_total=24!@#run_warnings=24:Unhandled Mail: NODE_REPORT_LOCAL must have either x,y or lat,lon 
+7.435           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=23,YAW=1.5707963,TIME=1575875360,LENGTH=4 
+7.479           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00419      
+7.479           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00002      
+7.495           DTHRUST_ITER_GAP     dThrust         1.00707      
+7.497           dThrust_THRUST_L     dThrust         -0.00000     
+7.497           dThrust_THRUST_R     dThrust         -0.00000     
+7.510           DTHRUST_ITER_LEN     dThrust         0.14538      
+7.570           PHELMIVP_ITER_GAP    pHelmIvP        1.00136      
+7.570           IVPHELM_CPU          pHelmIvP        0.79955      
+7.570           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+7.570           PHELMIVP_ITER_LEN    pHelmIvP        0.00018      
+7.570           APPCAST              pHelmIvP        proc=pHelmIvP!@#iter=27!@#node=alpha!@#iter=27!@#messages=!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!!                                             !!!@!!  The helm is in the MALCONFIG state due to  !!!@!!  unresolved configuration warnings.         !!!@!!                                             !!!@!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!@#config_warnings=Could not find File: alpha.bhv!@#events_total=0!@#!@#run_warning_total=0!@# 
+7.596           DTHRUST_ITER_GAP     dThrust         1.00771      
+7.602           dThrust_THRUST_L     dThrust         -0.00000     
+7.602           dThrust_THRUST_R     dThrust         -0.00000     
+7.615           UMEMWATCH_ITER_GAP   uMemWatch       1.00219      
+7.615           UMEMWATCH_ITER_LEN   uMemWatch       0.00019      
+7.618           DTHRUST_ITER_LEN     dThrust         0.21845      
+7.678           PNODEREPORTER_ITER_GAP pNodeReporter   1.00337      
+7.678           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=24,YAW=1.5707963,TIME=1575875360.25,LENGTH=4 
+7.678           PNODEREPORTER_ITER_LEN pNodeReporter   0.00073      
+7.679           DB_TIME              MOOSDB_alpha    1575875360.25263 
+7.679           DB_UPTIME            MOOSDB_alpha    8.08291      
+7.679           DB_CLIENTS           MOOSDB_alpha    dThrust,pMarineViewer,pNodeReporter,uProcessWatch,pHelmIvP,pMarinePID,pLogger,uMemWatch, 
+7.685           DB_QOS               MOOSDB_alpha    dThrust=0.869989:1.7271:0.185966:0.952244,pHelmIvP=0.756025:0.756025:0.138998:0.335646,pLogger=0.195026:1.08814:0.123024:0.381422,pMarinePID=0.145912:0.227928:0.119209:0.186777,pMarineViewer=0.651836:1.53613:0.148058:0.357723,pNodeReporter=2.37393:2.37393:0.194073:0.668621,uMemWatch=0.401974:0.574827:0.185966:0.244474,uProcessWatch=0.17786:1.17612:0.0920296:0.37365, 
+7.685           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00428      
+7.685           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00011      
+7.696           DTHRUST_ITER_GAP     dThrust         1.00525      
+7.699           dThrust_THRUST_L     dThrust         -0.00000     
+7.699           dThrust_THRUST_R     dThrust         -0.00000     
+7.712           DTHRUST_ITER_LEN     dThrust         0.15218      
+7.730           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00099      
+7.730           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00009      
+7.797           DTHRUST_ITER_GAP     dThrust         1.00746      
+7.802           dThrust_THRUST_L     dThrust         -0.00000     
+7.802           dThrust_THRUST_R     dThrust         -0.00000     
+7.819           DTHRUST_ITER_LEN     dThrust         0.21360      
+7.821           PHELMIVP_ITER_GAP    pHelmIvP        1.00165      
+7.821           IVPHELM_CPU          pHelmIvP        0.79955      
+7.821           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+7.821           PHELMIVP_ITER_LEN    pHelmIvP        0.00013      
+7.866           UMEMWATCH_ITER_GAP   uMemWatch       1.00288      
+7.875           PHELMIVP_MEM         uMemWatch       0.00000      
+7.875           UMEMWATCH_ITER_LEN   uMemWatch       0.03603      
+7.898           DTHRUST_ITER_GAP     dThrust         1.00600      
+7.901           dThrust_THRUST_L     dThrust         -0.00000     
+7.901           dThrust_THRUST_R     dThrust         -0.00000     
+7.914           DTHRUST_ITER_LEN     dThrust         0.15881      
+7.927           PNODEREPORTER_ITER_GAP pNodeReporter   0.99938      
+7.928           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=25,YAW=1.5707963,TIME=1575875360.5,LENGTH=4 
+7.928           PNODEREPORTER_ITER_LEN pNodeReporter   0.00042      
+7.935           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00112      
+7.935           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00005      
+7.935           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=24,YAW=1.5707963,TIME=1575875360.25,LENGTH=4 
+7.935           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=25!@#node=alpha!@#iter=25!@#messages=Tiff File A:      !@Info File A:      !@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 26!@NodeReport Index: 24!@Draw Count:       66!@Draw Count Rate:  10.9824!@Curr Time:        1575875360.51!@Time Warp:        1.000!@Stale report thresh: 60!@Stale remove thresh: 180!@Elapsed:          0.00006!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#!@#events_total=0!@#!@#run_warning_total=26!@#run_warnings=26:Unhandled Mail: NODE_REPORT_LOCAL must have either x,y or lat,lon 
+7.935           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=25,YAW=1.5707963,TIME=1575875360.5,LENGTH=4 
+7.938           APPCAST_REQ          pMarineViewer   node=alpha,app=pHelmIvP,duration=3.0,key=pMarineViewer:alphaapp,thresh=any 
+7.938           APPCAST_REQ_ALPHA    pMarineViewer   node=alpha,app=pHelmIvP,duration=3.0,key=pMarineViewer:alphaapp,thresh=any 
+7.938           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alphagen,thresh=run_warning 
+7.938           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alphagen,thresh=run_warning 
+7.981           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00380      
+7.981           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00036      
+7.999           DTHRUST_ITER_GAP     dThrust         1.01098      
+8.001           dThrust_THRUST_L     dThrust         -0.00000     
+8.001           dThrust_THRUST_R     dThrust         -0.00000     
+8.014           DTHRUST_ITER_LEN     dThrust         0.14827      
+8.071           PHELMIVP_ITER_GAP    pHelmIvP        1.00232      
+8.071           IVPHELM_CPU          pHelmIvP        0.00000      
+8.071           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+8.071           PHELMIVP_ITER_LEN    pHelmIvP        0.00040      
+8.071           APPCAST              pHelmIvP        proc=pHelmIvP!@#iter=29!@#node=alpha!@#iter=29!@#messages=!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!!                                             !!!@!!  The helm is in the MALCONFIG state due to  !!!@!!  unresolved configuration warnings.         !!!@!!                                             !!!@!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!@#config_warnings=Could not find File: alpha.bhv!@#events_total=0!@#!@#run_warning_total=0!@# 
+8.100           DTHRUST_ITER_GAP     dThrust         1.01424      
+8.106           dThrust_THRUST_L     dThrust         -0.00000     
+8.106           dThrust_THRUST_R     dThrust         -0.00000     
+8.117           UMEMWATCH_ITER_GAP   uMemWatch       1.00237      
+8.117           UMEMWATCH_ITER_LEN   uMemWatch       0.00026      
+8.120           DTHRUST_ITER_LEN     dThrust         0.19669      
+8.178           PNODEREPORTER_ITER_GAP pNodeReporter   1.00157      
+8.178           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=26,YAW=1.5707963,TIME=1575875360.75,LENGTH=4 
+8.178           PNODEREPORTER_ITER_LEN pNodeReporter   0.00062      
+8.186           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00339      
+8.186           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00040      
+8.187           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=26,YAW=1.5707963,TIME=1575875360.75,LENGTH=4 
+8.201           DTHRUST_ITER_GAP     dThrust         1.00720      
+8.203           dThrust_THRUST_L     dThrust         -0.00000     
+8.203           dThrust_THRUST_R     dThrust         -0.00000     
+8.216           DTHRUST_ITER_LEN     dThrust         0.14648      
+8.231           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00095      
+8.231           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00008      
+8.302           DTHRUST_ITER_GAP     dThrust         1.00880      
+8.306           dThrust_THRUST_L     dThrust         -0.00000     
+8.306           dThrust_THRUST_R     dThrust         -0.00000     
+8.320           DTHRUST_ITER_LEN     dThrust         0.17838      
+8.322           PHELMIVP_ITER_GAP    pHelmIvP        1.00229      
+8.322           IVPHELM_CPU          pHelmIvP        0.00000      
+8.322           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+8.322           PHELMIVP_ITER_LEN    pHelmIvP        0.00017      
+8.367           UMEMWATCH_ITER_GAP   uMemWatch       1.00092      
+8.367           UMEMWATCH_ITER_LEN   uMemWatch       0.00010      
+8.403           DTHRUST_ITER_GAP     dThrust         1.00977      
+8.405           dThrust_THRUST_L     dThrust         -0.00000     
+8.405           dThrust_THRUST_R     dThrust         -0.00000     
+8.418           DTHRUST_ITER_LEN     dThrust         0.14798      
+8.428           PNODEREPORTER_ITER_GAP pNodeReporter   1.00161      
+8.428           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=27,YAW=1.5707963,TIME=1575875361,LENGTH=4 
+8.428           PNODEREPORTER_ITER_LEN pNodeReporter   0.00024      
+8.436           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00098      
+8.436           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00012      
+8.436           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=27!@#node=alpha!@#iter=27!@#messages=Tiff File A:      !@Info File A:      !@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 28!@NodeReport Index: 26!@Draw Count:       70!@Draw Count Rate:  10.7515!@Curr Time:        1575875360.76!@Time Warp:        1.000!@Stale report thresh: 60!@Stale remove thresh: 180!@Elapsed:          0.00023!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#!@#events_total=0!@#!@#run_warning_total=28!@#run_warnings=28:Unhandled Mail: NODE_REPORT_LOCAL must have either x,y or lat,lon 
+8.437           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=27,YAW=1.5707963,TIME=1575875361,LENGTH=4 
+8.482           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00325      
+8.482           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00012      
+8.504           DTHRUST_ITER_GAP     dThrust         1.01071      
+8.506           dThrust_THRUST_L     dThrust         -0.00000     
+8.506           dThrust_THRUST_R     dThrust         -0.00000     
+8.519           DTHRUST_ITER_LEN     dThrust         0.14714      
+8.572           PHELMIVP_ITER_GAP    pHelmIvP        1.00106      
+8.572           IVPHELM_CPU          pHelmIvP        0.79957      
+8.572           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+8.572           PHELMIVP_ITER_LEN    pHelmIvP        0.00011      
+8.572           APPCAST              pHelmIvP        proc=pHelmIvP!@#iter=31!@#node=alpha!@#iter=31!@#messages=!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!!                                             !!!@!!  The helm is in the MALCONFIG state due to  !!!@!!  unresolved configuration warnings.         !!!@!!                                             !!!@!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!@#config_warnings=Could not find File: alpha.bhv!@#events_total=0!@#!@#run_warning_total=0!@# 
+8.605           DTHRUST_ITER_GAP     dThrust         1.01084      
+8.610           dThrust_THRUST_L     dThrust         -0.00000     
+8.610           dThrust_THRUST_R     dThrust         -0.00000     
+8.617           UMEMWATCH_ITER_GAP   uMemWatch       1.00192      
+8.618           UMEMWATCH_ITER_LEN   uMemWatch       0.00038      
+8.624           DTHRUST_ITER_LEN     dThrust         0.18623      
+8.678           PNODEREPORTER_ITER_GAP pNodeReporter   1.00086      
+8.679           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=28,YAW=1.5707963,TIME=1575875361.25,LENGTH=4 
+8.679           PNODEREPORTER_ITER_LEN pNodeReporter   0.00019      
+8.687           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00205      
+8.687           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00017      
+8.690           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=28,YAW=1.5707963,TIME=1575875361.25,LENGTH=4 
+8.706           DTHRUST_ITER_GAP     dThrust         1.00735      
+8.708           dThrust_THRUST_L     dThrust         -0.00000     
+8.708           dThrust_THRUST_R     dThrust         -0.00000     
+8.721           DTHRUST_ITER_LEN     dThrust         0.14915      
+8.732           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00099      
+8.732           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00011      
+8.807           DTHRUST_ITER_GAP     dThrust         1.01051      
+8.809           dThrust_THRUST_L     dThrust         -0.00000     
+8.809           dThrust_THRUST_R     dThrust         -0.00000     
+8.822           PHELMIVP_ITER_GAP    pHelmIvP        1.00103      
+8.822           IVPHELM_CPU          pHelmIvP        0.79957      
+8.822           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+8.822           PHELMIVP_ITER_LEN    pHelmIvP        0.00014      
+8.823           DTHRUST_ITER_LEN     dThrust         0.15860      
+8.868           UMEMWATCH_ITER_GAP   uMemWatch       1.00180      
+8.875           PMARINEVIEWER_MEM    uMemWatch       0.00000      
+8.875           UMEMWATCH_ITER_LEN   uMemWatch       0.02694      
+8.908           DTHRUST_ITER_GAP     dThrust         1.01070      
+8.910           dThrust_THRUST_L     dThrust         -0.00000     
+8.910           dThrust_THRUST_R     dThrust         -0.00000     
+8.923           DTHRUST_ITER_LEN     dThrust         0.14753      
+8.929           PNODEREPORTER_ITER_GAP pNodeReporter   1.00123      
+8.929           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=29,YAW=1.5707963,TIME=1575875361.5,LENGTH=4 
+8.929           PNODEREPORTER_ITER_LEN pNodeReporter   0.00030      
+8.937           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00082      
+8.937           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00036      
+8.937           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=29,YAW=1.5707963,TIME=1575875361.5,LENGTH=4 
+8.938           APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=29!@#node=alpha!@#iter=29!@#messages=Tiff File A:      !@Info File A:      !@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 31!@NodeReport Index: 28!@Draw Count:       74!@Draw Count Rate:  10.5542!@Curr Time:        1575875361.51!@Time Warp:        1.000!@Stale report thresh: 60!@Stale remove thresh: 180!@Elapsed:          0.00010!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#!@#events_total=0!@#!@#run_warning_total=31!@#run_warnings=31:Unhandled Mail: NODE_REPORT_LOCAL must have either x,y or lat,lon 
+8.950           APPCAST_REQ          pMarineViewer   node=alpha,app=pHelmIvP,duration=3.0,key=pMarineViewer:alphaapp,thresh=any 
+8.950           APPCAST_REQ_ALPHA    pMarineViewer   node=alpha,app=pHelmIvP,duration=3.0,key=pMarineViewer:alphaapp,thresh=any 
+8.950           APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alphagen,thresh=run_warning 
+8.950           APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alphagen,thresh=run_warning 
+8.983           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00298      
+8.983           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00016      
+9.009           DTHRUST_ITER_GAP     dThrust         1.00806      
+9.011           dThrust_THRUST_L     dThrust         -0.00000     
+9.011           dThrust_THRUST_R     dThrust         -0.00000     
+9.024           DTHRUST_ITER_LEN     dThrust         0.15001      
+9.073           PHELMIVP_ITER_GAP    pHelmIvP        1.00130      
+9.073           IVPHELM_CPU          pHelmIvP        0.00000      
+9.073           IVPHELM_STATE        pHelmIvP        MALCONFIG 
+9.073           PHELMIVP_ITER_LEN    pHelmIvP        0.00005      
+9.073           APPCAST              pHelmIvP        proc=pHelmIvP!@#iter=33!@#node=alpha!@#iter=33!@#messages=!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!!                                             !!!@!!  The helm is in the MALCONFIG state due to  !!!@!!  unresolved configuration warnings.         !!!@!!                                             !!!@!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!@!@#config_warnings=Could not find File: alpha.bhv!@#events_total=0!@#!@#run_warning_total=0!@# 
+9.109           DTHRUST_ITER_GAP     dThrust         1.00128      
+9.111           dThrust_THRUST_L     dThrust         -0.00000     
+9.111           dThrust_THRUST_R     dThrust         -0.00000     
+9.118           UMEMWATCH_ITER_GAP   uMemWatch       1.00105      
+9.118           UMEMWATCH_ITER_LEN   uMemWatch       0.00007      
+9.124           DTHRUST_ITER_LEN     dThrust         0.14843      
+9.179           PNODEREPORTER_ITER_GAP pNodeReporter   1.00086      
+9.179           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=30,YAW=1.5707963,TIME=1575875361.75,LENGTH=4 
+9.179           PNODEREPORTER_ITER_LEN pNodeReporter   0.00019      
+9.187           PMARINEVIEWER_ITER_GAP pMarineViewer   1.00201      
+9.187           PMARINEVIEWER_ITER_LEN pMarineViewer   0.00010      
+9.188           MVIEWER_UNHANDLED_MAIL pMarineViewer   NODE_REPORT_LOCAL=NAME=alpha,TYPE=kayak,COLOR=yellow,MODE=MALCONFIG,ALLSTOP=n/a,INDEX=30,YAW=1.5707963,TIME=1575875361.75,LENGTH=4 

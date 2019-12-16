@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/badgerboat/moos/moos-ivp/lib/libSimpleSerial.a  CMakeFiles/SimpleSerial.dir/SerialComms.cpp.o
+/usr/bin/ranlib /home/badgerboat/moos/moos-ivp/lib/libSimpleSerial.a

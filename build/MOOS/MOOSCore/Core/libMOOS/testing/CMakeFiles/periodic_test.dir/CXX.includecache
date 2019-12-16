@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/badgerboat/moos/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSUtilityFunctions.h
+stdint.h
+-
+cmath
+-
+string
+-
+list
+-
+vector
+-
+sstream
+-
+algorithm
+-
+
+/home/badgerboat/moos/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/PeriodicEvent.h
+
+/home/badgerboat/moos/moos-ivp/MOOS/MOOSCore/Core/libMOOS/testing/PeriodicEventTest.cpp
+MOOS/libMOOS/Utils/PeriodicEvent.h
+/home/badgerboat/moos/moos-ivp/MOOS/MOOSCore/Core/libMOOS/testing/MOOS/libMOOS/Utils/PeriodicEvent.h
+MOOS/libMOOS/Utils/MOOSUtilityFunctions.h
+/home/badgerboat/moos/moos-ivp/MOOS/MOOSCore/Core/libMOOS/testing/MOOS/libMOOS/Utils/MOOSUtilityFunctions.h
+iostream
+-
+iomanip
+-
+cmath
+-
+

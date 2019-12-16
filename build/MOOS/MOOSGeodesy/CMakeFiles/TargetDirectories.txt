@@ -1,0 +1,13 @@
+/home/badgerboat/moos/moos-ivp/build/MOOS/MOOSGeodesy/CMakeFiles/install/strip.dir
+/home/badgerboat/moos/moos-ivp/build/MOOS/MOOSGeodesy/CMakeFiles/install.dir
+/home/badgerboat/moos/moos-ivp/build/MOOS/MOOSGeodesy/CMakeFiles/install/local.dir
+/home/badgerboat/moos/moos-ivp/build/MOOS/MOOSGeodesy/CMakeFiles/list_install_components.dir
+/home/badgerboat/moos/moos-ivp/build/MOOS/MOOSGeodesy/CMakeFiles/edit_cache.dir
+/home/badgerboat/moos/moos-ivp/build/MOOS/MOOSGeodesy/CMakeFiles/rebuild_cache.dir
+/home/badgerboat/moos/moos-ivp/build/MOOS/MOOSGeodesy/libMOOSGeodesy/CMakeFiles/install/strip.dir
+/home/badgerboat/moos/moos-ivp/build/MOOS/MOOSGeodesy/libMOOSGeodesy/CMakeFiles/edit_cache.dir
+/home/badgerboat/moos/moos-ivp/build/MOOS/MOOSGeodesy/libMOOSGeodesy/CMakeFiles/MOOSGeodesy.dir
+/home/badgerboat/moos/moos-ivp/build/MOOS/MOOSGeodesy/libMOOSGeodesy/CMakeFiles/list_install_components.dir
+/home/badgerboat/moos/moos-ivp/build/MOOS/MOOSGeodesy/libMOOSGeodesy/CMakeFiles/install/local.dir
+/home/badgerboat/moos/moos-ivp/build/MOOS/MOOSGeodesy/libMOOSGeodesy/CMakeFiles/rebuild_cache.dir
+/home/badgerboat/moos/moos-ivp/build/MOOS/MOOSGeodesy/libMOOSGeodesy/CMakeFiles/install.dir

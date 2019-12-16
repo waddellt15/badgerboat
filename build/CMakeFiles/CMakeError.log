@@ -1,0 +1,36 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/badgerboat/moos/moos-ivp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c2423/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c2423.dir/build.make CMakeFiles/cmTC_c2423.dir/build
+make[1]: Entering directory '/home/badgerboat/moos/moos-ivp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2423.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c2423.dir/CheckSymbolExists.c.o   -c /home/badgerboat/moos/moos-ivp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c2423
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2423.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c2423.dir/CheckSymbolExists.c.o  -o cmTC_c2423 
+CMakeFiles/cmTC_c2423.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c2423.dir/build.make:97: recipe for target 'cmTC_c2423' failed
+make[1]: *** [cmTC_c2423] Error 1
+make[1]: Leaving directory '/home/badgerboat/moos/moos-ivp/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c2423/fast' failed
+make: *** [cmTC_c2423/fast] Error 2
+
+File /home/badgerboat/moos/moos-ivp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

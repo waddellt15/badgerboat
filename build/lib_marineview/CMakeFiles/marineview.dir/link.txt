@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/badgerboat/moos/moos-ivp/lib/libmarineview.a  CMakeFiles/marineview.dir/BackImg.cpp.o CMakeFiles/marineview.dir/MarineGUI.cpp.o CMakeFiles/marineview.dir/MarineVehiGUI.cpp.o CMakeFiles/marineview.dir/MarineViewer.cpp.o CMakeFiles/marineview.dir/OpAreaSpec.cpp.o CMakeFiles/marineview.dir/LMV_Utils.cpp.o CMakeFiles/marineview.dir/VehicleSet.cpp.o
+/usr/bin/ranlib /home/badgerboat/moos/moos-ivp/lib/libmarineview.a
