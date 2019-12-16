@@ -1,7 +1,7 @@
 /***************************************************************/
-/*  NAME: Alon Yaari                                           */
-/*  ORGN: Dept of Mechanical Eng / CSAIL, MIT Cambridge MA     */
-/*  FILE: M200.cpp                                             */
+/*  NAME: Taylor Waddell                                       */
+/*  ORGN: UW-Madison                                           */
+/*  FILE: dThrust.cpp                                          */
 /*  DATE: Dec 2014                                             */
 /***************************************************************/
 
