@@ -1,0 +1,9 @@
+active: true
+derived: false
+level: 1.3
+links: []
+normative: true
+ref: ''
+reviewed: 2cee5eac9ee7365a2e691a4041ab590d
+text: |
+  pGPSd **shall** subscribe to the JSON stream from gpsd.

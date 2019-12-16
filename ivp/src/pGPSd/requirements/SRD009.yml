@@ -1,0 +1,9 @@
+active: true
+derived: false
+level: 1.2.2
+links: []
+normative: true
+ref: ''
+reviewed: e511e8e28672103f7b3587798bb09ea6
+text: |
+  ```port``` **shall** default to the value specified by the ```DEFAULT_GPSD_PORT``` macro.

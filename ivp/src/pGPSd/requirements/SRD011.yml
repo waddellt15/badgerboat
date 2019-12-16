@@ -1,0 +1,9 @@
+active: true
+derived: false
+level: 1.5.1
+links: []
+normative: true
+ref: ''
+reviewed: fbd8b97534cabf52cff277c3f389ebe4
+text: |
+  ```GPSD_mode``` **shall** be a DOUBLE containing the value of ```gps_fix_t.mode```, which is the the GPS fix mode
