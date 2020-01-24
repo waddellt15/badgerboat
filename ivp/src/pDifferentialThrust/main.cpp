@@ -1,7 +1,7 @@
 /***************************************************************/
 /*  NAME: Alon Yaari                                           */
 /*  ORGN: Dept of Mechanical Eng / CSAIL, MIT Cambridge MA     */
-/*  FILE: main.cpp  (for iM200)                                */
+/*  FILE: main.cpp                                             */
 /*  DATE: Dec 2014                                             */
 /***************************************************************/
 
