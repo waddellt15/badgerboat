@@ -10,6 +10,7 @@
 /usr/local/bin/uMemWatch
 /usr/local/bin/uFldContactRangeSensor
 /usr/local/bin/uMACView
+/usr/local/bin/pObstacleConverter
 /usr/local/bin/alogtest
 /usr/local/bin/uFldCTDSensor
 /usr/local/bin/pLogger

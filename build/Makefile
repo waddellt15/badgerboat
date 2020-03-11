@@ -1037,6 +1037,19 @@ pGPSd/fast:
 .PHONY : pGPSd/fast
 
 #=============================================================================
+# Target rules for targets named pObstacleConverter
+
+# Build rule for target.
+pObstacleConverter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pObstacleConverter
+.PHONY : pObstacleConverter
+
+# fast build rule for target.
+pObstacleConverter/fast:
+	$(MAKE) -f pObstacleConverter/CMakeFiles/pObstacleConverter.dir/build.make pObstacleConverter/CMakeFiles/pObstacleConverter.dir/build
+.PHONY : pObstacleConverter/fast
+
+#=============================================================================
 # Target rules for targets named alogsplit
 
 # Build rule for target.
@@ -1636,6 +1649,7 @@ help:
 	@echo "... iSay"
 	@echo "... dThrust"
 	@echo "... pGPSd"
+	@echo "... pObstacleConverter"
 	@echo "... alogsplit"
 	@echo "... alogsort"
 	@echo "... alogcheck"

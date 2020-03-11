@@ -2,7 +2,7 @@
 #-------------------------------------------------------
 #  Part 1: Check for and handle command-line arguments
 #-------------------------------------------------------
-TIME_WARP=1
+TIME_WARP=20
 JUST_MAKE="no"
 HAZARD_FILE="hazards.txt"
 for ARGI; do

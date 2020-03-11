@@ -255,7 +255,7 @@ lib_bhvutil/preinstall:
 lib_bhvutil/CMakeFiles/bhvutil.dir/all:
 	$(MAKE) -f lib_bhvutil/CMakeFiles/bhvutil.dir/build.make lib_bhvutil/CMakeFiles/bhvutil.dir/depend
 	$(MAKE) -f lib_bhvutil/CMakeFiles/bhvutil.dir/build.make lib_bhvutil/CMakeFiles/bhvutil.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=23,24 "Built target bhvutil"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=23 "Built target bhvutil"
 .PHONY : lib_bhvutil/CMakeFiles/bhvutil.dir/all
 
 # Include target in all.
@@ -265,7 +265,7 @@ all: lib_bhvutil/CMakeFiles/bhvutil.dir/all
 
 # Build rule for subdir invocation for target.
 lib_bhvutil/CMakeFiles/bhvutil.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 lib_bhvutil/CMakeFiles/bhvutil.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : lib_bhvutil/CMakeFiles/bhvutil.dir/rule
@@ -310,7 +310,7 @@ lib_genutil/preinstall:
 lib_genutil/CMakeFiles/genutil.dir/all:
 	$(MAKE) -f lib_genutil/CMakeFiles/genutil.dir/build.make lib_genutil/CMakeFiles/genutil.dir/depend
 	$(MAKE) -f lib_genutil/CMakeFiles/genutil.dir/build.make lib_genutil/CMakeFiles/genutil.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num= "Built target genutil"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=29 "Built target genutil"
 .PHONY : lib_genutil/CMakeFiles/genutil.dir/all
 
 # Include target in all.
@@ -320,7 +320,7 @@ all: lib_genutil/CMakeFiles/genutil.dir/all
 
 # Build rule for subdir invocation for target.
 lib_genutil/CMakeFiles/genutil.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 lib_genutil/CMakeFiles/genutil.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : lib_genutil/CMakeFiles/genutil.dir/rule
@@ -695,7 +695,7 @@ lib_encounters/preinstall:
 lib_encounters/CMakeFiles/encounters.dir/all:
 	$(MAKE) -f lib_encounters/CMakeFiles/encounters.dir/build.make lib_encounters/CMakeFiles/encounters.dir/depend
 	$(MAKE) -f lib_encounters/CMakeFiles/encounters.dir/build.make lib_encounters/CMakeFiles/encounters.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=27 "Built target encounters"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num= "Built target encounters"
 .PHONY : lib_encounters/CMakeFiles/encounters.dir/all
 
 # Include target in all.
@@ -705,7 +705,7 @@ all: lib_encounters/CMakeFiles/encounters.dir/all
 
 # Build rule for subdir invocation for target.
 lib_encounters/CMakeFiles/encounters.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 lib_encounters/CMakeFiles/encounters.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : lib_encounters/CMakeFiles/encounters.dir/rule
@@ -805,7 +805,7 @@ lib_contacts/preinstall:
 lib_contacts/CMakeFiles/contacts.dir/all:
 	$(MAKE) -f lib_contacts/CMakeFiles/contacts.dir/build.make lib_contacts/CMakeFiles/contacts.dir/depend
 	$(MAKE) -f lib_contacts/CMakeFiles/contacts.dir/build.make lib_contacts/CMakeFiles/contacts.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=26 "Built target contacts"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num= "Built target contacts"
 .PHONY : lib_contacts/CMakeFiles/contacts.dir/all
 
 # Include target in all.
@@ -815,7 +815,7 @@ all: lib_contacts/CMakeFiles/contacts.dir/all
 
 # Build rule for subdir invocation for target.
 lib_contacts/CMakeFiles/contacts.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 lib_contacts/CMakeFiles/contacts.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : lib_contacts/CMakeFiles/contacts.dir/rule
@@ -1080,7 +1080,7 @@ lib_manifest/preinstall:
 lib_manifest/CMakeFiles/manifest.dir/all:
 	$(MAKE) -f lib_manifest/CMakeFiles/manifest.dir/build.make lib_manifest/CMakeFiles/manifest.dir/depend
 	$(MAKE) -f lib_manifest/CMakeFiles/manifest.dir/build.make lib_manifest/CMakeFiles/manifest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=56 "Built target manifest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num= "Built target manifest"
 .PHONY : lib_manifest/CMakeFiles/manifest.dir/all
 
 # Include target in all.
@@ -1090,7 +1090,7 @@ all: lib_manifest/CMakeFiles/manifest.dir/all
 
 # Build rule for subdir invocation for target.
 lib_manifest/CMakeFiles/manifest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 lib_manifest/CMakeFiles/manifest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : lib_manifest/CMakeFiles/manifest.dir/rule
@@ -1355,7 +1355,7 @@ lib_clearpath/preinstall:
 lib_clearpath/CMakeFiles/clearpath.dir/all:
 	$(MAKE) -f lib_clearpath/CMakeFiles/clearpath.dir/build.make lib_clearpath/CMakeFiles/clearpath.dir/depend
 	$(MAKE) -f lib_clearpath/CMakeFiles/clearpath.dir/build.make lib_clearpath/CMakeFiles/clearpath.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=25 "Built target clearpath"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=24,25 "Built target clearpath"
 .PHONY : lib_clearpath/CMakeFiles/clearpath.dir/all
 
 # Include target in all.
@@ -1365,7 +1365,7 @@ all: lib_clearpath/CMakeFiles/clearpath.dir/all
 
 # Build rule for subdir invocation for target.
 lib_clearpath/CMakeFiles/clearpath.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 lib_clearpath/CMakeFiles/clearpath.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : lib_clearpath/CMakeFiles/clearpath.dir/rule
@@ -1410,7 +1410,7 @@ lib_ipfview/preinstall:
 lib_ipfview/CMakeFiles/ipfview.dir/all:
 	$(MAKE) -f lib_ipfview/CMakeFiles/ipfview.dir/build.make lib_ipfview/CMakeFiles/ipfview.dir/depend
 	$(MAKE) -f lib_ipfview/CMakeFiles/ipfview.dir/build.make lib_ipfview/CMakeFiles/ipfview.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=44 "Built target ipfview"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=43,44 "Built target ipfview"
 .PHONY : lib_ipfview/CMakeFiles/ipfview.dir/all
 
 # Include target in all.
@@ -1420,7 +1420,7 @@ all: lib_ipfview/CMakeFiles/ipfview.dir/all
 
 # Build rule for subdir invocation for target.
 lib_ipfview/CMakeFiles/ipfview.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 lib_ipfview/CMakeFiles/ipfview.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : lib_ipfview/CMakeFiles/ipfview.dir/rule
@@ -1687,7 +1687,7 @@ app_alogscan/CMakeFiles/alogscan.dir/all: lib_logutils/CMakeFiles/logutils.dir/a
 app_alogscan/CMakeFiles/alogscan.dir/all: lib_mbutil/CMakeFiles/mbutil.dir/all
 	$(MAKE) -f app_alogscan/CMakeFiles/alogscan.dir/build.make app_alogscan/CMakeFiles/alogscan.dir/depend
 	$(MAKE) -f app_alogscan/CMakeFiles/alogscan.dir/build.make app_alogscan/CMakeFiles/alogscan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=11 "Built target alogscan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num= "Built target alogscan"
 .PHONY : app_alogscan/CMakeFiles/alogscan.dir/all
 
 # Include target in all.
@@ -1697,7 +1697,7 @@ all: app_alogscan/CMakeFiles/alogscan.dir/all
 
 # Build rule for subdir invocation for target.
 app_alogscan/CMakeFiles/alogscan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 app_alogscan/CMakeFiles/alogscan.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : app_alogscan/CMakeFiles/alogscan.dir/rule
@@ -1866,7 +1866,7 @@ all: app_alogeplot/CMakeFiles/alogeplot.dir/all
 
 # Build rule for subdir invocation for target.
 app_alogeplot/CMakeFiles/alogeplot.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 app_alogeplot/CMakeFiles/alogeplot.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : app_alogeplot/CMakeFiles/alogeplot.dir/rule
@@ -2195,7 +2195,7 @@ app_nsplug/preinstall:
 app_nsplug/CMakeFiles/nsplug.dir/all: lib_mbutil/CMakeFiles/mbutil.dir/all
 	$(MAKE) -f app_nsplug/CMakeFiles/nsplug.dir/build.make app_nsplug/CMakeFiles/nsplug.dir/depend
 	$(MAKE) -f app_nsplug/CMakeFiles/nsplug.dir/build.make app_nsplug/CMakeFiles/nsplug.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=60 "Built target nsplug"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num= "Built target nsplug"
 .PHONY : app_nsplug/CMakeFiles/nsplug.dir/all
 
 # Include target in all.
@@ -2205,7 +2205,7 @@ all: app_nsplug/CMakeFiles/nsplug.dir/all
 
 # Build rule for subdir invocation for target.
 app_nsplug/CMakeFiles/nsplug.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 app_nsplug/CMakeFiles/nsplug.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : app_nsplug/CMakeFiles/nsplug.dir/rule
@@ -2308,7 +2308,7 @@ app_manifest_test/CMakeFiles/manifest_test.dir/all: lib_mbutil/CMakeFiles/mbutil
 app_manifest_test/CMakeFiles/manifest_test.dir/all: lib_manifest/CMakeFiles/manifest.dir/all
 	$(MAKE) -f app_manifest_test/CMakeFiles/manifest_test.dir/build.make app_manifest_test/CMakeFiles/manifest_test.dir/depend
 	$(MAKE) -f app_manifest_test/CMakeFiles/manifest_test.dir/build.make app_manifest_test/CMakeFiles/manifest_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num= "Built target manifest_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=56 "Built target manifest_test"
 .PHONY : app_manifest_test/CMakeFiles/manifest_test.dir/all
 
 # Include target in all.
@@ -2435,7 +2435,7 @@ all: pEvalLoiter/CMakeFiles/pEvalLoiter.dir/all
 
 # Build rule for subdir invocation for target.
 pEvalLoiter/CMakeFiles/pEvalLoiter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 pEvalLoiter/CMakeFiles/pEvalLoiter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : pEvalLoiter/CMakeFiles/pEvalLoiter.dir/rule
@@ -2494,7 +2494,7 @@ pHelmIvP/CMakeFiles/pHelmIvP.dir/all: lib_ufield/CMakeFiles/ufield.dir/all
 pHelmIvP/CMakeFiles/pHelmIvP.dir/all: lib_mbutil/CMakeFiles/mbutil.dir/all
 	$(MAKE) -f pHelmIvP/CMakeFiles/pHelmIvP.dir/build.make pHelmIvP/CMakeFiles/pHelmIvP.dir/depend
 	$(MAKE) -f pHelmIvP/CMakeFiles/pHelmIvP.dir/build.make pHelmIvP/CMakeFiles/pHelmIvP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num= "Built target pHelmIvP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=65 "Built target pHelmIvP"
 .PHONY : pHelmIvP/CMakeFiles/pHelmIvP.dir/all
 
 # Include target in all.
@@ -2608,7 +2608,7 @@ pBasicContactMgr/CMakeFiles/pBasicContactMgr.dir/all: lib_contacts/CMakeFiles/co
 pBasicContactMgr/CMakeFiles/pBasicContactMgr.dir/all: lib_mbutil/CMakeFiles/mbutil.dir/all
 	$(MAKE) -f pBasicContactMgr/CMakeFiles/pBasicContactMgr.dir/build.make pBasicContactMgr/CMakeFiles/pBasicContactMgr.dir/depend
 	$(MAKE) -f pBasicContactMgr/CMakeFiles/pBasicContactMgr.dir/build.make pBasicContactMgr/CMakeFiles/pBasicContactMgr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=61 "Built target pBasicContactMgr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=60 "Built target pBasicContactMgr"
 .PHONY : pBasicContactMgr/CMakeFiles/pBasicContactMgr.dir/all
 
 # Include target in all.
@@ -2618,7 +2618,7 @@ all: pBasicContactMgr/CMakeFiles/pBasicContactMgr.dir/all
 
 # Build rule for subdir invocation for target.
 pBasicContactMgr/CMakeFiles/pBasicContactMgr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 pBasicContactMgr/CMakeFiles/pBasicContactMgr.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : pBasicContactMgr/CMakeFiles/pBasicContactMgr.dir/rule
@@ -2664,7 +2664,7 @@ pDeadManPost/CMakeFiles/pDeadManPost.dir/all: lib_apputil/CMakeFiles/apputil.dir
 pDeadManPost/CMakeFiles/pDeadManPost.dir/all: lib_mbutil/CMakeFiles/mbutil.dir/all
 	$(MAKE) -f pDeadManPost/CMakeFiles/pDeadManPost.dir/build.make pDeadManPost/CMakeFiles/pDeadManPost.dir/depend
 	$(MAKE) -f pDeadManPost/CMakeFiles/pDeadManPost.dir/build.make pDeadManPost/CMakeFiles/pDeadManPost.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num= "Built target pDeadManPost"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=61 "Built target pDeadManPost"
 .PHONY : pDeadManPost/CMakeFiles/pDeadManPost.dir/all
 
 # Include target in all.
@@ -2674,7 +2674,7 @@ all: pDeadManPost/CMakeFiles/pDeadManPost.dir/all
 
 # Build rule for subdir invocation for target.
 pDeadManPost/CMakeFiles/pDeadManPost.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 pDeadManPost/CMakeFiles/pDeadManPost.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : pDeadManPost/CMakeFiles/pDeadManPost.dir/rule
@@ -2722,7 +2722,7 @@ pNodeReporter/CMakeFiles/pNodeReporter.dir/all: lib_contacts/CMakeFiles/contacts
 pNodeReporter/CMakeFiles/pNodeReporter.dir/all: lib_mbutil/CMakeFiles/mbutil.dir/all
 	$(MAKE) -f pNodeReporter/CMakeFiles/pNodeReporter.dir/build.make pNodeReporter/CMakeFiles/pNodeReporter.dir/depend
 	$(MAKE) -f pNodeReporter/CMakeFiles/pNodeReporter.dir/build.make pNodeReporter/CMakeFiles/pNodeReporter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num= "Built target pNodeReporter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=68 "Built target pNodeReporter"
 .PHONY : pNodeReporter/CMakeFiles/pNodeReporter.dir/all
 
 # Include target in all.
@@ -2779,7 +2779,7 @@ pObstacleMgr/CMakeFiles/pObstacleMgr.dir/all: lib_apputil/CMakeFiles/apputil.dir
 pObstacleMgr/CMakeFiles/pObstacleMgr.dir/all: lib_mbutil/CMakeFiles/mbutil.dir/all
 	$(MAKE) -f pObstacleMgr/CMakeFiles/pObstacleMgr.dir/build.make pObstacleMgr/CMakeFiles/pObstacleMgr.dir/depend
 	$(MAKE) -f pObstacleMgr/CMakeFiles/pObstacleMgr.dir/build.make pObstacleMgr/CMakeFiles/pObstacleMgr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=69 "Built target pObstacleMgr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num= "Built target pObstacleMgr"
 .PHONY : pObstacleMgr/CMakeFiles/pObstacleMgr.dir/all
 
 # Include target in all.
@@ -2789,7 +2789,7 @@ all: pObstacleMgr/CMakeFiles/pObstacleMgr.dir/all
 
 # Build rule for subdir invocation for target.
 pObstacleMgr/CMakeFiles/pObstacleMgr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 pObstacleMgr/CMakeFiles/pObstacleMgr.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : pObstacleMgr/CMakeFiles/pObstacleMgr.dir/rule
@@ -3020,7 +3020,7 @@ all: uHelmScope/CMakeFiles/uHelmScope.dir/all
 
 # Build rule for subdir invocation for target.
 uHelmScope/CMakeFiles/uHelmScope.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 uHelmScope/CMakeFiles/uHelmScope.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : uHelmScope/CMakeFiles/uHelmScope.dir/rule
@@ -3124,7 +3124,7 @@ uProcessWatch/CMakeFiles/uProcessWatch.dir/all: lib_apputil/CMakeFiles/apputil.d
 uProcessWatch/CMakeFiles/uProcessWatch.dir/all: lib_mbutil/CMakeFiles/mbutil.dir/all
 	$(MAKE) -f uProcessWatch/CMakeFiles/uProcessWatch.dir/build.make uProcessWatch/CMakeFiles/uProcessWatch.dir/depend
 	$(MAKE) -f uProcessWatch/CMakeFiles/uProcessWatch.dir/build.make uProcessWatch/CMakeFiles/uProcessWatch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num= "Built target uProcessWatch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=89 "Built target uProcessWatch"
 .PHONY : uProcessWatch/CMakeFiles/uProcessWatch.dir/all
 
 # Include target in all.
@@ -3134,7 +3134,7 @@ all: uProcessWatch/CMakeFiles/uProcessWatch.dir/all
 
 # Build rule for subdir invocation for target.
 uProcessWatch/CMakeFiles/uProcessWatch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 uProcessWatch/CMakeFiles/uProcessWatch.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : uProcessWatch/CMakeFiles/uProcessWatch.dir/rule
@@ -3302,7 +3302,7 @@ all: uTermCommand/CMakeFiles/uTermCommand.dir/all
 
 # Build rule for subdir invocation for target.
 uTermCommand/CMakeFiles/uTermCommand.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 uTermCommand/CMakeFiles/uTermCommand.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : uTermCommand/CMakeFiles/uTermCommand.dir/rule
@@ -3359,7 +3359,7 @@ all: uXMS/CMakeFiles/uXMS.dir/all
 
 # Build rule for subdir invocation for target.
 uXMS/CMakeFiles/uXMS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 uXMS/CMakeFiles/uXMS.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : uXMS/CMakeFiles/uXMS.dir/rule
@@ -3416,7 +3416,7 @@ all: uMAC/CMakeFiles/uMAC.dir/all
 
 # Build rule for subdir invocation for target.
 uMAC/CMakeFiles/uMAC.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 uMAC/CMakeFiles/uMAC.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : uMAC/CMakeFiles/uMAC.dir/rule
@@ -3517,7 +3517,7 @@ uQueryDB/CMakeFiles/uQueryDB.dir/all: lib_logic/CMakeFiles/logic.dir/all
 uQueryDB/CMakeFiles/uQueryDB.dir/all: lib_mbutil/CMakeFiles/mbutil.dir/all
 	$(MAKE) -f uQueryDB/CMakeFiles/uQueryDB.dir/build.make uQueryDB/CMakeFiles/uQueryDB.dir/depend
 	$(MAKE) -f uQueryDB/CMakeFiles/uQueryDB.dir/build.make uQueryDB/CMakeFiles/uQueryDB.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=89 "Built target uQueryDB"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num= "Built target uQueryDB"
 .PHONY : uQueryDB/CMakeFiles/uQueryDB.dir/all
 
 # Include target in all.
@@ -3527,7 +3527,7 @@ all: uQueryDB/CMakeFiles/uQueryDB.dir/all
 
 # Build rule for subdir invocation for target.
 uQueryDB/CMakeFiles/uQueryDB.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 uQueryDB/CMakeFiles/uQueryDB.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : uQueryDB/CMakeFiles/uQueryDB.dir/rule
@@ -3631,7 +3631,7 @@ iSay/CMakeFiles/iSay.dir/all: lib_apputil/CMakeFiles/apputil.dir/all
 iSay/CMakeFiles/iSay.dir/all: lib_mbutil/CMakeFiles/mbutil.dir/all
 	$(MAKE) -f iSay/CMakeFiles/iSay.dir/build.make iSay/CMakeFiles/iSay.dir/depend
 	$(MAKE) -f iSay/CMakeFiles/iSay.dir/build.make iSay/CMakeFiles/iSay.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=42,43 "Built target iSay"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=42 "Built target iSay"
 .PHONY : iSay/CMakeFiles/iSay.dir/all
 
 # Include target in all.
@@ -3687,7 +3687,7 @@ pDifferentialThrust/CMakeFiles/dThrust.dir/all: lib_geometry/CMakeFiles/geometry
 pDifferentialThrust/CMakeFiles/dThrust.dir/all: lib_mbutil/CMakeFiles/mbutil.dir/all
 	$(MAKE) -f pDifferentialThrust/CMakeFiles/dThrust.dir/build.make pDifferentialThrust/CMakeFiles/dThrust.dir/depend
 	$(MAKE) -f pDifferentialThrust/CMakeFiles/dThrust.dir/build.make pDifferentialThrust/CMakeFiles/dThrust.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num= "Built target dThrust"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=26 "Built target dThrust"
 .PHONY : pDifferentialThrust/CMakeFiles/dThrust.dir/all
 
 # Include target in all.
@@ -3697,7 +3697,7 @@ all: pDifferentialThrust/CMakeFiles/dThrust.dir/all
 
 # Build rule for subdir invocation for target.
 pDifferentialThrust/CMakeFiles/dThrust.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 pDifferentialThrust/CMakeFiles/dThrust.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : pDifferentialThrust/CMakeFiles/dThrust.dir/rule
@@ -3743,7 +3743,7 @@ pGPSd/CMakeFiles/pGPSd.dir/all: lib_apputil/CMakeFiles/apputil.dir/all
 pGPSd/CMakeFiles/pGPSd.dir/all: lib_mbutil/CMakeFiles/mbutil.dir/all
 	$(MAKE) -f pGPSd/CMakeFiles/pGPSd.dir/build.make pGPSd/CMakeFiles/pGPSd.dir/depend
 	$(MAKE) -f pGPSd/CMakeFiles/pGPSd.dir/build.make pGPSd/CMakeFiles/pGPSd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num= "Built target pGPSd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=64 "Built target pGPSd"
 .PHONY : pGPSd/CMakeFiles/pGPSd.dir/all
 
 # Include target in all.
@@ -3753,7 +3753,7 @@ all: pGPSd/CMakeFiles/pGPSd.dir/all
 
 # Build rule for subdir invocation for target.
 pGPSd/CMakeFiles/pGPSd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 pGPSd/CMakeFiles/pGPSd.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : pGPSd/CMakeFiles/pGPSd.dir/rule
@@ -3770,6 +3770,62 @@ pGPSd/CMakeFiles/pGPSd.dir/clean:
 
 # clean rule for target.
 clean: pGPSd/CMakeFiles/pGPSd.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory pObstacleConverter
+
+# Convenience name for "all" pass in the directory.
+pObstacleConverter/all: pObstacleConverter/CMakeFiles/pObstacleConverter.dir/all
+
+.PHONY : pObstacleConverter/all
+
+# Convenience name for "clean" pass in the directory.
+pObstacleConverter/clean: pObstacleConverter/CMakeFiles/pObstacleConverter.dir/clean
+
+.PHONY : pObstacleConverter/clean
+
+# Convenience name for "preinstall" pass in the directory.
+pObstacleConverter/preinstall:
+
+.PHONY : pObstacleConverter/preinstall
+
+#=============================================================================
+# Target rules for target pObstacleConverter/CMakeFiles/pObstacleConverter.dir
+
+# All Build rule for target.
+pObstacleConverter/CMakeFiles/pObstacleConverter.dir/all: lib_apputil/CMakeFiles/apputil.dir/all
+pObstacleConverter/CMakeFiles/pObstacleConverter.dir/all: lib_mbutil/CMakeFiles/mbutil.dir/all
+	$(MAKE) -f pObstacleConverter/CMakeFiles/pObstacleConverter.dir/build.make pObstacleConverter/CMakeFiles/pObstacleConverter.dir/depend
+	$(MAKE) -f pObstacleConverter/CMakeFiles/pObstacleConverter.dir/build.make pObstacleConverter/CMakeFiles/pObstacleConverter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=69 "Built target pObstacleConverter"
+.PHONY : pObstacleConverter/CMakeFiles/pObstacleConverter.dir/all
+
+# Include target in all.
+all: pObstacleConverter/CMakeFiles/pObstacleConverter.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+pObstacleConverter/CMakeFiles/pObstacleConverter.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 pObstacleConverter/CMakeFiles/pObstacleConverter.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
+.PHONY : pObstacleConverter/CMakeFiles/pObstacleConverter.dir/rule
+
+# Convenience name for target.
+pObstacleConverter: pObstacleConverter/CMakeFiles/pObstacleConverter.dir/rule
+
+.PHONY : pObstacleConverter
+
+# clean rule for target.
+pObstacleConverter/CMakeFiles/pObstacleConverter.dir/clean:
+	$(MAKE) -f pObstacleConverter/CMakeFiles/pObstacleConverter.dir/build.make pObstacleConverter/CMakeFiles/pObstacleConverter.dir/clean
+.PHONY : pObstacleConverter/CMakeFiles/pObstacleConverter.dir/clean
+
+# clean rule for target.
+clean: pObstacleConverter/CMakeFiles/pObstacleConverter.dir/clean
 
 .PHONY : clean
 
@@ -3855,7 +3911,7 @@ app_alogsort/CMakeFiles/alogsort.dir/all: lib_logutils/CMakeFiles/logutils.dir/a
 app_alogsort/CMakeFiles/alogsort.dir/all: lib_mbutil/CMakeFiles/mbutil.dir/all
 	$(MAKE) -f app_alogsort/CMakeFiles/alogsort.dir/build.make app_alogsort/CMakeFiles/alogsort.dir/depend
 	$(MAKE) -f app_alogsort/CMakeFiles/alogsort.dir/build.make app_alogsort/CMakeFiles/alogsort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num= "Built target alogsort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=11 "Built target alogsort"
 .PHONY : app_alogsort/CMakeFiles/alogsort.dir/all
 
 # Include target in all.
@@ -3865,7 +3921,7 @@ all: app_alogsort/CMakeFiles/alogsort.dir/all
 
 # Build rule for subdir invocation for target.
 app_alogsort/CMakeFiles/alogsort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 app_alogsort/CMakeFiles/alogsort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : app_alogsort/CMakeFiles/alogsort.dir/rule
@@ -4082,7 +4138,7 @@ app_gen_obstacles/CMakeFiles/gen_obstacles.dir/all: lib_geometry/CMakeFiles/geom
 app_gen_obstacles/CMakeFiles/gen_obstacles.dir/all: lib_mbutil/CMakeFiles/mbutil.dir/all
 	$(MAKE) -f app_gen_obstacles/CMakeFiles/gen_obstacles.dir/build.make app_gen_obstacles/CMakeFiles/gen_obstacles.dir/depend
 	$(MAKE) -f app_gen_obstacles/CMakeFiles/gen_obstacles.dir/build.make app_gen_obstacles/CMakeFiles/gen_obstacles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=29 "Built target gen_obstacles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num= "Built target gen_obstacles"
 .PHONY : app_gen_obstacles/CMakeFiles/gen_obstacles.dir/all
 
 # Include target in all.
@@ -4092,7 +4148,7 @@ all: app_gen_obstacles/CMakeFiles/gen_obstacles.dir/all
 
 # Build rule for subdir invocation for target.
 app_gen_obstacles/CMakeFiles/gen_obstacles.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 app_gen_obstacles/CMakeFiles/gen_obstacles.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : app_gen_obstacles/CMakeFiles/gen_obstacles.dir/rule
@@ -4161,7 +4217,7 @@ all: app_bhv2graphviz/CMakeFiles/bhv2graphviz.dir/all
 
 # Build rule for subdir invocation for target.
 app_bhv2graphviz/CMakeFiles/bhv2graphviz.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 app_bhv2graphviz/CMakeFiles/bhv2graphviz.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : app_bhv2graphviz/CMakeFiles/bhv2graphviz.dir/rule
@@ -4277,7 +4333,7 @@ all: uFldCollisionDetect/CMakeFiles/uFldCollisionDetect.dir/all
 
 # Build rule for subdir invocation for target.
 uFldCollisionDetect/CMakeFiles/uFldCollisionDetect.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 uFldCollisionDetect/CMakeFiles/uFldCollisionDetect.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : uFldCollisionDetect/CMakeFiles/uFldCollisionDetect.dir/rule
@@ -4392,7 +4448,7 @@ all: uFldPathCheck/CMakeFiles/uFldPathCheck.dir/all
 
 # Build rule for subdir invocation for target.
 uFldPathCheck/CMakeFiles/uFldPathCheck.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 uFldPathCheck/CMakeFiles/uFldPathCheck.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : uFldPathCheck/CMakeFiles/uFldPathCheck.dir/rule
@@ -4439,7 +4495,7 @@ uFldShoreBroker/CMakeFiles/uFldShoreBroker.dir/all: lib_ufield/CMakeFiles/ufield
 uFldShoreBroker/CMakeFiles/uFldShoreBroker.dir/all: lib_mbutil/CMakeFiles/mbutil.dir/all
 	$(MAKE) -f uFldShoreBroker/CMakeFiles/uFldShoreBroker.dir/build.make uFldShoreBroker/CMakeFiles/uFldShoreBroker.dir/depend
 	$(MAKE) -f uFldShoreBroker/CMakeFiles/uFldShoreBroker.dir/build.make uFldShoreBroker/CMakeFiles/uFldShoreBroker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num= "Built target uFldShoreBroker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=82 "Built target uFldShoreBroker"
 .PHONY : uFldShoreBroker/CMakeFiles/uFldShoreBroker.dir/all
 
 # Include target in all.
@@ -4449,7 +4505,7 @@ all: uFldShoreBroker/CMakeFiles/uFldShoreBroker.dir/all
 
 # Build rule for subdir invocation for target.
 uFldShoreBroker/CMakeFiles/uFldShoreBroker.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 uFldShoreBroker/CMakeFiles/uFldShoreBroker.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : uFldShoreBroker/CMakeFiles/uFldShoreBroker.dir/rule
@@ -4564,7 +4620,7 @@ all: uFldNodeComms/CMakeFiles/uFldNodeComms.dir/all
 
 # Build rule for subdir invocation for target.
 uFldNodeComms/CMakeFiles/uFldNodeComms.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 uFldNodeComms/CMakeFiles/uFldNodeComms.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : uFldNodeComms/CMakeFiles/uFldNodeComms.dir/rule
@@ -4622,7 +4678,7 @@ all: uFldBeaconRangeSensor/CMakeFiles/uFldBeaconRangeSensor.dir/all
 
 # Build rule for subdir invocation for target.
 uFldBeaconRangeSensor/CMakeFiles/uFldBeaconRangeSensor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 uFldBeaconRangeSensor/CMakeFiles/uFldBeaconRangeSensor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : uFldBeaconRangeSensor/CMakeFiles/uFldBeaconRangeSensor.dir/rule
@@ -4680,7 +4736,7 @@ all: uFldContactRangeSensor/CMakeFiles/uFldContactRangeSensor.dir/all
 
 # Build rule for subdir invocation for target.
 uFldContactRangeSensor/CMakeFiles/uFldContactRangeSensor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 uFldContactRangeSensor/CMakeFiles/uFldContactRangeSensor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : uFldContactRangeSensor/CMakeFiles/uFldContactRangeSensor.dir/rule
@@ -4796,7 +4852,7 @@ all: uFldHazardSensor/CMakeFiles/uFldHazardSensor.dir/all
 
 # Build rule for subdir invocation for target.
 uFldHazardSensor/CMakeFiles/uFldHazardSensor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 uFldHazardSensor/CMakeFiles/uFldHazardSensor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : uFldHazardSensor/CMakeFiles/uFldHazardSensor.dir/rule
@@ -4970,7 +5026,7 @@ all: uFldGenericSensor/CMakeFiles/uFldGenericSensor.dir/all
 
 # Build rule for subdir invocation for target.
 uFldGenericSensor/CMakeFiles/uFldGenericSensor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 uFldGenericSensor/CMakeFiles/uFldGenericSensor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : uFldGenericSensor/CMakeFiles/uFldGenericSensor.dir/rule
@@ -5019,7 +5075,7 @@ uFldWrapDetect/CMakeFiles/uFldWrapDetect.dir/all: lib_ufield/CMakeFiles/ufield.d
 uFldWrapDetect/CMakeFiles/uFldWrapDetect.dir/all: lib_mbutil/CMakeFiles/mbutil.dir/all
 	$(MAKE) -f uFldWrapDetect/CMakeFiles/uFldWrapDetect.dir/build.make uFldWrapDetect/CMakeFiles/uFldWrapDetect.dir/depend
 	$(MAKE) -f uFldWrapDetect/CMakeFiles/uFldWrapDetect.dir/build.make uFldWrapDetect/CMakeFiles/uFldWrapDetect.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=82 "Built target uFldWrapDetect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num= "Built target uFldWrapDetect"
 .PHONY : uFldWrapDetect/CMakeFiles/uFldWrapDetect.dir/all
 
 # Include target in all.
@@ -5029,7 +5085,7 @@ all: uFldWrapDetect/CMakeFiles/uFldWrapDetect.dir/all
 
 # Build rule for subdir invocation for target.
 uFldWrapDetect/CMakeFiles/uFldWrapDetect.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 uFldWrapDetect/CMakeFiles/uFldWrapDetect.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : uFldWrapDetect/CMakeFiles/uFldWrapDetect.dir/rule
@@ -5087,7 +5143,7 @@ all: pSearchGrid/CMakeFiles/pSearchGrid.dir/all
 
 # Build rule for subdir invocation for target.
 pSearchGrid/CMakeFiles/pSearchGrid.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 pSearchGrid/CMakeFiles/pSearchGrid.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : pSearchGrid/CMakeFiles/pSearchGrid.dir/rule
@@ -5145,7 +5201,7 @@ all: uSimMarine/CMakeFiles/uSimMarine.dir/all
 
 # Build rule for subdir invocation for target.
 uSimMarine/CMakeFiles/uSimMarine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 uSimMarine/CMakeFiles/uSimMarine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : uSimMarine/CMakeFiles/uSimMarine.dir/rule
@@ -5192,7 +5248,7 @@ pFrontGridRender/CMakeFiles/pFrontGridRender.dir/all: lib_mbutil/CMakeFiles/mbut
 pFrontGridRender/CMakeFiles/pFrontGridRender.dir/all: lib_henrik_anneal/CMakeFiles/henrik_anneal.dir/all
 	$(MAKE) -f pFrontGridRender/CMakeFiles/pFrontGridRender.dir/build.make pFrontGridRender/CMakeFiles/pFrontGridRender.dir/depend
 	$(MAKE) -f pFrontGridRender/CMakeFiles/pFrontGridRender.dir/build.make pFrontGridRender/CMakeFiles/pFrontGridRender.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=64 "Built target pFrontGridRender"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num= "Built target pFrontGridRender"
 .PHONY : pFrontGridRender/CMakeFiles/pFrontGridRender.dir/all
 
 # Include target in all.
@@ -5202,7 +5258,7 @@ all: pFrontGridRender/CMakeFiles/pFrontGridRender.dir/all
 
 # Build rule for subdir invocation for target.
 pFrontGridRender/CMakeFiles/pFrontGridRender.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 pFrontGridRender/CMakeFiles/pFrontGridRender.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : pFrontGridRender/CMakeFiles/pFrontGridRender.dir/rule
@@ -5247,7 +5303,7 @@ pGradeFrontEstimate/preinstall:
 pGradeFrontEstimate/CMakeFiles/pGradeFrontEstimate.dir/all: lib_mbutil/CMakeFiles/mbutil.dir/all
 	$(MAKE) -f pGradeFrontEstimate/CMakeFiles/pGradeFrontEstimate.dir/build.make pGradeFrontEstimate/CMakeFiles/pGradeFrontEstimate.dir/depend
 	$(MAKE) -f pGradeFrontEstimate/CMakeFiles/pGradeFrontEstimate.dir/build.make pGradeFrontEstimate/CMakeFiles/pGradeFrontEstimate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=65 "Built target pGradeFrontEstimate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num= "Built target pGradeFrontEstimate"
 .PHONY : pGradeFrontEstimate/CMakeFiles/pGradeFrontEstimate.dir/all
 
 # Include target in all.
@@ -5257,7 +5313,7 @@ all: pGradeFrontEstimate/CMakeFiles/pGradeFrontEstimate.dir/all
 
 # Build rule for subdir invocation for target.
 pGradeFrontEstimate/CMakeFiles/pGradeFrontEstimate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 pGradeFrontEstimate/CMakeFiles/pGradeFrontEstimate.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : pGradeFrontEstimate/CMakeFiles/pGradeFrontEstimate.dir/rule
@@ -5315,7 +5371,7 @@ all: uFldCTDSensor/CMakeFiles/uFldCTDSensor.dir/all
 
 # Build rule for subdir invocation for target.
 uFldCTDSensor/CMakeFiles/uFldCTDSensor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 uFldCTDSensor/CMakeFiles/uFldCTDSensor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : uFldCTDSensor/CMakeFiles/uFldCTDSensor.dir/rule
@@ -5366,7 +5422,7 @@ app_ffview/CMakeFiles/ffview.dir/all: lib_mbutil/CMakeFiles/mbutil.dir/all
 app_ffview/CMakeFiles/ffview.dir/all: lib_ipfview/CMakeFiles/ipfview.dir/all
 	$(MAKE) -f app_ffview/CMakeFiles/ffview.dir/build.make app_ffview/CMakeFiles/ffview.dir/depend
 	$(MAKE) -f app_ffview/CMakeFiles/ffview.dir/build.make app_ffview/CMakeFiles/ffview.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num= "Built target ffview"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=27 "Built target ffview"
 .PHONY : app_ffview/CMakeFiles/ffview.dir/all
 
 # Include target in all.
@@ -5376,7 +5432,7 @@ all: app_ffview/CMakeFiles/ffview.dir/all
 
 # Build rule for subdir invocation for target.
 app_ffview/CMakeFiles/ffview.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 22
 	$(MAKE) -f CMakeFiles/Makefile2 app_ffview/CMakeFiles/ffview.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : app_ffview/CMakeFiles/ffview.dir/rule
@@ -5434,7 +5490,7 @@ all: app_geoview/CMakeFiles/geoview.dir/all
 
 # Build rule for subdir invocation for target.
 app_geoview/CMakeFiles/geoview.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 app_geoview/CMakeFiles/geoview.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : app_geoview/CMakeFiles/geoview.dir/rule
@@ -5499,7 +5555,7 @@ all: app_alogview/CMakeFiles/alogview.dir/all
 
 # Build rule for subdir invocation for target.
 app_alogview/CMakeFiles/alogview.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 27
 	$(MAKE) -f CMakeFiles/Makefile2 app_alogview/CMakeFiles/alogview.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : app_alogview/CMakeFiles/alogview.dir/rule
@@ -5842,7 +5898,7 @@ pMarineViewer/CMakeFiles/pMarineViewer.dir/all: lib_marineview/CMakeFiles/marine
 pMarineViewer/CMakeFiles/pMarineViewer.dir/all: lib_ucommand/CMakeFiles/ucommand.dir/all
 	$(MAKE) -f pMarineViewer/CMakeFiles/pMarineViewer.dir/build.make pMarineViewer/CMakeFiles/pMarineViewer.dir/depend
 	$(MAKE) -f pMarineViewer/CMakeFiles/pMarineViewer.dir/build.make pMarineViewer/CMakeFiles/pMarineViewer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num=68 "Built target pMarineViewer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/badgerboat/moos/moos-ivp/build/CMakeFiles --progress-num= "Built target pMarineViewer"
 .PHONY : pMarineViewer/CMakeFiles/pMarineViewer.dir/all
 
 # Include target in all.
@@ -5852,7 +5908,7 @@ all: pMarineViewer/CMakeFiles/pMarineViewer.dir/all
 
 # Build rule for subdir invocation for target.
 pMarineViewer/CMakeFiles/pMarineViewer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 pMarineViewer/CMakeFiles/pMarineViewer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : pMarineViewer/CMakeFiles/pMarineViewer.dir/rule
@@ -5912,7 +5968,7 @@ all: uFunctionVis/CMakeFiles/uFunctionVis.dir/all
 
 # Build rule for subdir invocation for target.
 uFunctionVis/CMakeFiles/uFunctionVis.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 21
 	$(MAKE) -f CMakeFiles/Makefile2 uFunctionVis/CMakeFiles/uFunctionVis.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : uFunctionVis/CMakeFiles/uFunctionVis.dir/rule
@@ -5970,7 +6026,7 @@ all: uMACView/CMakeFiles/uMACView.dir/all
 
 # Build rule for subdir invocation for target.
 uMACView/CMakeFiles/uMACView.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 uMACView/CMakeFiles/uMACView.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : uMACView/CMakeFiles/uMACView.dir/rule
@@ -6026,7 +6082,7 @@ all: uPlotViewer/CMakeFiles/uPlotViewer.dir/all
 
 # Build rule for subdir invocation for target.
 uPlotViewer/CMakeFiles/uPlotViewer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 uPlotViewer/CMakeFiles/uPlotViewer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : uPlotViewer/CMakeFiles/uPlotViewer.dir/rule
@@ -6084,7 +6140,7 @@ all: uCommand/CMakeFiles/uCommand.dir/all
 
 # Build rule for subdir invocation for target.
 uCommand/CMakeFiles/uCommand.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 uCommand/CMakeFiles/uCommand.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/badgerboat/moos/moos-ivp/build/CMakeFiles 0
 .PHONY : uCommand/CMakeFiles/uCommand.dir/rule

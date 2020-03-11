@@ -9,8 +9,14 @@ Community    = alpha
 MOOSTimeWarp = 1
 
 // Wendt
-LatOrigin  = 43.079422
-LongOrigin = -89.41928
+LatOrigin  = 43.071545
+LongOrigin = -89.408355
+
+// Wendt
+dLatOrigin  = 43.071545
+dLongOrigin = -89.408355
+
+
 
 // MIT Sailing Pavilion (use this one)
 // LatOrigin  = 42.358456 
@@ -21,6 +27,8 @@ LongOrigin = -89.41928
 ProcessConfig = ANTLER
 {
   MSBetweenLaunches = 200
+
+
 
   Run = MOOSDB          @ NewConsole = false
   Run = pGPSd           @ NewConsole = false
@@ -95,6 +103,8 @@ ProcessConfig = uProcessWatch
 	nowatch   = uPokeDB*
 	nowatch   = uXMS*
 }
+//------------------------------------------
+// pGPSd
 ProcessConfig = pGPSd
 {
    AppTick   = 4
@@ -179,6 +189,7 @@ ProcessConfig = pMarineViewer
   CommsTick  = 4
 
 
+
   set_pan_x            = -90
   set_pan_y            = -280
   zoom                 = 0.65
@@ -237,6 +248,7 @@ ProcessConfig = pMarineViewer
   action+ = MENU_KEY=deploy # MOOS_MANUAL_OVERRIDE=false
   action  = RETURN=true
   action  = UPDATES_RETURN=speed=2.5
+ //tiff_file = wendt.tif
 }
 
 //------------------------------------------

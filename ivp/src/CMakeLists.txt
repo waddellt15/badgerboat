@@ -253,6 +253,7 @@ SET(ROBOT_APPS
   iSay
   pDifferentialThrust
   pGPSd
+  pObstacleConverter
   )
 
 #---------------------------------------------------------------------
