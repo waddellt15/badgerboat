@@ -251,9 +251,6 @@ SET(ROBOT_APPS
   uQueryDB
   pHostInfo
   iSay
-  pDifferentialThrust
-  pGPSd
-  pObstacleConverter
   )
 
 #---------------------------------------------------------------------

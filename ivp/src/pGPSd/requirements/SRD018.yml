@@ -1,9 +1,0 @@
-active: true
-derived: false
-level: 1.6.2
-links: []
-normative: true
-ref: ''
-reviewed: 5ad77cc88f0334afe8e91e21218cc7cb
-text: |
-  pGPSd **shall** calculate magnetic declination on the first valid GPS fix received after startup.

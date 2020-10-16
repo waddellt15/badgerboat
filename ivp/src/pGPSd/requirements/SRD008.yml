@@ -1,9 +1,0 @@
-active: true
-derived: false
-level: 1.2.1
-links: []
-normative: true
-ref: ''
-reviewed: 680e79a138973857c820c476c878ebf3
-text: |
-  ```host``` **shall** default to ```localhost```

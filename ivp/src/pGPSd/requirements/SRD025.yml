@@ -1,9 +1,0 @@
-active: true
-derived: false
-level: 1.8
-links: []
-normative: true
-ref: ''
-reviewed: 1ae290ce401ea289d88171c125f8f498
-text: |
-  The appcast **shall** consist of all DOUBLE variables described above.

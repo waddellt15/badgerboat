@@ -1,9 +1,0 @@
-active: true
-derived: false
-level: 1.5.5
-links: []
-normative: true
-ref: ''
-reviewed: f73e5cb7e981d5e498fc8a36e7da8feb
-text: |
-  ```GPSD_speed``` **shall** be a DOUBLE containing the value of ```gps_fix_t.speed```, which is the forward speed in meters per second.

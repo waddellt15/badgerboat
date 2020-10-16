@@ -1,9 +1,0 @@
-active: true
-derived: false
-level: 1.7.2
-links: []
-normative: true
-ref: ''
-reviewed: 15b826c545e398fba4f5a9ac0a2ac3c3
-text: |
-  If loading of the magnetic model fails, pGPSd **shall** log an error and exit.

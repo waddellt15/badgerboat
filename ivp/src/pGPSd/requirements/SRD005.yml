@@ -1,9 +1,0 @@
-active: true
-derived: false
-level: 1.5.0
-links: []
-normative: true
-ref: ''
-reviewed: 25b581d42d34f439cf770e5516dd2d26
-text: |
-  pGPSd **shall** publish the following data derived from the given members of ```gps_fix_t``` on each tick:

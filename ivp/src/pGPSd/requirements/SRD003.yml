@@ -1,9 +1,0 @@
-active: true
-derived: false
-level: 1.2.0
-links: []
-normative: true
-ref: ''
-reviewed: 1f2baf53be9f8eb140fdded92efa406a
-text: |
-  pGPSd **shall** connect to a gpsd instance specified by the configuration parameters ```host``` and ```port```.

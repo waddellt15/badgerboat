@@ -1,9 +1,0 @@
-active: true
-derived: false
-level: 1.4
-links: []
-normative: true
-ref: ''
-reviewed: b9e22eceadace9fd27f795b849fc89e5
-text: |
-  Each tick, pGPSd **shall** publish the contents of the JSON buffer to the MOOS community STRING variable GPSD_json.

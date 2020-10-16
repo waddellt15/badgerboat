@@ -17,14 +17,15 @@ ProcessConfig = ANTLER
 {
   MSBetweenLaunches = 200
 
-  Run = MOOSDB          @ NewConsole = false
-  Run = pLogger         @ NewConsole = false
-  Run = uSimMarine      @ NewConsole = false
-  Run = pNodeReporter   @ NewConsole = false
-  Run = pMarinePID      @ NewConsole = false
-  Run = pMarineViewer   @ NewConsole = false
-  Run = uSimCurrent     @ NewConsole = false
-  Run = pHelmIvP        @ NewConsole = false
+  Run = MOOSDB          	@ NewConsole = false
+  Run = pLogger         	@ NewConsole = false
+  Run = uSimMarine      	@ NewConsole = false
+  Run = pNodeReporter   	@ NewConsole = false
+  Run = pMarinePID      	@ NewConsole = false
+  Run = pMarineViewer   	@ NewConsole = false
+  Run = uSimCurrent     	@ NewConsole = false
+  Run = pHelmIvP        	@ NewConsole = false
+  Run = pObstacleMgr		@ NewConsole = false
 }
 
 //------------------------------------------
@@ -177,4 +178,13 @@ ProcessConfig = pNodeReporter
 
   platform_type   = kayak
   platform_length = 3
+}
+
+//------------------------------------------
+// pObstacleMgr config block
+
+ProcessConfig = pObstacleMgr
+{
+  AppTick 	= 10
+  CommsTick 	= 10 
 }

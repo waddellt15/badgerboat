@@ -1,9 +1,0 @@
-active: true
-derived: false
-level: 1.5.6
-links: []
-normative: true
-ref: ''
-reviewed: 9ee20944f67564bbda539e7af10a0ab1
-text: |
-  ```GPSD_track``` **shall** be a DOUBLE containing the value of ```gps_fix_t.track```, which is the true course in degrees clockwise from north

@@ -1,9 +1,0 @@
-active: true
-derived: false
-level: 1.7.1
-links: []
-normative: true
-ref: ''
-reviewed: a8484d4369f0e268825400aa00f40a13
-text: |
-  The default magnetic model **shall** be emm2015.

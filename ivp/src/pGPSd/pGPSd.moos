@@ -1,9 +1,0 @@
-//------------------------------------------------
-// pGPSd config block
-
-ProcessConfig = pGPSd
-{
-   AppTick   = 4
-   CommsTick = 1
-}
-

@@ -600,15 +600,6 @@
 /home/badgerboat/moos/moos-ivp/build/pGPSd/CMakeFiles/edit_cache.dir
 /home/badgerboat/moos/moos-ivp/build/pGPSd/CMakeFiles/rebuild_cache.dir
 /home/badgerboat/moos/moos-ivp/build/pGPSd/CMakeFiles/list_install_components.dir
-/home/badgerboat/moos/moos-ivp/build/pObstacleConverter/CMakeFiles/install/strip.dir
-/home/badgerboat/moos/moos-ivp/build/pObstacleConverter/CMakeFiles/install/local.dir
-/home/badgerboat/moos/moos-ivp/build/pObstacleConverter/CMakeFiles/install.dir
-/home/badgerboat/moos/moos-ivp/build/pObstacleConverter/CMakeFiles/package_source.dir
-/home/badgerboat/moos/moos-ivp/build/pObstacleConverter/CMakeFiles/package.dir
-/home/badgerboat/moos/moos-ivp/build/pObstacleConverter/CMakeFiles/pObstacleConverter.dir
-/home/badgerboat/moos/moos-ivp/build/pObstacleConverter/CMakeFiles/edit_cache.dir
-/home/badgerboat/moos/moos-ivp/build/pObstacleConverter/CMakeFiles/rebuild_cache.dir
-/home/badgerboat/moos/moos-ivp/build/pObstacleConverter/CMakeFiles/list_install_components.dir
 /home/badgerboat/moos/moos-ivp/build/app_alogsplit/CMakeFiles/install/strip.dir
 /home/badgerboat/moos/moos-ivp/build/app_alogsplit/CMakeFiles/install/local.dir
 /home/badgerboat/moos/moos-ivp/build/app_alogsplit/CMakeFiles/install.dir

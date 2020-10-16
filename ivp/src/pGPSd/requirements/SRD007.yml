@@ -1,9 +1,0 @@
-active: true
-derived: false
-level: 1.7.0
-links: []
-normative: true
-ref: ''
-reviewed: 1f9deb1853cf570926ce2d4ab91ec5e0
-text: |
-  pGPSd **shall** calculate magnetic declination using the magnetic model specified in the ```magnetic_model``` configuration parameter. This **shall** only be loaded at startup.
