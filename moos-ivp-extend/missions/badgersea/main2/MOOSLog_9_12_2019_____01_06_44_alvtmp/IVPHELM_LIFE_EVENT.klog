@@ -1,0 +1,5 @@
+7.071           IVPHELM_LIFE_EVENT   pHelmIvP        time=6.01, iter=1, bname=waypt_survey, btype=BHV_Waypoint, event=spawn, seed=helm_startup 
+7.071           IVPHELM_LIFE_EVENT   pHelmIvP        time=6.01, iter=1, bname=waypt_return, btype=BHV_Waypoint, event=spawn, seed=helm_startup 
+7.071           IVPHELM_LIFE_EVENT   pHelmIvP        time=6.01, iter=1, bname=const_speed, btype=BHV_ConstantSpeed, event=spawn, seed=helm_startup 
+7.071           IVPHELM_LIFE_EVENT   pHelmIvP        time=6.01, iter=1, bname=const_speed, btype=BHV_ConstantSpeed, event=spawn, seed=helm_startup 
+7.071           IVPHELM_LIFE_EVENT   pHelmIvP        time=6.01, iter=1, bname=const_speed, btype=BHV_ConstantSpeed, event=spawn, seed=helm_startup 

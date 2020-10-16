@@ -1,0 +1,9 @@
+active: true
+derived: false
+level: 1.5.4
+links: []
+normative: true
+ref: ''
+reviewed: 88ab912843353c988eca5ae393654bdb
+text: |
+  ```GPSD_elevation``` **shall** be a DOUBLE containing the value of ```gps_fix_t.altitude```, which is the altitude above the WGS84 in meters.

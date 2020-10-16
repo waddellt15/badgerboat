@@ -1,0 +1,1 @@
+/usr/bin/c++   -fPIC -g  -rdynamic CMakeFiles/pXRelayTest.dir/Relayer.cpp.o CMakeFiles/pXRelayTest.dir/Relayer_Info.cpp.o CMakeFiles/pXRelayTest.dir/main.cpp.o  -o ../../../bin/pXRelayTest  -L/home/badgerboat/moos/moos-ivp/lib -Wl,-rpath,/home/badgerboat/moos/moos-ivp/lib /usr/local/lib/libMOOS.a -lmbutil -lm -lpthread -pthread 

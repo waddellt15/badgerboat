@@ -1,0 +1,76 @@
+total_vars=68
+logstart=1575875727.17
+logtmin=0.015
+logtmax=136.178
+vname=alpha
+vtype=ship
+vcolor=yellow
+vlength=4
+var=APPCAST, type=string, srcs=dThrust:pGPSd:pHelmIvP:pMarineViewer:pNodeReporter:uMemWatch:uProcessWatch
+var=APPCAST_REQ, type=string, srcs=pMarineViewer
+var=APPCAST_REQ_ALL, type=string, srcs=pMarineViewer
+var=APPCAST_REQ_ALPHA, type=string, srcs=pMarineViewer
+var=DB_CLIENTS, type=string, srcs=MOOSDB_alpha
+var=DB_EVENT, type=string, srcs=MOOSDB_alpha
+var=DB_QOS, type=string, srcs=MOOSDB_alpha
+var=DB_TIME, type=double, srcs=MOOSDB_alpha
+var=DB_UPTIME, type=double, srcs=MOOSDB_alpha
+var=DEPLOY, type=string, srcs=pHelmIvP
+var=DESIRED_ELEVATOR, type=double, srcs=iRemote
+var=DESIRED_HEADING, type=double, srcs=pHelmIvP
+var=DESIRED_RUDDER, type=double, srcs=iRemote:pMarinePID
+var=DESIRED_SPEED, type=double, srcs=pHelmIvP
+var=DESIRED_THRUST, type=double, srcs=iRemote:pMarinePID
+var=DTHRUST_ITER_GAP, type=double, srcs=dThrust
+var=DTHRUST_ITER_LEN, type=double, srcs=dThrust
+var=GPSD_Mode, type=double, srcs=pGPSd
+var=GPSD_elevation, type=double, srcs=pGPSd
+var=GPSD_json, type=string, srcs=pGPSd
+var=HELM_MAP_CLEAR, type=double, srcs=pMarineViewer
+var=IVPHELM_ALLSTOP, type=string, srcs=pHelmIvP
+var=IVPHELM_ALLSTOP_DEBUG, type=string, srcs=pHelmIvP
+var=IVPHELM_CPU, type=double, srcs=pHelmIvP
+var=IVPHELM_DOMAIN, type=string, srcs=pHelmIvP
+var=IVPHELM_MODESET, type=string, srcs=pHelmIvP
+var=IVPHELM_REGISTER, type=string, srcs=pHelmIvP
+var=IVPHELM_STATE, type=string, srcs=pHelmIvP
+var=LOGGER_DIRECTORY, type=string, srcs=pLogger
+var=MOOS_DEBUG, type=string, srcs=pHelmIvP:pMarinePID
+var=MOOS_MANUAL_OVERIDE, type=string, srcs=iRemote
+var=MVIEWER_UNHANDLED_MAIL, type=string, srcs=pMarineViewer
+var=NAV_HEADING, type=string, srcs=pGPSd
+var=NAV_LAT, type=double, srcs=pGPSd
+var=NAV_LONG, type=double, srcs=pGPSd
+var=NAV_SPEED, type=string, srcs=pGPSd
+var=NAV_X, type=double, srcs=pGPSd
+var=NAV_Y, type=double, srcs=pGPSd
+var=NODE_REPORT_LOCAL, type=string, srcs=pNodeReporter
+var=NODE_REPORT_LOCAL_FIRST, type=string, srcs=pNodeReporter
+var=PGPSD_ITER_GAP, type=double, srcs=pGPSd
+var=PGPSD_ITER_LEN, type=double, srcs=pGPSd
+var=PHELMIVP_ITER_GAP, type=double, srcs=pHelmIvP
+var=PHELMIVP_ITER_LEN, type=double, srcs=pHelmIvP
+var=PHELMIVP_MEM, type=double, srcs=uMemWatch
+var=PHELMIVP_PID, type=double, srcs=pHelmIvP
+var=PLOGGER_CMD, type=string, srcs=pHelmIvP
+var=PMARINEVIEWER_ITER_GAP, type=double, srcs=pMarineViewer
+var=PMARINEVIEWER_ITER_LEN, type=double, srcs=pMarineViewer
+var=PMARINEVIEWER_MEM, type=double, srcs=uMemWatch
+var=PMARINEVIEWER_PID, type=double, srcs=pMarineViewer
+var=PMV_CONNECT, type=double, srcs=pMarineViewer
+var=PNODEREPORTER_ITER_GAP, type=double, srcs=pNodeReporter
+var=PNODEREPORTER_ITER_LEN, type=double, srcs=pNodeReporter
+var=PNODEREPORTER_PID, type=double, srcs=pNodeReporter
+var=PROC_WATCH_EVENT, type=string, srcs=uProcessWatch
+var=PROC_WATCH_FULL_SUMMARY, type=string, srcs=uProcessWatch
+var=PROC_WATCH_SUMMARY, type=string, srcs=uProcessWatch
+var=PROC_WATCH_TIME_WARP, type=double, srcs=uProcessWatch
+var=RETURN, type=string, srcs=pHelmIvP
+var=UMEMWATCH_ITER_GAP, type=double, srcs=uMemWatch
+var=UMEMWATCH_ITER_LEN, type=double, srcs=uMemWatch
+var=UPROCESSWATCH_ITER_GAP, type=double, srcs=uProcessWatch
+var=UPROCESSWATCH_ITER_LEN, type=double, srcs=uProcessWatch
+var=dThrust_THRUST_L, type=double, srcs=dThrust
+var=dThrust_THRUST_R, type=double, srcs=dThrust
+var=zGeo_X, type=double, srcs=pGPSd
+var=zGeo_Y, type=double, srcs=pGPSd

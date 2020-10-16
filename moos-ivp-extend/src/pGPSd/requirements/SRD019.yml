@@ -1,0 +1,9 @@
+active: true
+derived: false
+level: 1.6.1
+links: []
+normative: true
+ref: ''
+reviewed: 36bdb5ee28c7944a60f203864853afa5
+text: |
+  The default value of ```declination_update``` **shall** be 600 seconds.

@@ -1,0 +1,1 @@
+/usr/bin/c++   -fPIC -g  -rdynamic CMakeFiles/dThrust.dir/dThrust.cpp.o CMakeFiles/dThrust.dir/dThrust_Info.cpp.o CMakeFiles/dThrust.dir/main.cpp.o  -o ../../../bin/dThrust  -L/home/badgerboat/moos/moos-ivp/lib -Wl,-rpath,/home/badgerboat/moos/moos-ivp/lib /usr/local/lib/libMOOS.a -lpython3.6m -lgeometry -lmbutil -lm -lpthread -pthread 

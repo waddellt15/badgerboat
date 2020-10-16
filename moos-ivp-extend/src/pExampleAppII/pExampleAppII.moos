@@ -1,0 +1,14 @@
+// MOOS file
+
+ServerHost = localhost
+ServerPort = 9000
+
+ProcessConfig = pExampleAppII
+{
+   AppTick   = 4
+   CommsTick = 4
+
+   FOO = 0
+   BAR = 1
+}
+

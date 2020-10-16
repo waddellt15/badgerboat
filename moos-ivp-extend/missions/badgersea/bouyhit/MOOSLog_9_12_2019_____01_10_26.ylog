@@ -1,0 +1,26 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LOG FILE:       ./MOOSLog_9_12_2019_____01_10_26/MOOSLog_9_12_2019_____01_10_26.ylog
+%% FILE OPENED ON  Wed Dec 31 18:00:00 1969
+%% LOGSTART               1575875425.38
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+0.8605261  MOOS_DEBUG           pMarinePID           ** NEW CONTROLLER GAINS ARE ** 
+0.8605671  MOOS_DEBUG           pMarinePID           YAW_PID_KP             = 1.200 
+0.8605971  MOOS_DEBUG           pMarinePID           YAW_PID_KD             = 0.000 
+0.860616   MOOS_DEBUG           pMarinePID           YAW_PID_KI             = 0.300 
+0.8606322  MOOS_DEBUG           pMarinePID           YAW_PID_INTEGRAL_LIMIT = 0.070 
+0.8606472  MOOS_DEBUG           pMarinePID           MAXRUDDER              = 100.000 
+0.8628142  MOOS_DEBUG           pMarinePID           SPEED_PID_KP           = 1.000 
+0.8628411  MOOS_DEBUG           pMarinePID           SPEED_PID_KD           = 0.000 
+0.8628561  MOOS_DEBUG           pMarinePID           SPEED_PID_KI           = 0.000 
+0.8628762  MOOS_DEBUG           pMarinePID           SPEED_PID_INTEGRAL_LIMIT = 0.070 
+0.862895   MOOS_DEBUG           pMarinePID           MAXTHRUST              = 100.000 
+0.8634031  MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+0.9137981  MOOS_DEBUG           pMarinePID           pMarinePID Control Is Off 
+1.05802    MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: ManualOverride 
+1.05802    MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: ManualOverride 
+1.05802    MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: ManualOverride 
+1.05802    MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: ManualOverride 
+40.99954   MOOS_DEBUG           pMarinePID           pMarinePID Control Is On 
+40.99967   MOOS_DEBUG           pMarinePID           Paused Due To Tardy HELM Input: THRUST=0 
+41.13414   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: clear 
+41.13414   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: clear 

@@ -1,0 +1,9 @@
+active: true
+derived: false
+level: 1.2.3
+links: []
+normative: true
+ref: ''
+reviewed: 0b948460b8982a33055dcd3eebefefac
+text: |
+  pGPSd **shall** initialize the gpsd client and connect to the server during the OnStartup() phase.

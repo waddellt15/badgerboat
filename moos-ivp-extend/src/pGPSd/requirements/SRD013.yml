@@ -1,0 +1,9 @@
+active: true
+derived: false
+level: 1.5.3
+links: []
+normative: true
+ref: ''
+reviewed: cfc7df4249e90e3c3629ad1a49e319b5
+text: |
+  ```GPSD_longitude``` **shall** be a DOUBLE containing the value of ```gps_fix_t.longitude```, which is the longitude in WGS84 decimal degrees

@@ -1,0 +1,9 @@
+active: true
+derived: false
+level: 1.6.0
+links: []
+normative: true
+ref: ''
+reviewed: f905da0fac74770db6edc8dc71024c11
+text: |
+  The magnetic declination **shall** be calculated based on the current location at intervals of seconds defined by the ```declination_update``` configuration option.

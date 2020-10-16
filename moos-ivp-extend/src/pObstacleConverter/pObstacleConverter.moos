@@ -1,0 +1,10 @@
+//------------------------------------------------
+// pObstacleConverter config block
+
+ProcessConfig = pObstacleConverter
+{
+   AppTick   = 4
+   CommsTick = 1
+   BatchSize = 100
+}
+
