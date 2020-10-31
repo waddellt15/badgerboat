@@ -135,6 +135,7 @@ bool dfThrust::OnStartUp()
     else if (param == "publish_thrust")   handled = SetParam_PUBLISH_THRUST(value);
     if (!handled)
       reportUnhandledConfigWarning(orig); }
+    //Connecting to arduino with proper settings to keep port open
     fd = open("/dev/arduino", O_RDWR | O_NOCTTY | O_NDELAY);
     struct termios tty;
     tcgetattr(fd,&tty);
@@ -145,9 +146,7 @@ bool dfThrust::OnStartUp()
     tty.c_iflag &= ~(IXON|IXOFF|IXANY);
     cfsetispeed(&tty,B115200);
     tcsetattr(fd,TCSANOW,&tty);
-    //close(fd);
-  // OnStartup() must always return true
-  //    - Or else it will quit during launch and appCast info will be unavailable
+
   return true;
 
 }
@@ -186,11 +185,7 @@ bool dfThrust::Iterate()
   memset(buffer,0,30);
   snprintf(buffer, 30,"%.1f_%.1f&",m_des_L,m_des_R);
   write(fd,buffer,sizeof(buffer));
-  m_stale_mode = stale_input;
-    //char work[] = "-10.0_-10.0&";
-    //while(1){
-    //write(fd,work,sizeof(work));
-    //}
+  m_stale_mode = stale_input; 
 
   AppCastingMOOSApp::PostReport();
   return true;
@@ -496,7 +491,6 @@ bool dfThrust::buildReport()
   m_msgs << "   Stale mode will disengage when motor commands are received." << endl; }
   else
   m_msgs <<   "   Requested rudder, thrust:    " << sReqRud << ", " << sReqThr << endl;
-  m_msgs <<   "   Commanded to motors L, R:    " << sCommL << ", " << sCommR << endl;
   m_msgs << "   Requested L, R:              " << sReqL << ", " << sReqR << endl;
 
   if (m_bDirect_thrust) {

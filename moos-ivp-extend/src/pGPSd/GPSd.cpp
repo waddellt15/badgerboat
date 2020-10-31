@@ -110,7 +110,7 @@ bool GPSd::Iterate()
   if (!convertLL) {
     reportConfigWarning("could not convert variables");
     return false; }
-//  
+
     Notify("zGeo_X", 		m_nx);
     Notify("zGeo_Y", 		m_ny);
     Notify("GPSD_Mode",      m_gps_mode);
